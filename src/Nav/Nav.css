@@ -1,0 +1,38 @@
+.Nav{
+
+    font-family: 'Maven Pro', sans-serif;
+    /* background-color: rgb(21,13,13); */
+    background-color:rgb(9,24,38);
+    color: rgb(255, 118, 21);
+    position: relative;
+    width: 6rem;
+    height: 100%;
+    text-align: center;
+}
+.Routes{
+    height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 165px;
+    -webkit-transform: translate(-50%, -50%);  
+    transform: translate(-50%, -50%);
+
+}
+.Footer{
+    position: absolute; 
+    top: 90vh;
+    width: 100%;
+    text-align: center;
+}
+h1{
+    margin-top: 20px;
+}
+h4{
+    margin-bottom: 30px;
+}
+a {
+    color: rgb(255, 118, 21);
+    text-decoration: none;
+  }
