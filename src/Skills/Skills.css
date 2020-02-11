@@ -1,0 +1,101 @@
+.Skills{
+    display: flex;
+    font-family: 'Maven Pro', sans-serif;
+    
+}
+
+.Left_Skills{
+    position: absolute;
+    top: 33vh;
+    width: 50vw;
+
+}
+
+.Left_Skills ul{
+    margin-left: 15%;
+    font-size: 4vw;
+    color: rgb(48,154,115);
+}
+
+.Left_Skills li{
+    list-style: none;
+}
+
+.Left_Skills p{
+    font-family: 'Maven Pro', sans-serif;
+    color: silver;
+    font-size: 2vw;
+    margin-top: 5px;
+    margin-left: 15%;
+
+}
+
+.quick-intro{
+    -webkit-animation: Quick_Intro
+    0.9s 2s both;
+   animation: Quick_Intro
+    0.9s 2s both;
+}
+
+.Right_Skills{
+    position: absolute;
+    display: flex;
+    height: 100vw;
+    top: 34vh;
+    left: 52vw;
+    -webkit-animation: Quick_Intro
+    0.9s 2s both;
+   animation: Quick_Intro
+    0.9s 2s both;
+}
+
+.Front_Skills h2{
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+
+
+.Front_Skills{
+    text-align: center;
+    margin-left: 8vw;;
+    width: 15vw;
+    color: rgb(255, 118, 21);
+}
+.Front_Skills li{
+    list-style: none;
+    color: silver;
+    font-size: 2vw;
+    margin-bottom: 10px;
+    margin-right: 1vw;
+    text-align: right;
+}
+.Front_Skills i{
+    margin-left: 10px;
+}
+
+.Back_Skills h2{
+    margin-bottom: 10px;
+    font-size: 3vw;
+}
+
+.Back_Skills{
+    text-align: center;
+    width: 14vw;
+    height: 19vw;
+    color: rgb(255, 118, 21);
+    border-left: 1px solid;
+    border-color: silver;
+    
+}
+.Back_Skills li{
+    list-style: none;
+    color: silver;
+    font-size: 2vw;
+    margin-bottom: 10px;
+    margin-left: 1.5vw;
+    text-align: left;
+}
+.Back_Skills i{
+    margin-left: 10px;
+}

@@ -11,10 +11,10 @@ class Home extends Component {
                             Hi,
                         </li>
                         <li>
-                            Im Ben,
+                            I'm Ben,
                         </li>
                         <li>
-                            Web Developer.
+                            A Web Developer.
                         </li>
                     </ul>
                     <p className="Quick_Intro">
@@ -22,7 +22,7 @@ class Home extends Component {
                     </p>
                 </div>
                 <div className="Right_Panel">
-                    <ul className="text-pop-up-right">
+                    <ul>
                         <li>
                             &lt;h1&gt;
                         </li>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 import '../Nav/Nav.css'
 import Header from './Header'
 import Footer from './Footer'
@@ -6,63 +7,48 @@ import Footer from './Footer'
 
 class Nav extends Component {
 
-
-    homeRoute() {
-        console.log('h_r')
-        window.location.href = '/';
-    }
-
-    aboutRoute() {
-        console.log('a_r')
-        window.location.href = '/about';
-    }
-
-    skillRoute() {
-        console.log('s_r')
-        window.location.href = '/skills';
-    }
-
-    projectsRoute(){
-        window.location.href = '/projects'
-    }
-
-    contactRoute() {
-        console.log('s_r')
-        window.location.href = '/contact';
-    }
-
     render() {
         return (
 
             <div className="Nav">
                 <Header />
                 <div className="Routes">
-                    <div className="Home_Route" onClick={this.homeRoute}>
-                        <h4>
-                            Home
-                        </h4>
-                    </div>
-                    <div className="About_Route" onClick={this.aboutRoute}>
-                        <h4>
-                            About
-                        </h4>
-                    </div>
-                    <div className="Skill_Route" onClick={this.skillRoute}>
-                        <h4>
-                            Skills
-                        </h4>
-                    </div>
-                    <div className="Projects_Route" onClick={this.projectsRoute}>
-                        <h4>
-                            Projects
-                        </h4>
-                    </div>
-                    <div className="Contact_Route" onClick={this.contactRoute}>
-                        <h4>
-                            Contact
+                    <div className="Home_Route" tabIndex="1">
+                        <li>
+                            <Link to='/'>
+                                Home
+                            </Link>
+                        </li>
 
+                    </div>
+                    <div className="About_Route" tabIndex="2">
+                        <li>
+                            <Link to='/about'>
+                                About
+                            </Link>
+                        </li>
+                    </div>
+                    <div className="Skill_Route" tabIndex="3">
+                        <li>
+                            <Link to='/skills'>
+                                Skills
+                            </Link>
+                        </li>
+                    </div>
+                    <div className="Projects_Route" tabIndex="4">
+                        <li>
 
-                    </h4>
+                            <Link to='/projects'>
+                                Projects
+                            </Link>
+                        </li>
+                    </div>
+                    <div className="Contact_Route" tabIndex="5">
+                        <li>
+                            <Link to='/contact'>
+                                Contact
+                            </Link>
+                        </li>
                     </div>
 
                 </div>

@@ -1,0 +1,17 @@
+.About{
+    display: flex;
+    font-family: 'Maven Pro', sans-serif;
+
+}
+
+.About_Left{
+    position: absolute;
+    top: 40vh;
+    width: 50vw;
+    height: 100vh;
+    font-size: 2vw;
+    color: rgb(48,154,115);
+}
+.About_Left h1{
+    margin-left: 15%;
+}
