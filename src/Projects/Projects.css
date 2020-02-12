@@ -1,0 +1,37 @@
+.Projects{
+    display: flex;
+    font-family: 'Maven Pro', sans-serif;
+}
+.Left_Projects{    
+    position: absolute;
+    top: 39vh;
+    width: 50vw;
+}
+.Left_Projects h1{
+    margin-left: 15%;
+    font-size: 3vw;
+    color: rgb(48,154,115);
+}
+.Right_Projects{
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+}
+.Right_Projects h2{
+    color: silver;
+}
+.Right_Projects p{
+    color: silver;
+}
+.Buttons{
+    display: flex;
+}
+.Left_Btn{
+    font-size: 3vw;
+    color: silver;
+}
+.Right_Btn{
+    margin-left: 5vw;
+    font-size: 3vw;
+    color: silver;
+}

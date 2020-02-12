@@ -12,11 +12,11 @@ class Skills extends Component {
                     </li>
                     </ul>
                     <p>
-                    I am mostly interested in the backend but as long as I am learning and growing as a developer I will be happy with whatever I am doing.
+                        I am mostly interested in the backend but as long as I am learning and growing as a developer I will be happy with whatever I am doing.
                     </p>
                     <br></br>
                     <p className="quick-intro">
-                    I play very well with Node and React.
+                        I play very well with Node and React.
                     </p>
 
                 </div>
@@ -46,6 +46,18 @@ class Skills extends Component {
                                 React.js
                                  <i className="devicon-react-original-wordmark colored"></i>
                             </li>
+                            <li>
+                                Mocha
+                                <i className="devicon-mocha-plain colored"></i>
+                            </li>
+                            <li>
+                                GitHub
+                                <i className="devicon-github-plain"></i>
+                            </li>
+                            <li>
+                                VisualStudio
+                                <i className="devicon-visualstudio-plain colored"></i>
+                            </li>
                         </ul>
                     </div>
                     <div className="Back_Skills">
@@ -61,8 +73,16 @@ class Skills extends Component {
                             <i className="devicon-nodejs-plain colored"></i>
                         </li>
                         <li>
+                            Express
+                            <i className="devicon-express-original"></i>
+                        </li>
+                        <li>
                             PostgreSQL
                             <i className="devicon-postgresql-plain-wordmark colored"></i>
+                        </li>
+                        <li>
+                            Heroku
+                            <i className="devicon-heroku-original-wordmark colored"></i>
                         </li>
                     </div>
                 </div>

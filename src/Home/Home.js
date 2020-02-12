@@ -8,29 +8,29 @@ class Home extends Component {
                 <div className="Left_Panel">
                     <ul className="tracking-in-contract">
                         <li>
-                            Hi,
+                            Hey,
                         </li>
                         <li>
-                            I'm Ben,
+                            What's Up?,
                         </li>
                         <li>
-                            A Web Developer.
+                            I'm a Web Developer.
                         </li>
                     </ul>
                     <p className="Quick_Intro">
-                        Full Stack Developer | Node | Javascript
+                    Full Stack Developer => (Node, Javascript)&nbsp;&#123;&nbsp;&#125;
                     </p>
                 </div>
                 <div className="Right_Panel">
                     <ul>
                         <li>
-                            &lt;h1&gt;
+                            &lt;div&gt;
                         </li>
                         <p>
                          Ben Kile   
                         </p>
                         <li>
-                            &lt;/h1&gt;
+                            &lt;/div&gt;
 
                         </li>
                     

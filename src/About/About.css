@@ -6,7 +6,7 @@
 
 .About_Left{
     position: absolute;
-    top: 40vh;
+    top: 34vh;
     width: 50vw;
     height: 100vh;
     font-size: 2vw;
@@ -14,4 +14,39 @@
 }
 .About_Left h1{
     margin-left: 15%;
+}
+
+.About_Left li{
+    list-style: none;
+    margin-left: 15%;
+    font-size: 1.5vw;
+    color: silver;  
+}
+
+.About_Left p{
+    margin-left: 15%;
+}
+
+.About p{
+    font-size: 1.5vw;
+    color: silver;
+}
+
+.About_Right{
+    position: absolute;
+    height: 17vw;
+    top: 37vh;
+    left: 50vw;
+    width: 43vw;
+    border-left: 1px solid;
+    color: rgb(255, 118, 21);
+    -webkit-animation: Quick_Intro
+    0.9s 2s both;
+    animation: Quick_Intro
+    0.9s 2s both;
+}
+
+.About_Right p{
+    margin-top: 6px;
+    margin-left: 10px;
 }

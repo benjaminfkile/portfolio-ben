@@ -1,13 +1,19 @@
-import React , {Component} from 'react'
+import React, { Component } from 'react'
 
-class Header extends Component{
-    render(){
-        return(
+class Header extends Component {
+    render() {
+        return (
             <div className="Header">
-            <h1>
-                &#123;BK&#125;
-            </h1>
-        </div>
+                <p className="lt">
+                    &#123;
+                </p>
+                <p className="name">
+                    Ben
+                </p>
+                <p className='gt'>
+                    &#125;
+                </p>
+            </div>
         )
     }
 }

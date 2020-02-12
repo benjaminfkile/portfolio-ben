@@ -6,7 +6,7 @@
 
 .Left_Skills{
     position: absolute;
-    top: 33vh;
+    top: 37.5vh;
     width: 50vw;
 
 }
@@ -24,7 +24,7 @@
 .Left_Skills p{
     font-family: 'Maven Pro', sans-serif;
     color: silver;
-    font-size: 2vw;
+    font-size: 1.5vw;
     margin-top: 5px;
     margin-left: 15%;
 
@@ -41,7 +41,7 @@
     position: absolute;
     display: flex;
     height: 100vw;
-    top: 34vh;
+    top: 27vh;
     left: 52vw;
     -webkit-animation: Quick_Intro
     0.9s 2s both;
@@ -82,7 +82,7 @@
 .Back_Skills{
     text-align: center;
     width: 14vw;
-    height: 19vw;
+    height: 20vw;
     color: rgb(255, 118, 21);
     border-left: 1px solid;
     border-color: silver;
