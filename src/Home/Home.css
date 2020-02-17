@@ -4,7 +4,7 @@
 
 .Left_Panel{
     position: absolute;
-    top: 39vh;
+    top: 36vh;
     width: 50vw;
 }
 .Left_Panel ul{
@@ -33,8 +33,8 @@
 
 .Right_Panel{
     position: absolute;
-    top: 38vh;
-    left: 57vw;
+    top: 40vh;
+    left: 50vw;
     -webkit-animation: Quick_Intro
     0.9s 2s both;
    animation: Quick_Intro

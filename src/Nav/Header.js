@@ -4,15 +4,15 @@ class Header extends Component {
     render() {
         return (
             <div className="Header">
-                <p className="lt">
+                {/* <p className="lt">
                     &#123;
-                </p>
+                </p> */}
                 <p className="name">
                     Ben
                 </p>
-                <p className='gt'>
+                {/* <p className='gt'>
                     &#125;
-                </p>
+                </p> */}
             </div>
         )
     }
