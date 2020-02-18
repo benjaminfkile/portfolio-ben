@@ -12,20 +12,22 @@ class Projects extends Component {
     }
 
     componentDidMount() {
+        this.setState({imgIndex: 0})
         this.carousel();
     }
 
     panLeft = () => {
+        this.setState({imgIndex: 0})
         if (this.state.projectIndex > 0) {
             this.setState({ projectIndex: this.state.projectIndex - 1 })
         }
         else {
             this.setState({ projectIndex: this.state.store.length - 1 })
         }
-        // console.log(this.state.projectIndex)
-    }
+      }
 
     panRight = () => {
+        this.setState({imgIndex: 0})
         if (this.state.projectIndex < this.state.store.length - 1) {
             this.setState({ projectIndex: this.state.projectIndex + 1 })
 
@@ -33,8 +35,8 @@ class Projects extends Component {
         else {
             this.setState({ projectIndex: 0 })
         }
-        // console.log(this.state.projectIndex)
     }
+
     carousel = () => {
         if (this.state.imgIndex >= this.state.store[this.state.projectIndex].images.length - 1) {
             this.setState({ imgIndex: 0 })
@@ -42,7 +44,7 @@ class Projects extends Component {
         else {
             this.setState({ imgIndex: this.state.imgIndex + 1 })
         }
-        setTimeout(this.carousel, 2500);
+        setTimeout(this.carousel, 2500)
     }
 
     render() {
@@ -67,12 +69,12 @@ class Projects extends Component {
                         <p>
                             {this.state.store[this.state.projectIndex].description}
                         </p>
-                        <br></br>
+                        {/* <br></br> */}
                         <br></br>
                         <p>{items}</p>
                         <br></br>
-                        <br></br>
-                        <a href={this.state.store[this.state.projectIndex].url}>{this.state.store[this.state.projectIndex].url}</a>
+                        {/* <br></br> */}
+                        <a href={this.state.store[this.state.projectIndex].url} target="_blank">{this.state.store[this.state.projectIndex].url}</a>
                     </div>
                     <br></br>
                     <div className="Buttons">
