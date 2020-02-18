@@ -15,7 +15,7 @@ class Skills extends Component {
                         I am mostly interested in the backend but as long as I am learning and growing as a developer I will be happy with whatever I am doing.
                     </p>
                     <br></br>
-                    <p className="quick-intro">
+                    <p className="Skills_Footer">
                         I play very well with Node and React.
                     </p>
 

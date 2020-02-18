@@ -36,9 +36,9 @@
     top: 40vh;
     left: 50vw;
     -webkit-animation: Quick_Intro
-    0.9s 2s both;
+    0.9s 1s both;
    animation: Quick_Intro
-    0.9s 2s both;
+    0.9s 1s both;
 }
 
 .Right_Panel ul{

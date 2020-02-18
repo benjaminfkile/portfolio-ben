@@ -42,12 +42,12 @@ class Projects extends Component {
         else {
             this.setState({ imgIndex: this.state.imgIndex + 1 })
         }
-        setTimeout(this.carousel, 1500);
+        setTimeout(this.carousel, 2500);
     }
 
     render() {
         let items = this.state.store[this.state.projectIndex].icons.map((item, key) =>
-                <i className={item} key={Math.random() + Math.random()}></i>
+            <i className={item} key={Math.random() + Math.random()}></i>
 
         );
 
@@ -88,11 +88,15 @@ class Projects extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="Right_Projects">
-                    <div className="Screenshots">
+                {this.state.store[this.state.projectIndex].portrait &&
+                    <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>
                         <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
-                    </div>
-                </div>
+                    </div>}
+                {!this.state.store[this.state.projectIndex].portrait &&
+                    <div className="Right_Projects_Landscape" key={Math.random() + Math.random()}>
+                        <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
+                    </div>}
+
             </div>
         )
     }
