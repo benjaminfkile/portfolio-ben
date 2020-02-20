@@ -41,10 +41,10 @@
     height: 22vh;
 }
 .Buttons{
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     margin-left: 15%;
-    top: 35vh;
+    bottom: -3vh;
     -webkit-animation: Quick_Intro
     0.9s 1s both;
     animation: Quick_Intro

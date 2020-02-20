@@ -75,9 +75,7 @@ class Projects extends Component {
                         <br></br>
                         {/* <br></br> */}
                         <a href={this.state.store[this.state.projectIndex].url} target="_blank">{this.state.store[this.state.projectIndex].url}</a>
-                    </div>
-                    <br></br>
-                    <div className="Buttons">
+                        <div className="Buttons">
                         <div className="Left_Btn" onClick={this.panLeft}>
                             <p>
                                 &lt;
@@ -89,6 +87,20 @@ class Projects extends Component {
                             </p>
                         </div>
                     </div>
+                    </div>
+                    <br></br>
+                    {/* <div className="Buttons">
+                        <div className="Left_Btn" onClick={this.panLeft}>
+                            <p>
+                                &lt;
+                            </p>
+                        </div>
+                        <div className="Right_Btn" onClick={this.panRight}>
+                            <p>
+                                &gt;
+                            </p>
+                        </div>
+                    </div> */}
                 </div>
                 {this.state.store[this.state.projectIndex].portrait &&
                     <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>
