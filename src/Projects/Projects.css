@@ -4,7 +4,7 @@
 }
 .Left_Projects{    
     position: absolute;
-    top: 27.5vh;
+    top: 29.5vh;
     width: 35vw;
 }
 .Left_Projects h1{
@@ -40,6 +40,11 @@
 .showcase{
     height: 22vh;
 }
+
+.tech:hover, .tech:focus .tech:active {
+    color: rgb(48,154,115);
+}
+
 .Buttons{
     /* position: absolute; */
     display: flex;

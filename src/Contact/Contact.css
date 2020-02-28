@@ -1,24 +1,43 @@
-.contact{
+.Contact{
+    
+    color: white;
+}
+#Main_Form{
     position: absolute;
-    width: 40vw;
-    height: 40vw;
-    top: 20vh;
-    left: 35vw;
-}
-
-.contact input{
-    display: flex;
-}
-
-.input-name{
-    width: 50%;
-    height: 5vh;
-}
-.input-email{
-    width: 50%;
-    height: 5vh;
-}
-.input-message{
-    width: 100%;
+    margin-top: 25vh;
+    margin-left: 21vw;
+    width: 50vw;
     height: 50vh;
+    background-color:rgb(9,24,38);
 }
+.Name_Form{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 3vh;
+    width: 25vw;
+}
+.Email_Form{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 5vh;
+    width: 25vw;
+
+}
+.Message_Form{
+    position: absolute;
+    margin-left: 20vw;
+    margin-top: 10vh;
+    width: 25vw;
+
+}
+.Submit_Btn{
+    position: absolute;
+    margin-left: 25vw;
+    margin-top: 25vh;
+
+}
+#message.form-control{
+    width: 25vw;
+    height: 25vh;
+}
+

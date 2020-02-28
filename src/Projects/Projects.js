@@ -12,22 +12,22 @@ class Projects extends Component {
     }
 
     componentDidMount() {
-        this.setState({imgIndex: 0})
+        this.setState({ imgIndex: 0 })
         this.carousel();
     }
 
     panLeft = () => {
-        this.setState({imgIndex: 0})
+        this.setState({ imgIndex: 0 })
         if (this.state.projectIndex > 0) {
             this.setState({ projectIndex: this.state.projectIndex - 1 })
         }
         else {
             this.setState({ projectIndex: this.state.store.length - 1 })
         }
-      }
+    }
 
     panRight = () => {
-        this.setState({imgIndex: 0})
+        this.setState({ imgIndex: 0 })
         if (this.state.projectIndex < this.state.store.length - 1) {
             this.setState({ projectIndex: this.state.projectIndex + 1 })
 
@@ -56,37 +56,40 @@ class Projects extends Component {
         return (
             <div className="Projects">
                 <div className="Left_Projects">
-                    <h1>
+                    {/* <h1>
                         Projects
-                    </h1>
+                    </h1> */}
                     <br></br>
                     <div className="showcase">
                         <br></br>
-                        <h2>
+                        {/* <h2>
                             {this.state.store[this.state.projectIndex].name}
-                        </h2>
+                        </h2> */}
+                        <h1>
+                            {this.state.store[this.state.projectIndex].name}
+                        </h1>
                         <br></br>
-                        <p>
+                        <p className="description">
                             {this.state.store[this.state.projectIndex].description}
                         </p>
                         {/* <br></br> */}
                         <br></br>
-                        <p>{items}</p>
+                        <p className="tech">{items}</p>
                         <br></br>
                         {/* <br></br> */}
                         <a href={this.state.store[this.state.projectIndex].url} target="_blank">{this.state.store[this.state.projectIndex].url}</a>
                         <div className="Buttons">
-                        <div className="Left_Btn" onClick={this.panLeft}>
-                            <p>
-                                &lt;
+                            <div className="Left_Btn" onClick={this.panLeft}>
+                                <p>
+                                    &lt;
                             </p>
-                        </div>
-                        <div className="Right_Btn" onClick={this.panRight}>
-                            <p>
-                                &gt;
+                            </div>
+                            <div className="Right_Btn" onClick={this.panRight}>
+                                <p>
+                                    &gt;
                             </p>
+                            </div>
                         </div>
-                    </div>
                     </div>
                     <br></br>
                     {/* <div className="Buttons">

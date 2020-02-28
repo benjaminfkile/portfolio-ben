@@ -7,42 +7,7 @@ import Footer from './Footer'
 
 class Nav extends Component {
 
-    // state = {
 
-    //     wheelDex: 0
-    // }
-
-    // componentDidMount(){
-    //     window.addEventListener("wheel", event => {
-    //         const delta = Math.sign(event.deltaY);
-    //         this.mouseScroll(delta)
-    //     });
-    // }
-
-    // mouseScroll = (args) => {
-    //     if(args === 1 && this.state.wheelDex < 4){
-    //         this.setState({wheelDex: this.state.wheelDex + 1})
-    //     }
-    //     if(args === -1 && this.state.wheelDex > 0){
-    //         this.setState({wheelDex: this.state.wheelDex - 1})
-    //     }
-    //     console.log(this.state.wheelDex)
-    //     if(this.state.wheelDex === 4){
-    //         window.location.href = '/'
-    //     }
-    //     if(this.state.wheelDex === 3){
-    //         window.location.href = '/about'
-    //     }
-    //     if(this.state.wheelDex === 2){
-    //         window.location.href = '/skills'
-    //     }
-    //     if(this.state.wheelDex === 1){
-    //         window.location.href = 'projects'
-    //     }
-    //     if(this.state.wheelDex === 0){
-    //         window.location.href = '/contact'
-    //     }
-    // }
 
     render() {
         return (
