@@ -1,8 +1,8 @@
 {
-  "homepage": "https://benjaminfkile.github.io/portfolio-ben/",
+  "homepage": "https://benkile-mo4cv35nc.now.sh",
   "name": "portfolio-ben",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
