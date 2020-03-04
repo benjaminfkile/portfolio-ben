@@ -5,7 +5,7 @@ class Header extends Component {
         return (
             <div className="Header">
                 <p className="name">
-                    kb
+                    bk
                 </p>
             </div>
         )
