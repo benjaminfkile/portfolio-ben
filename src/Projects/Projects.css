@@ -1,113 +1,408 @@
-.Projects{
-    display: flex;
-    font-family: 'Maven Pro', sans-serif;
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+/* STYLES GO HERE */
 }
-.Left_Projects{    
-    position: absolute;
-    top: 29.5vh;
-    width: 35vw;
+ 
+/* Smartphones (landscape) ----------- */
+@media only screen
+and (min-width : 321px) {
+/* STYLES GO HERE */
 }
-.Left_Projects h1{
-    margin-left: 15%;
-    font-size: 3vw;
-    color: rgb(48,154,115);
+ 
+/* Smartphones (portrait) ----------- */
+@media only screen
+and (max-width : 320px) {
+/* STYLES GO HERE */
 }
-.Left_Projects h2{
-     color: silver;
-     margin-left: 15%;
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+/* STYLES GO HERE */
 }
-.Left_Projects p{
-    color: silver;
-    margin-left: 15%;
-    -webkit-animation: Quick_Intro
-    0.9s .5s both;
-    animation: Quick_Intro
-    0.9s .5s both;
+ 
+/* iPads (landscape) ----------- */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPads (portrait) ----------- */
+@media only screen
+and (min-width : 768px) {
+
+    .Projects{
+        display: flex;
+        font-family: 'Maven Pro', sans-serif;
+    }
+    .Left_Projects{    
+        position: absolute;
+        top: 0vh;
+        left: 8vw;
+        width: 80vw;
+    }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 5vw;
+        color: rgb(48,154,115);
+    }
+    .Left_Projects h2{
+         color: silver;
+         margin-left: 15%;
+    }
+    .Left_Projects p{
+        font-size: 2vh;
+        color: silver;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro
+        0.9s .5s both;
+        animation: Quick_Intro
+        0.9s .5s both;
+        
+    }
+    .Left_Projects i{
+        font-size: 3vh;
+        margin-right: 10px;
+    }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+        font-size: 2vh;
+        color: silver;
+    }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 1.8vh;
+    }
+    .showcase{
+        height: 22vh;
+        text-align: center;
+    }
     
-}
-.Left_Projects i{
-    font-size: 1.5vw;
-    margin-right: 10px;
-}
-.Left_Projects a{
-    color: silver;
-    margin-left: 15%;
-}
-.Left_Projects a:hover{
-    color: rgb(255, 118, 21);
-    font-size: 1.8vh;
-}
-.showcase{
-    height: 22vh;
-}
-
-.tech:hover, .tech:focus .tech:active {
-    color: rgb(48,154,115);
-}
-
-.Buttons{
-    /* position: absolute; */
-    display: flex;
-    margin-left: 15%;
-    bottom: -3vh;
-    -webkit-animation: Quick_Intro
-    0.9s 1s both;
-    animation: Quick_Intro
-    0.9s 1s both;
-}
-.Buttons p{
-    color: rgb(48,154,115);
-}
-.Buttons p:hover{
-    color: rgb(255, 118, 21);
-    cursor: pointer;
-}
-
-.Left_Btn{
-    font-size: 3vw;
-    /* color: silver; */
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+    }
     
+    .Buttons{
+        position: absolute;
+        display: flex;
+        top: 80vh;
+        left: 30vw;
+        bottom: -3vh;
+        -webkit-animation: Quick_Intro
+        0.9s 1s both;
+        animation: Quick_Intro
+        0.9s 1s both;
+    }
+    .Buttons p{
+        font-size: 8vh;
+        color: rgb(48,154,115);
+    }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+    }
+    
+
+    .Right_Btn{
+        margin-left: 15vw;
+    }
+    
+    .Right_Projects_Portrait img{
+        position: absolute;
+        height: 50vh;
+        width: 35vw;
+        left: 24vw;
+        top: 30vh;
+    
+    }
+    .Right_Projects_Portrait{
+        position: absolute;
+        height: 40vh;
+        /* width: 30vw;
+        left: 0vw;
+        top: 20vh; */
+        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape{
+        position: absolute;
+        height: 33vh;
+        width: 80vw;
+        top: 35vh;
+        left: 15vw;
+        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape img{
+        position: absolute;
+        height: 33vh;
+        width: 80vw;
+        left: 1.5vw;
+        top: 1vw;
+    
+    }
 }
-.Right_Btn{
-    margin-left: 5vw;
-    font-size: 3vw;
-    /* color: silver; */
+ 
+/* Desktops and laptops ----------- */
+@media only screen
+and (min-width : 1224px) {
+    .Projects{
+        display: flex;
+        font-family: 'Maven Pro', sans-serif;
+    }
+    .Left_Projects{    
+        position: absolute;
+        top: 29.5vh;
+        width: 35vw;
+    }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 3vw;
+        color: rgb(48,154,115);
+    }
+    .Left_Projects h2{
+         color: silver;
+         margin-left: 15%;
+    }
+    .Left_Projects p{
+        color: silver;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro
+        0.9s .5s both;
+        animation: Quick_Intro
+        0.9s .5s both;
+        
+    }
+    .Left_Projects i{
+        font-size: 1.5vw;
+        margin-right: 10px;
+    }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+    }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 1.8vh;
+    }
+    .showcase{
+        height: 22vh;
+    }
+    
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+    }
+    
+    .Buttons{
+        /* position: absolute; */
+        display: flex;
+        margin-left: 15%;
+        bottom: -3vh;
+        -webkit-animation: Quick_Intro
+        0.9s 1s both;
+        animation: Quick_Intro
+        0.9s 1s both;
+    }
+    .Buttons p{
+        color: rgb(48,154,115);
+    }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+    }
+    
+    .Left_Btn{
+        font-size: 3vw;
+        /* color: silver; */
+        
+    }
+    .Right_Btn{
+        margin-left: 5vw;
+        font-size: 3vw;
+        /* color: silver; */
+    }
+    
+    .Right_Projects_Portrait img{
+        position: absolute;
+        height: 60vh;
+        width: 20vw;
+        left: 1vw;
+        top: 1vw;
+    
+    }
+    .Right_Projects_Portrait{
+        position: absolute;
+        height: 60vh;
+        width: 22vw;
+        top: 15vh;
+        left: 60vw;
+        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape{
+        position: absolute;
+        height: 40vh;
+        width: 45vw;
+        top: 28vh;
+        left: 48vw;
+        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape img{
+        position: absolute;
+        height: 40vh;
+        width: 45vw;
+        left: 1vw;
+        top: 1vw;
+    
+    }
+}
+ 
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+    .Projects{
+        display: flex;
+        font-family: 'Maven Pro', sans-serif;
+    }
+    .Left_Projects{    
+        position: absolute;
+        top: 29.5vh;
+        width: 35vw;
+    }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 3vw;
+        color: rgb(48,154,115);
+    }
+    .Left_Projects h2{
+         color: silver;
+         margin-left: 15%;
+    }
+    .Left_Projects p{
+        color: silver;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro
+        0.9s .5s both;
+        animation: Quick_Intro
+        0.9s .5s both;
+        
+    }
+    .Left_Projects i{
+        font-size: 1.5vw;
+        margin-right: 10px;
+    }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+    }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 1.8vh;
+    }
+    .showcase{
+        height: 22vh;
+    }
+    
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+    }
+    
+    .Buttons{
+        /* position: absolute; */
+        display: flex;
+        margin-left: 15%;
+        bottom: -3vh;
+        -webkit-animation: Quick_Intro
+        0.9s 1s both;
+        animation: Quick_Intro
+        0.9s 1s both;
+    }
+    .Buttons p{
+        color: rgb(48,154,115);
+    }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+    }
+    
+    .Left_Btn{
+        font-size: 3vw;
+        /* color: silver; */
+        
+    }
+    .Right_Btn{
+        margin-left: 5vw;
+        font-size: 3vw;
+        /* color: silver; */
+    }
+    
+    .Right_Projects_Portrait img{
+        position: absolute;
+        height: 75vh;
+        width: 20vw;
+        left: 1vw;
+        top: 1vw;
+    
+    }
+    .Right_Projects_Portrait{
+        position: absolute;
+        height: 78vh;
+        width: 22vw;
+        top: 10vh;
+        left: 60vw;
+        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape{
+        position: absolute;
+        height: 55vh;
+        width: 65vw;
+        top: 22vh;
+        left: 40vw;
+        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    .Right_Projects_Landscape img{
+        position: absolute;
+        height: 50vh;
+        width: 55vw;
+        left: 1vw;
+        top: 1vw;
+    
+    }
+}
+ 
+/* iPhone 5 (portrait &amp; landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (landscape)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : landscape) {
+/* STYLES GO HERE */
+}
+ 
+/* iPhone 5 (portrait)----------- */
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
+/* STYLES GO HERE */
 }
 
-.Right_Projects_Portrait img{
-    position: absolute;
-    height: 75vh;
-    width: 20vw;
-    left: 1vw;
-    top: 1vw;
 
-}
-.Right_Projects_Portrait{
-    position: absolute;
-    height: 78vh;
-    width: 22vw;
-    top: 10vh;
-    left: 60vw;
-    -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.Right_Projects_Landscape{
-    position: absolute;
-    height: 55vh;
-    width: 65vw;
-    top: 22vh;
-    left: 40vw;
-    -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-.Right_Projects_Landscape img{
-    position: absolute;
-    height: 50vh;
-    width: 55vw;
-    left: 1vw;
-    top: 1vw;
-
-}
 
 
 

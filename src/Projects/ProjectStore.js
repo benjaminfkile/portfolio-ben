@@ -67,7 +67,7 @@ export default
         },
         {
             name: '3D Doodle',
-            description: 'I have been working on learning LWJGL 3 (OpenGL with Java), I have a Map, Avatar, Camera, Panning, Zoom, and the Avatar moving around the Map so far. I might make this into a game eventually but it’s going to take a lot of time that I do not have right now. Just clone on GitHub and import the project into Eclipse and run it...(WINDOWS ONLY!)',
+            description: 'I have been working on learning LWJGL 3 (OpenGL with Java), I have a Map, Avatar, Camera, Panning, Zoom, and the Avatar moving around the Map so far. I might make this into a game eventually but it’s going to take a lot of time that I do not have right now.',
             url: 'https://github.com/benjaminfkile/GameEngine',
             portrait: false,
             tech:
