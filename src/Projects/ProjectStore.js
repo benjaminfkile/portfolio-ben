@@ -45,7 +45,7 @@ export default
         },
         {
             name: 'Zero In',
-            description: 'Find where you are trying to go',
+            description: 'Designed for delivery and taxi drivers, Google Maps only brings its clients to a specific coordinate (or address) but Zero In brings clients to a precise location based on an appartment filter.',
             url: 'https://zeroin.now.sh',
             portrait: true,
             tech:
