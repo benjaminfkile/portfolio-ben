@@ -44,6 +44,29 @@ export default
                 ]
         },
         {
+            name: 'Zero In',
+            description: 'Find where you are trying to go',
+            url: 'https://http://zeroin.now.sh/',
+            portrait: true,
+            tech:
+                [
+                    'html', 'javascript', 'css', 'react', 'node'
+                ],
+            icons:
+                [
+                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                ],
+            images:
+                [
+                    './res/screenshots/zero-in/1.png',
+                    './res/screenshots/zero-in/2.png',
+                    './res/screenshots/zero-in/3.png',
+                    './res/screenshots/zero-in/4.png',
+
+
+                ]
+        },
+        {
             name: 'Keno Simulator',
             description: 'Play up to 2 billion simulated games of Keno at an adjustable draw rate as fast as 2 Milliseconds between games',
             url: 'https://github.com/benjaminfkile/KenoSimulator',
