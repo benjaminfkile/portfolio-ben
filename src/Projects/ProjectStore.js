@@ -46,7 +46,7 @@ export default
         {
             name: 'Zero In',
             description: 'Find where you are trying to go',
-            url: 'https://https://zeroin.now.sh/',
+            url: 'https://zeroin.now.sh',
             portrait: true,
             tech:
                 [
