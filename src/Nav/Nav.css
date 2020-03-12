@@ -216,6 +216,10 @@
     width: 4.5rem;
 }
 
+.Footer{
+    top: 80vh;
+}
+
 .Routes li{
     list-style: none;
     margin-bottom: 18px;
