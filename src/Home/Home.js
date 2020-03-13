@@ -19,7 +19,7 @@ class Home extends Component {
                     </ul>
                     <p className="Quick_Intro">
                     {/* Full Stack Developer => (Node, Javascript)&nbsp;&#123;&nbsp;&#125; */}
-                    Full Stack Developer | Node | Javascript
+                    Full Stack: [Node, Javascript]
                     </p>
                 </div>
                 <div className="Right_Panel">
