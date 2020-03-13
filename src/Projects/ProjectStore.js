@@ -45,7 +45,7 @@ export default
         },
         {
             name: 'Zero In',
-            description: 'Designed for delivery and taxi drivers, Google Maps only brings its clients to a specific coordinate (or address) but Zero In brings clients to a precise location based on an appartment filter.',
+            description: 'Zero In enables a user to navigate to a precise buidling location with an appartment filter. I designed it for delivery and taxi drivers',
             url: 'https://zeroin.now.sh',
             portrait: true,
             tech:
@@ -90,7 +90,7 @@ export default
         },
         {
             name: '3D Doodle',
-            description: 'I have been working on learning LWJGL 3 (OpenGL with Java), I have a Map, Avatar, Camera, Panning, Zoom, and the Avatar moving around the Map so far. I might make this into a game eventually but it’s going to take a lot of time that I do not have right now.',
+            description: 'I have been working on learning LWJGL 3 (OpenGL with Java), I have a Map, Avatar, Camera, Panning, Zoom, and the Avatar moving around the Map so far.',
             url: 'https://github.com/benjaminfkile/GameEngine',
             portrait: false,
             tech:
