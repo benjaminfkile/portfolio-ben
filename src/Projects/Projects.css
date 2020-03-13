@@ -899,10 +899,11 @@
     
     .Right_Projects_Portrait img{
         position: absolute;
-        height: 55vh;
-        width: 55vw;
-        left: -23vw;
+        height: 51vh;
+        width: 40vw;
+        left: -17vw;
         top: 36vw;
+        object-fit: contain;
     
     }
     .Right_Projects_Portrait{
@@ -1023,9 +1024,9 @@
     .Right_Projects_Portrait img{
         position: absolute;
         height: 55vh;
-        width: 55vw;
-        left: -23vw;
-        top: 42vw;
+        width: 40vw;
+        left: -15vw;
+        top: 30vw;
         object-fit: contain;
     
     }
@@ -1043,7 +1044,7 @@
         position: absolute;
         height: 55vh;
         width: 65vw;
-        top: 35vh;
+        top: 41vh;
         left: 41vw;
         -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -1146,8 +1147,8 @@
     .Right_Projects_Portrait img{
         position: absolute;
         height: 55vh;
-        width: 55vw;
-        left: -23vw;
+        width: 40vw;
+        left: -13vw;
         top: 42vw;
         object-fit: contain;
     
@@ -1166,7 +1167,7 @@
         position: absolute;
         height: 55vh;
         width: 65vw;
-        top: 35vh;
+        top: 43vh;
         left: 41vw;
         -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
