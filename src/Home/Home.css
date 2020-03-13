@@ -201,7 +201,7 @@
         }
         @media (max-width: 800px) {
                 .Left_Panel{
-                top: 25vh;
+                top: 28vh;
                 left: 16vw;
                 width: 80vw;
                 height: 31vh;
@@ -215,8 +215,8 @@
 
                 }
                 .Right_Panel{
-                    top: 60vh;    
-                    left: 23vw;
+                    top: 52vh;    
+                    left: 22.5vw;
                 }
         }
 
