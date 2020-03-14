@@ -1,466 +1,380 @@
-
-
-
-
 @media (min-width: 1500px) {
-
-.Skills{
-display: flex;
-font-family: 'Maven Pro', sans-serif;
-
-}
-
-.Left_Skills{
-position: absolute;
-top: 34.5vh;
-width: 50vw;
-
-}
-
-.Left_Skills ul{
-margin-left: 15%;
-font-size: 4vw;
-color: rgb(48,154,115);
-}
-
-.Left_Skills li{
-list-style: none;
-}
-
-.Left_Skills p{
-font-family: 'Maven Pro', sans-serif;
-color: silver;
-font-size: 1.5vw;
-margin-top: 5px;
-margin-left: 15%;
-
-}
-
-.Skills_Footer{
--webkit-animation: Quick_Intro
-0.9s 2s both;
-animation: Quick_Intro
-0.9s 2s both;
-}
-
-.Right_Skills{
-position: absolute;
-display: flex;
-height: 100vw;
-top: 29vh;
-left: 52vw;
--webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-.Front_Skills h2{
-margin-bottom: 10px;
-margin-left: 2.5vw;
-font-size: 2.5vw;
-}
-
-
-
-.Front_Skills{
-text-align: center;
-margin-left: 8vw;;
-width: 15vw;
-color: rgb(255, 118, 21);
-}
-.Front_Skills li{
-list-style: none;
-color: silver;
-font-size: 1.5vw;
-margin-bottom: 10px;
-margin-right: 1vw;
-text-align: right;
-}
-.Front_Skills i{
-margin-left: 10px;
-}
-
-.Back_Skills h2{
-margin-bottom: 10px;
-margin-right: 2.0vw;
-font-size: 2.5vw;
-}
-
-.Back_Skills{
-text-align: center;
-width: 14vw;
-height: 30vh;
-color: rgb(255, 118, 21);
-border-left: 1px solid;
-border-color: silver;
-
-}
-.Back_Skills li{
-list-style: none;
-color: silver;
-font-size: 1.5vw;
-margin-bottom: 10px;
-margin-left: 1.5vw;
-text-align: left;
-}
-.Back_Skills i{
-margin-left: 10px;
-}
-
-
-}
-
-@media (max-width: 1499px) {
-
-.Skills{
-display: flex;
-font-family: 'Maven Pro', sans-serif;
-
-}
-
-.Left_Skills{
-position: absolute;
-top: 34.5vh;
-width: 50vw;
-
-}
-
-.Left_Skills ul{
-margin-left: 15%;
-font-size: 4vw;
-color: rgb(48,154,115);
-}
-
-.Left_Skills li{
-list-style: none;
-}
-
-.Left_Skills p{
-font-family: 'Maven Pro', sans-serif;
-color: silver;
-font-size: 1.5vw;
-margin-top: 5px;
-margin-left: 15%;
-
-}
-
-.Skills_Footer{
--webkit-animation: Quick_Intro
-0.9s 2s both;
-animation: Quick_Intro
-0.9s 2s both;
-}
-
-.Right_Skills{
-position: absolute;
-display: flex;
-height: 100vw;
-top: 29vh;
-left: 52vw;
--webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-}
-
-.Front_Skills h2{
-margin-bottom: 10px;
-margin-left: 2.5vw;
-font-size: 2.5vw;
-}
-
-
-
-.Front_Skills{
-text-align: center;
-margin-left: 8vw;;
-width: 15vw;
-color: rgb(255, 118, 21);
-}
-.Front_Skills li{
-list-style: none;
-color: silver;
-font-size: 1.5vw;
-margin-bottom: 10px;
-margin-right: 1vw;
-text-align: right;
-}
-.Front_Skills i{
-margin-left: 10px;
-}
-
-.Back_Skills h2{
-margin-bottom: 10px;
-margin-right: 2.0vw;
-font-size: 2.5vw;
-}
-
-.Back_Skills{
-text-align: center;
-width: 14vw;
-height: 30vh;
-color: rgb(255, 118, 21);
-border-left: 1px solid;
-border-color: silver;
-
-}
-.Back_Skills li{
-list-style: none;
-color: silver;
-font-size: 1.5vw;
-margin-bottom: 10px;
-margin-left: 1.5vw;
-text-align: left;
-}
-.Back_Skills i{
-margin-left: 10px;
-}       
-
-}
-
-@media (max-width: 1199px) {
-
   .Skills{
-    display: flex;
-    font-family: 'Maven Pro', sans-serif;
-    
-    }
-    
-    .Left_Skills{
-    position: absolute;
-    top: 34.5vh;
-    width: 50vw;
-    
-    }
-    
-    .Left_Skills ul{
-    margin-left: 15%;
-    font-size: 4vw;
-    color: rgb(48,154,115);
-    }
-    
-    .Left_Skills li{
-    list-style: none;
-    }
-    
-    .Left_Skills p{
-    font-family: 'Maven Pro', sans-serif;
-    color: silver;
-    font-size: 1.5vw;
-    margin-top: 5px;
-    margin-left: 15%;
-    
-    }
-    
-    .Skills_Footer{
-    -webkit-animation: Quick_Intro
-    0.9s 2s both;
-    animation: Quick_Intro
-    0.9s 2s both;
-    }
-    
-    .Right_Skills{
-    position: absolute;
-    display: flex;
-    height: 100vw;
-    top: 29vh;
-    left: 52vw;
-    -webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
-    }
-    
-    .Front_Skills h2{
-    margin-bottom: 10px;
-    margin-left: 2.5vw;
-    font-size: 2.5vw;
-    }
-    
-    
-    
-    .Front_Skills{
-    text-align: center;
-    margin-left: 8vw;;
-    width: 15vw;
-    color: rgb(255, 118, 21);
-    }
-    .Front_Skills li{
-    list-style: none;
-    color: silver;
-    font-size: 1.5vw;
-    margin-bottom: 10px;
-    margin-right: 1vw;
-    text-align: right;
-    }
-    .Front_Skills i{
-    margin-left: 10px;
-    }
-    
-    .Back_Skills h2{
-    margin-bottom: 10px;
-    margin-right: 2.0vw;
-    font-size: 2.5vw;
-    }
-    
-    .Back_Skills{
-    text-align: center;
-    width: 14vw;
-    height: 30vh;
-    color: rgb(255, 118, 21);
-    border-left: 1px solid;
-    border-color: silver;
-    
-    }
-    .Back_Skills li{
-    list-style: none;
-    color: silver;
-    font-size: 1.5vw;
-    margin-bottom: 10px;
-    margin-left: 1.5vw;
-    text-align: left;
-    }
-    .Back_Skills i{
-    margin-left: 10px;
-    } 
-
-
+      display: flex;
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Skills{
+      position: absolute;
+      top: 34.5vh;
+      width: 50vw;
+ }
+  .Left_Skills ul{
+      margin-left: 15%;
+      font-size: 4vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Skills li{
+      list-style: none;
+ }
+  .Left_Skills p{
+      font-family: 'Maven Pro', sans-serif;
+      color: silver;
+      font-size: 1.5vw;
+      margin-top: 5px;
+      margin-left: 15%;
+ }
+  .Skills_Footer{
+      -webkit-animation: Quick_Intro 0.9s 2s both;
+      animation: Quick_Intro 0.9s 2s both;
+ }
+  .Right_Skills{
+      position: absolute;
+      display: flex;
+      height: 100vw;
+      top: 29vh;
+      left: 52vw;
+      -webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+ }
+  .Front_Skills h2{
+      margin-bottom: 10px;
+      margin-left: 2.5vw;
+      font-size: 2.5vw;
+ }
+  .Front_Skills{
+      text-align: center;
+      margin-left: 8vw;
+     ;
+      width: 15vw;
+      color: rgb(255, 118, 21);
+ }
+  .Front_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-right: 1vw;
+      text-align: right;
+ }
+  .Front_Skills i{
+      margin-left: 10px;
+ }
+  .Back_Skills h2{
+      margin-bottom: 10px;
+      margin-right: 2.0vw;
+      font-size: 2.5vw;
+ }
+  .Back_Skills{
+      text-align: center;
+      width: 14vw;
+      height: 30vh;
+      color: rgb(255, 118, 21);
+      border-left: 1px solid;
+      border-color: silver;
+ }
+  .Back_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-left: 1.5vw;
+      text-align: left;
+ }
+  .Back_Skills i{
+      margin-left: 10px;
+ }
+}
+@media (max-width: 1499px) {
+  .Skills{
+      display: flex;
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Skills{
+      position: absolute;
+      top: 34.5vh;
+      width: 50vw;
+ }
+  .Left_Skills ul{
+      margin-left: 15%;
+      font-size: 4vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Skills li{
+      list-style: none;
+ }
+  .Left_Skills p{
+      font-family: 'Maven Pro', sans-serif;
+      color: silver;
+      font-size: 1.5vw;
+      margin-top: 5px;
+      margin-left: 15%;
+ }
+  .Skills_Footer{
+      -webkit-animation: Quick_Intro 0.9s 2s both;
+      animation: Quick_Intro 0.9s 2s both;
+ }
+  .Right_Skills{
+      position: absolute;
+      display: flex;
+      height: 100vw;
+      top: 29vh;
+      left: 52vw;
+      -webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+ }
+  .Front_Skills h2{
+      margin-bottom: 10px;
+      margin-left: 2.5vw;
+      font-size: 2.5vw;
+ }
+  .Front_Skills{
+      text-align: center;
+      margin-left: 8vw;
+     ;
+      width: 15vw;
+      color: rgb(255, 118, 21);
+ }
+  .Front_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-right: 1vw;
+      text-align: right;
+ }
+  .Front_Skills i{
+      margin-left: 10px;
+ }
+  .Back_Skills h2{
+      margin-bottom: 10px;
+      margin-right: 2.0vw;
+      font-size: 2.5vw;
+ }
+  .Back_Skills{
+      text-align: center;
+      width: 14vw;
+      height: 30vh;
+      color: rgb(255, 118, 21);
+      border-left: 1px solid;
+      border-color: silver;
+ }
+  .Back_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-left: 1.5vw;
+      text-align: left;
+ }
+  .Back_Skills i{
+      margin-left: 10px;
+ }
+}
+@media (max-width: 1199px) {
+  .Skills{
+      display: flex;
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Skills{
+      position: absolute;
+      top: 34.5vh;
+      width: 50vw;
+ }
+  .Left_Skills ul{
+      margin-left: 15%;
+      font-size: 4vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Skills li{
+      list-style: none;
+ }
+  .Left_Skills p{
+      font-family: 'Maven Pro', sans-serif;
+      color: silver;
+      font-size: 1.5vw;
+      margin-top: 5px;
+      margin-left: 15%;
+ }
+  .Skills_Footer{
+      -webkit-animation: Quick_Intro 0.9s 2s both;
+      animation: Quick_Intro 0.9s 2s both;
+ }
+  .Right_Skills{
+      position: absolute;
+      display: flex;
+      height: 100vw;
+      top: 29vh;
+      left: 52vw;
+      -webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+ }
+  .Front_Skills h2{
+      margin-bottom: 10px;
+      margin-left: 2.5vw;
+      font-size: 2.5vw;
+ }
+  .Front_Skills{
+      text-align: center;
+      margin-left: 8vw;
+     ;
+      width: 15vw;
+      color: rgb(255, 118, 21);
+ }
+  .Front_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-right: 1vw;
+      text-align: right;
+ }
+  .Front_Skills i{
+      margin-left: 10px;
+ }
+  .Back_Skills h2{
+      margin-bottom: 10px;
+      margin-right: 2.0vw;
+      font-size: 2.5vw;
+ }
+  .Back_Skills{
+      text-align: center;
+      width: 14vw;
+      height: 30vh;
+      color: rgb(255, 118, 21);
+      border-left: 1px solid;
+      border-color: silver;
+ }
+  .Back_Skills li{
+      list-style: none;
+      color: silver;
+      font-size: 1.5vw;
+      margin-bottom: 10px;
+      margin-left: 1.5vw;
+      text-align: left;
+ }
+  .Back_Skills i{
+      margin-left: 10px;
+ }
 }
 @media (max-width: 800px) {
-
   .Left_Skills {
-    top: 5vh;
-    left: 13vw;
-    width: 80vw;
-    height: 30vh;
-  }
-
+      top: 5vh;
+      left: 13vw;
+      width: 80vw;
+      height: 30vh;
+ }
   .Left_Skills li {
-    font-size: 5vh;
-  }
-
+      font-size: 5vh;
+ }
   .Left_Skills p {
-    font-size: 3vh;
-  }
-
+      font-size: 3vh;
+ }
   .Skills_Footer p{
-    font-size: 3vh;
-  }
+      font-size: 3vh;
+ }
   .Right_Skills {
-    top: 50vh;
-    left: 13vw;
-    width: 80vw;
-    height: 69vh;
-  }
+      top: 50vh;
+      left: 13vw;
+      width: 80vw;
+      height: 69vh;
+ }
   .Front_Skills h2{
-    font-size: 3vh;
-  }
+      font-size: 3vh;
+ }
   .Front_Skills {
-    text-align: right;
-    padding-right: 1vw;
-    width: 35vw;
-  }
+      text-align: right;
+      padding-right: 1vw;
+      width: 35vw;
+ }
   .Back_Skills {
-    text-align: left;
-    padding-left: 1vw;
-    width: 35vw;
-    height: 28vh;
-  }
+      text-align: left;
+      padding-left: 1vw;
+      width: 35vw;
+      height: 28vh;
+ }
   .Back_Skills h2 {
-    font-size: 3vh;
-  }
+      font-size: 3vh;
+ }
   .Front_Skills li {
-    font-size: 2.0vh;
-  }
+      font-size: 2.0vh;
+ }
   .Back_Skills li{
-    font-size: 2.0vh;
-  }
+      font-size: 2.0vh;
+ }
 }
 @media (max-width: 450px) {
-
   .Left_Skills {
-    top: 5vh;
-    left: 13vw;
-    width: 80vw;
-    height: 30vh;
-  }
-
+      top: 5vh;
+      left: 13vw;
+      width: 80vw;
+      height: 30vh;
+ }
   .Left_Skills li {
-    font-size: 5vh;
-  }
-
+      font-size: 5vh;
+ }
   .Left_Skills p {
-    font-size: 2.5vh;
-  }
-
+      font-size: 2.5vh;
+ }
   .Skills_Footer p{
-    font-size: 3vh;
-  }
+      font-size: 3vh;
+ }
   .Right_Skills {
-    top: 50vh;
-    left: 15vw;
-    width: 80vw;
-    height: 69vh;
-  }
+      top: 50vh;
+      left: 15vw;
+      width: 80vw;
+      height: 69vh;
+ }
   .Front_Skills h2{
-    font-size: 2.5vh;
-  }
+      font-size: 2.5vh;
+ }
   .Front_Skills {
-    width: 35vw;
-  }
+      width: 35vw;
+ }
   .Back_Skills {
-    width: 35vw;
-    height: 28vh;
-  }
+      width: 35vw;
+      height: 28vh;
+ }
   .Back_Skills h2 {
-    font-size: 2.5vh;
-  }
+      font-size: 2.5vh;
+ }
   .Front_Skills li {
-    font-size: 2.0vh;
-  }
+      font-size: 2.0vh;
+ }
   .Back_Skills li{
-    font-size: 2.0vh;
-  }
+      font-size: 2.0vh;
+ }
 }
-
-
-
-/* ----------------------------------------------
-* Generated by Animista on 2020-2-17 20:52:40
-* Licensed under FreeBSD License.
-* See http://animista.net/license for more info. 
-* w: http://animista.net, t: @cssanimista
-* ---------------------------------------------- */
-
-/**
-* ----------------------------------------
-* animation tracking-in-expand-fwd
-* ----------------------------------------
-*/
+/* ---------------------------------------------- * Generated by Animista on 2020-2-17 20:52:40 * Licensed under FreeBSD License. * See http://animista.net/license for more info. * w: http://animista.net, t: @cssanimista * ---------------------------------------------- */
+/** * ---------------------------------------- * animation tracking-in-expand-fwd * ---------------------------------------- */
 @-webkit-keyframes tracking-in-expand-fwd {
-0% {
-letter-spacing: -0.5em;
--webkit-transform: translateZ(-700px);
-transform: translateZ(-700px);
-opacity: 0;
-}
-40% {
-opacity: 0.6;
-}
-100% {
--webkit-transform: translateZ(0);
-transform: translateZ(0);
-opacity: 1;
-}
+  0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+ }
+  40% {
+      opacity: 0.6;
+ }
+  100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+ }
 }
 @keyframes tracking-in-expand-fwd {
-0% {
-letter-spacing: -0.5em;
--webkit-transform: translateZ(-700px);
-transform: translateZ(-700px);
-opacity: 0;
-}
-40% {
-opacity: 0.6;
-}
-100% {
--webkit-transform: translateZ(0);
-transform: translateZ(0);
-opacity: 1;
-}
+  0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+ }
+  40% {
+      opacity: 0.6;
+ }
+  100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+ }
 }

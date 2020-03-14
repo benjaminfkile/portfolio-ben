@@ -36,7 +36,6 @@ class Skills extends Component {
                             </li>
                             <li>
                                 Javascript
-                                {/* <i className="devicon-javascript-plain colored"></i> */}
                                 <i class="devicon-javascript-plain"></i>
                             </li>
                             <li>

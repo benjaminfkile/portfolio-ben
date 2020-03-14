@@ -1,15 +1,10 @@
-
 @media (min-width: 1500px) {
-
     .Header{
         display: flex;
         width: 100%;
         font-size: 2vw;
-    
-    }
-    
+   }
     .Nav{
-    
         font-family: 'Maven Pro', sans-serif;
         background-color:rgb(9,24,38);
         color: rgb(255, 118, 21);
@@ -17,23 +12,22 @@
         width: 6vw;
         height: 100vh;
         text-align: center;
-    }
-    
+   }
     .lt{
         width: 100vw;
         font-size: 2vw;
         color: rgb(48,154,115);
-    }
+   }
     .gt{
         width: 100vw;
         font-size: 2vw;
         color: rgb(48,154,115);
-    }
+   }
     .name{
         margin-top: 10px;
         font-size: 2vw;
         width: 100vw;
-    }
+   }
     .Routes{
         height: 100%;
         position: absolute;
@@ -41,49 +35,39 @@
         left: 50%;
         width: 6rem;
         height: 25vh;
-        -webkit-transform: translate(-50%, -50%);  
+        -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-    }
-    
+   }
     .Footer{
-        position: absolute; 
+        position: absolute;
         top: 90vh;
         width: 100%;
         text-align: center;
-    }
+   }
     h1{
         margin-top: 20px;
-    }
-    
+   }
     .Routes li{
         list-style: none;
         margin-bottom: 25px;
         font-size: 2.3vh;
-    }
-    
+   }
     a{
         color: rgb(255, 118, 21);
         text-decoration: none;
-    }
-    
+   }
     a:hover, a:focus a:active {
         font-size: 2.6vh;
         color: rgb(48,154,115);
-    }
-
+   }
 }
-
 @media (max-width: 1499px) {
-
     .Header{
         display: flex;
         width: 100%;
         font-size: 2vw;
-    
-    }
-    
+   }
     .Nav{
-    
         font-family: 'Maven Pro', sans-serif;
         background-color:rgb(9,24,38);
         color: rgb(255, 118, 21);
@@ -91,23 +75,22 @@
         width: 6rem;
         height: 100vh;
         text-align: center;
-    }
-    
+   }
     .lt{
         width: 100vw;
         font-size: 2vw;
         color: rgb(48,154,115);
-    }
+   }
     .gt{
         width: 100vw;
         font-size: 2vw;
         color: rgb(48,154,115);
-    }
+   }
     .name{
         margin-top: 10px;
         font-size: 2vw;
         width: 100vw;
-    }
+   }
     .Routes{
         height: 100%;
         position: absolute;
@@ -115,48 +98,39 @@
         left: 50%;
         width: 6rem;
         height: 25vh;
-        -webkit-transform: translate(-50%, -50%);  
+        -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-    }
-    
+   }
     .Footer{
-        position: absolute; 
+        position: absolute;
         top: 90vh;
         width: 100%;
         text-align: center;
-    }
+   }
     h1{
         margin-top: 20px;
-    }
-    
+   }
     .Routes li{
         list-style: none;
         margin-bottom: 25px;
         font-size: 2.3vh;
-    }
-    
+   }
     a{
         color: rgb(255, 118, 21);
         text-decoration: none;
-    }
-    
+   }
     a:hover, a:focus a:active {
         font-size: 2.6vh;
         color: rgb(48,154,115);
-    }
-
+   }
 }
-
 @media (max-width: 1199px) {
     .Header{
         display: flex;
         width: 100%;
         font-size: 2vw;
-    
-    }
-    
+   }
     .Nav{
-    
         font-family: 'Maven Pro', sans-serif;
         background-color:rgb(9,24,38);
         color: rgb(255, 118, 21);
@@ -164,14 +138,12 @@
         width: 6rem;
         height: 100vh;
         text-align: center;
-    }
-    
-
+   }
     .name{
         margin-top: 10px;
         font-size: 5vh;
         width: 100vw;
-    }
+   }
     .Routes{
         height: 100%;
         position: absolute;
@@ -179,61 +151,46 @@
         left: 50%;
         width: 9v;
         height: 25vh;
-        -webkit-transform: translate(-50%, -50%);  
+        -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-    }
-    
+   }
     .Footer{
-        position: absolute; 
+        position: absolute;
         top: 86vh;
         width: 100%;
         text-align: center;
-    }
+   }
     h1{
         margin-top: 20px;
-    }
-    
+   }
     .Routes li{
         list-style: none;
         margin-bottom: 18px;
         font-size: 1.8vw;
-    }
-    
+   }
     a{
         color: rgb(255, 118, 21);
         text-decoration: none;
-    }
-    
+   }
     a:hover, a:focus a:active {
         font-size: 2.2vw;
         color: rgb(48,154,115);
-    } 
-
+   }
 }
 @media (max-width: 800px) {
-
-.Nav{
-    width: 4.5rem;
+    .Nav{
+        width: 4.5rem;
+   }
+    .Footer{
+        top: 80vh;
+   }
+    .Routes li{
+        list-style: none;
+        margin-bottom: 18px;
+        font-size: 1.7vh;
+   }
+    a:hover, a:focus a:active {
+        font-size: 2.2vh;
+        color: rgb(48,154,115);
+   }
 }
-
-.Footer{
-    top: 80vh;
-}
-
-.Routes li{
-    list-style: none;
-    margin-bottom: 18px;
-    font-size: 1.7vh;
-}
-
-a:hover, a:focus a:active {
-    font-size: 2.2vh;
-    color: rgb(48,154,115);
-}
-
-
-}
-
-
-    
-

@@ -56,15 +56,9 @@ class Projects extends Component {
         return (
             <div className="Projects">
                 <div className="Left_Projects">
-                    {/* <h1>
-                        Projects
-                    </h1> */}
                     <br></br>
                     <div className="showcase">
                         <br></br>
-                        {/* <h2>
-                            {this.state.store[this.state.projectIndex].name}
-                        </h2> */}
                         <h1>
                             {this.state.store[this.state.projectIndex].name}
                         </h1>
@@ -72,11 +66,9 @@ class Projects extends Component {
                         <p className="description">
                             {this.state.store[this.state.projectIndex].description}
                         </p>
-                        {/* <br></br> */}
                         <br></br>
                         <p className="tech">{items}</p>
                         <br></br>
-                        {/* <br></br> */}
                         <a href={this.state.store[this.state.projectIndex].url} target="_blank">{this.state.store[this.state.projectIndex].url}</a>
                         <div className="Buttons">
                             <div className="Left_Btn" onClick={this.panLeft}>
@@ -92,18 +84,6 @@ class Projects extends Component {
                         </div>
                     </div>
                     <br></br>
-                    {/* <div className="Buttons">
-                        <div className="Left_Btn" onClick={this.panLeft}>
-                            <p>
-                                &lt;
-                            </p>
-                        </div>
-                        <div className="Right_Btn" onClick={this.panRight}>
-                            <p>
-                                &gt;
-                            </p>
-                        </div>
-                    </div> */}
                 </div>
                 {this.state.store[this.state.projectIndex].portrait &&
                     <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>
@@ -113,7 +93,6 @@ class Projects extends Component {
                     <div className="Right_Projects_Landscape" key={Math.random() + Math.random()}>
                         <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
                     </div>}
-
             </div>
         )
     }

@@ -18,23 +18,14 @@ class Home extends Component {
                         </li>
                     </ul>
                     <p className="Quick_Intro">
-                    {/* Full Stack Developer => (Node, Javascript)&nbsp;&#123;&nbsp;&#125; */}
                     Full Stack: [Node, Javascript]
                     </p>
                 </div>
                 <div className="Right_Panel">
                     <ul>
-                        {/* <li>
-                            &lt;&nbsp;h1&nbsp;&gt;
-                        </li> */}
                         <p>
                          Ben Kile   
-                        </p>
-                        {/* <li>
-                            &lt;/&nbsp;h1&nbsp;&gt;
-
-                        </li> */}
-                    
+                        </p>                    
                     </ul>
                 </div>
             </div>
