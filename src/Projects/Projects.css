@@ -654,7 +654,7 @@
         height: 55vh;
         width: 40vw;
         left: -34vw;
-        top: 36vw;
+        top: 40vw;
    }
     .Right_Projects_Portrait{
         position: absolute;
@@ -859,7 +859,7 @@
         position: absolute;
         height: 78vh;
         width: 22vw;
-        top: 18vh;
+        top: 21vh;
         left: 53vw;
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;

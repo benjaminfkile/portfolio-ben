@@ -13,7 +13,7 @@ class Projects extends Component {
 
     componentDidMount() {
         this.setState({ imgIndex: 0 })
-        this.carousel();
+        // this.carousel();
     }
 
     panLeft = () => {
