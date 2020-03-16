@@ -942,10 +942,10 @@
    }
     .Right_Projects_Portrait img{
         position: absolute;
-        height: 55vh;
+        height: 45vh;
         width: 40vw;
         left: -13vw;
-        top: 42vw;
+        top: 51vw;
         object-fit: contain;
    }
     .Right_Projects_Portrait{
@@ -970,7 +970,7 @@
         position: absolute;
         width: 65vw;
         left: -14vw;
-        top: 9vw;
+        top: 17vw;
         object-fit: contain;
    }
 }
