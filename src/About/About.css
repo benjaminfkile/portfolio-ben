@@ -194,7 +194,7 @@
         left: 10vw;
         width: 80vw;
         height: 31vw;
-        text-align: center;
+        text-align: left;
    }
     .About_Left h1{
         font-size: 4vh;
@@ -207,7 +207,7 @@
    }
     .About_Right{
         border: none;
-        text-align: center;
+        text-align: left;
         top: 33vh;
         left: 20vw;
         height: 43vh;
@@ -223,7 +223,7 @@
         left: 13vw;
         width: 80vw;
         height: 31vw;
-        text-align: center;
+        text-align: left;
    }
     .About_Left h1{
         font-size: 4vh;
@@ -236,9 +236,9 @@
    }
     .About_Right{
         border: none;
-        text-align: center;
+        text-align: left;
         top: 33vh;
-        left: 23vw;
+        left: 22vw;
         height: 43vh;
         width: 70vw;
    }

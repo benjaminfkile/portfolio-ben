@@ -64,13 +64,15 @@ class Contact extends Component {
                 }
             }).then((response) => {
                 if (response.data.msg === 'success') {
-                    console.log("Message Sent.");
                     this.setState({ success: true })
                     this.resetForm()
                     this.handleSuccess()
                 } else if (response.data.msg === 'fail') {
-                    console.log("Message failed to send.")
-                    this.setState({ failure: true })
+                    this.setState(
+                        {
+                             failure: true,
+                             renderForm: false 
+                        })
                 }
             })
         }

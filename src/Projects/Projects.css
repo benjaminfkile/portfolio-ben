@@ -760,7 +760,7 @@
         height: 78vh;
         width: 22vw;
         top: 18vh;
-        left: 53vw;
+        left: 36vw;
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
@@ -860,7 +860,7 @@
         height: 78vh;
         width: 22vw;
         top: 21vh;
-        left: -30vw;
+        left: 36vw;
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
@@ -960,7 +960,7 @@
         height: 78vh;
         width: 22vw;
         top: 20vh;
-        left: 53vw;
+        left: 40vw;
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
