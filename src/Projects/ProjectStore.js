@@ -1,24 +1,6 @@
 export default
     [
         {
-            name: 'benFM',
-            description: 'BenFM lets its users discover over 50,000 radio stations around the world by genre,  I built it because I love music and discovering new music.  I got the idea when I discovered SHOUTcast and was able to obtain an API key from them. I plan on rebuilding it using React in the next year and adding many more features.',
-            url: 'https://benjaminfkile.github.io/benFM/',
-            portrait: true,
-            icons:
-                [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-jquery-plain-wordmark', 'devicon-css3-plain-wordmark'
-                ],
-            images:
-                [
-                    './res/screenshots/benFM/2.png ',
-                    './res/screenshots/benFM/3.png ',
-                    './res/screenshots/benFM/4.png ',
-                    './res/screenshots/benFM/5.png ',
-                    './res/screenshots/benFM/6.png ',
-                ]
-        },
-        {
             name: 'Light Finder',
             description: 'Light Finder lets its users find all the best Christmas lights here in Missoula, I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and wanted people who didn’t know to be able to enjoy them during the holidays.',
             url: 'https://lightfinder.now.sh',
@@ -52,6 +34,24 @@ export default
                     './res/screenshots/zero-in/4.png',
 
 
+                ]
+        },
+        {
+            name: 'benFM',
+            description: 'BenFM lets its users discover over 50,000 radio stations around the world by genre,  I built it because I love music and discovering new music.  I got the idea when I discovered SHOUTcast and was able to obtain an API key from them. I plan on rebuilding it using React in the next year and adding many more features.',
+            url: 'https://benjaminfkile.github.io/benFM/',
+            portrait: true,
+            icons:
+                [
+                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-jquery-plain-wordmark', 'devicon-css3-plain-wordmark'
+                ],
+            images:
+                [
+                    './res/screenshots/benFM/2.png ',
+                    './res/screenshots/benFM/3.png ',
+                    './res/screenshots/benFM/4.png ',
+                    './res/screenshots/benFM/5.png ',
+                    './res/screenshots/benFM/6.png ',
                 ]
         },
         {
