@@ -12,21 +12,21 @@ import axios from 'axios';
 import './App.css';
 function App() {
 
-//   axios({
-//     method: "POST",
-//     url: "https://rocky-lowlands-64636.herokuapp.com/send",
-//     data: {
-//         name: "portfolio alarm",
-//         email: "benjaminfkile@gmail.com",
-//         message: "portfolio visit!!!"
-//     }
-// }).then((response) => {
-//     if (response.data.msg === 'success') {
-//         console.log("Message Sent.");
-//     } else if (response.data.msg === 'fail') {
-//         console.log("Message failed to send.")
-//     }
-// })
+  axios({
+    method: "POST",
+    url: "https://rocky-lowlands-64636.herokuapp.com/send",
+    data: {
+        name: "portfolio alarm",
+        email: "benjaminfkile@gmail.com",
+        message: "portfolio visit!!!"
+    }
+}).then((response) => {
+    if (response.data.msg === 'success') {
+        console.log("Message Sent.");
+    } else if (response.data.msg === 'fail') {
+        console.log("Message failed to send.")
+    }
+})
 
 
   return (

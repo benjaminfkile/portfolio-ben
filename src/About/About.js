@@ -25,7 +25,19 @@ class About extends Component {
                 </div>
                 <div className="About_Right">
                     <p>
-                    My passion for coding began about 10 years ago,  the fulfillment I get from solving complex problems keeps me interested and very busy.  I have worked on dozens of my own hobby projects and homework projects in many different languages.  The bottom line is when I am behind my computer putting a project together I’m not working, I’m having fun.  I have gone from creating janky and static applications to developing Full-Stack web apps and my curiosity just keeps growing.
+                        My passion for coding began about 10 years ago,
+                        the fulfillment I get from solving complex problems is what drives me to learn more.
+                        I have worked on dozens of my own hobby projects in many different languages.
+                        When I am behind my computer putting a project together I’m not working,
+                        I’m having fun.  I have gone from creating janky and static applications to developing
+                        Full-Stack web apps and my curiosity continues to grow.
+                    </p>
+                    <br></br>
+                    <p>Fan of Science Fiction and the outdoors.
+                    </p>
+                    <br></br>
+                    <p>
+                    Interested in the whole Full Stack spectrum and working with positive people.
                     </p>
                 </div>
             </div>
