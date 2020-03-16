@@ -16,17 +16,15 @@ function App() {
     method: "POST",
     url: "https://rocky-lowlands-64636.herokuapp.com/send",
     data: {
-        name: "portfolio alarm",
-        email: "benjaminfkile@gmail.com",
-        message: "portfolio visit!!!"
+      name: "portfolio alarm",
+      email: "benjaminfkile@gmail.com",
+      message: "portfolio visit!!!"
     }
-}).then((response) => {
+  }).then((response) => {
     if (response.data.msg === 'success') {
-        console.log("Message Sent.");
     } else if (response.data.msg === 'fail') {
-        console.log("Message failed to send.")
     }
-})
+  })
 
 
   return (

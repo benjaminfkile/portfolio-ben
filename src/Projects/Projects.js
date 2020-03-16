@@ -69,7 +69,7 @@ class Projects extends Component {
                         <br></br>
                         <p className="tech">{items}</p>
                         <br></br>
-                        <a href={this.state.store[this.state.projectIndex].url} target="_blank">{this.state.store[this.state.projectIndex].url}</a>
+                        <a href={this.state.store[this.state.projectIndex].url} target="_blank" rel="noopener noreferrer">{this.state.store[this.state.projectIndex].url} </a>
                         <div className="Buttons">
                             <div className="Left_Btn" onClick={this.panLeft}>
                                 <p>
