@@ -19,7 +19,7 @@ export default
         },
         {
             name: 'Zero In',
-            description: 'Zero In lets its users locate an apartment building more precisely than Google Maps. The initial address is usually all Google Maps will take you to in my city.   Zero In will take you to the building an apartment is located in so you don’t have to wander around large apartment complexes.  I designed this for delivery and taxi drivers.',
+            description: 'Zero In lets its users locate an apartment building more precisely than Google Maps. The initial address is usually all Google Maps will take you to in my city.   Zero In will take you to the building an apartment is located in so you don’t have to wander around large apartment complexes.  I designed this for delivery and taxi drivers. (type 1150 34th in the search field)',
             url: 'https://zeroin.now.sh',
             portrait: true,
                 icons:
