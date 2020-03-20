@@ -3,21 +3,38 @@ import '../Projects/Projects.css'
 import ProjectStore from './ProjectStore.js'
 
 class Projects extends Component {
-
-    state = {
-        store: ProjectStore,
-        projectIndex: 0,
-        imgIndex: 0,
-        icons: [],
-        previewTicker: 0,
-        showPreview: false
+    constructor(props){
+        super(props)
+        this.state = {
+            store: ProjectStore,
+            projectIndex: 0,
+            imgIndex: 0,
+            icons: [],
+            previewTicker: 0,
+            showPreview: false,
+            width: 0
+        }
+        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
 
     componentDidMount() {
         this.setState({ imgIndex: 0 })
         this.carousel();
         this.togglePreview();
+        this.updateWindowDimensions();
+        window.addEventListener('resize', this.updateWindowDimensions);
     }
+
+    componentWillUnmount() {
+        window.removeEventListener('resize', this.updateWindowDimensions);
+      }
+      
+      updateWindowDimensions() {
+        this.setState({ width: window.innerWidth });
+        if(this.state.width > 1000){
+            this.setState({showPreview: false})
+        }
+      }
 
     togglePreview = () => {
 

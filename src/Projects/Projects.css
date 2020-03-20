@@ -273,26 +273,32 @@
         font-size: 10vw;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 30vh;
         left: 10vw;
         width: 65vw;
         height: 45vh;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 10vw;
         width: 30vw;
         height: 65vh;
    }
     .Close_Portrait p{
+        position: absolute;
         left: 10vw;
         font-size: 5vw;
         top: 65vh;
+        color: rgb(48,154,115);
    }
     .Close_Landscape p{
+        position: absolute;
         top: 75vh;
         font-size: 5vw;
         left: 10vw;
+        color: rgb(48,154,115);
    }
     .Right_Projects_Portrait img{
         display: none;
@@ -381,12 +387,14 @@
         font-size: 10vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 13vw;
         width: 30vw;
         height: 65vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 13vw;
         width: 65vw;
@@ -394,13 +402,16 @@
    }
     .Close_Portrait p{
         left: 13vw;
+        color: rgb(48,154,115);
         font-size: 7vw;
         top: 65vh;
    }
     .Close_Landscape p{
+        position: absolute;
         top: 70vh;
         font-size: 7vw;
         left: 13vw;
+        color: rgb(48,154,115);
    }
 }
 @media (max-width: 800px) {
@@ -473,12 +484,14 @@
         font-size: 10vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 16vw;
         width: 30vw;
         height: 65vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 16vw;
         width: 65vw;
@@ -488,11 +501,15 @@
         left: 16vw;
         font-size: 10vw;
         top: 65vh;
+        color: rgb(48,154,115);
+
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 10vw;
         left: 16vw;
+        color: rgb(48,154,115);
+
    }
 }
 @media (max-width: 620px) {
@@ -565,12 +582,14 @@
         font-size: 10vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 18vw;
         width: 50vw;
         height: 65vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 18vw;
         width: 75vw;
@@ -580,11 +599,14 @@
         left: 18vw;
         top: 65vh;
         font-size: 10vw;
+        color: rgb(48,154,115);
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 10vw;
         left: 18vw;
+        color: rgb(48,154,115);
+
    }
 }
 @media (max-width: 565px) {
@@ -663,12 +685,14 @@
         height: 35vh;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 20vw;
         width: 52vw;
         height: 70vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 20vw;
         width: 75vw;
@@ -678,11 +702,15 @@
         left: 22vw;
         top: 70vh;
         font-size: 10vw;
+        color: rgb(48,154,115);
+
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 10vw;
         left: 22vw;
+        color: rgb(48,154,115);
+
    }
 }
 @media (max-width: 515px) {
@@ -758,12 +786,14 @@
         font-size: 10vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 22vw;
         width: 55vw;
         height: 70vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 22vw;
         width: 70vw;
@@ -773,11 +803,13 @@
         left: 21vw;
         top: 70vh;
         font-size: 10vw;
+        color: rgb(48,154,115);
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 10vw;
         left: 21vw;
+        color: rgb(48,154,115);
    }
 }
 @media (max-width: 440px) {
@@ -858,12 +890,14 @@
         color: rgb(255, 118, 21);
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 30vh;
         left: 17.5vw;
         width: 80vw;
         height: 35vh;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 21vw;
         width: 75vw;
@@ -878,11 +912,15 @@
     .Close_Portrait p{
         left: 23vw;
         top: 70vh;
+        color: rgb(48,154,115);
+
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 15vw;
         left: 23vw;
+        color: rgb(48,154,115);
+
    }
 }
 @media (max-width: 415px) {
@@ -924,12 +962,14 @@
         margin-left: 10vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 4px;
         left: 21vw;
         width: 75vw;
         height: 70vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 23vw;
         width: 75vw;
@@ -938,11 +978,13 @@
     .Close_Portrait p{
         left: 23vw;
         top: 70vh;
+        color: rgb(48,154,115);
    }
     .Close_Landscape p{
         top: 62vh;
         font-size: 15vw;
         left: 23vw;
+        color: rgb(48,154,115);
    }
 }
 @media (max-width: 370px) {
@@ -1007,12 +1049,14 @@
         font-size: 25vw;
    }
     .Portrait_Preview img{
+        position: absolute;
         top: 2px;
         left: 23vw;
         width: 75vw;
         height: 80vh;
    }
     .Landscape_Preview img{
+        position: absolute;
         top: 37vh;
         left: 23vw;
         width: 75vw;
@@ -1021,11 +1065,14 @@
     .Close_Portrait p{
         left: 23vw;
         top: 75vh;
+        color: rgb(48,154,115);
+
    }
     .Close_Landscape p{
         top: 67vh;
         font-size: 15vw;
         left: 23vw;
+        color: rgb(48,154,115);
    }
 }
 @-webkit-keyframes slide-in-bck-right {
