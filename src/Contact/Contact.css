@@ -108,7 +108,7 @@
         .Incomplete_Form{
             position: absolute;
             top: 57vh;
-            left: -3vw;
+            left: 7vw;
             font-size: 1.5vh;
             color: rgb(255, 118, 21);
             margin-top: 17vh;
@@ -119,7 +119,7 @@
         .Failure{
             position: absolute;
             top: 55vh;
-            left: -3vw;
+            left: 7vw;
             font-size: 1.5vh;
             color: silver;
             margin-top: 17vh;
@@ -246,7 +246,7 @@
         .Success{
             position: absolute;
             top: 52vh;
-            left: -36vw;
+            left: -28vw;
             font-size: 1.5vh;
             color: rgb(48,154,115);
             margin-top: 17vh;
@@ -257,7 +257,7 @@
         .Incomplete_Form{
             position: absolute;
             top: 55vh;
-            left: -36vw;
+            left: -28vw;
             font-size: 1.5vh;
             color: rgb(255, 118, 21);
             margin-top: 17vh;
@@ -414,8 +414,8 @@
        }
         .Failure{
             position: absolute;
-            top: 48vh;
-            left: -16vw;
+            top: 54vh;
+            left: 0vw;
             font-size: 1.2vh;
             color: silver;
             margin-top: 17vh;

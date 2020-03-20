@@ -8,7 +8,6 @@ class Contact extends Component {
         formFilled: true,
         success: false,
         failure: false,
-        thanks: false,
         send: true,
         everythingElse: true
     }
@@ -96,14 +95,14 @@ class Contact extends Component {
                             Say Hello
                         </h1>
                         <div className="Name_Form">
-                            <label for="name">Name*</label>
+                            <label htmlFor="name">Name*</label>
                             <br></br>
                             <input type="text" className="form-control" id="name" />
                         </div>
                         <br></br>
                         <br></br>
                         <div className="Email_Form">
-                            <label for="exampleInputEmail1">Email*</label>
+                            <label htmlFor="exampleInputEmail1">Email*</label>
                             <br></br>
                             <input type="email" className="form-control" id="email" aria-describedby="emailHelp" />
                         </div>
