@@ -16,10 +16,7 @@ class About extends Component {
                         </li>
                     </ul>
                     <p className="About_Left_Footer">
-                        <br></br>
-                        Studied at University of Montana
                     <br></br>
-                        <br></br>
                         Studied at Thinkful
                     </p>
                 </div>
@@ -33,7 +30,8 @@ class About extends Component {
                         Full-Stack web apps and my curiosity continues to grow.
                     </p>
                     <br></br>
-                    <p>Fan of Science Fiction and the outdoors.
+                    <p>
+                    Fan of Science Fiction and the outdoors.
                     </p>
                     <br></br>
                     <p>

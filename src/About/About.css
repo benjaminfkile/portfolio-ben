@@ -1,49 +1,4 @@
-.About{
-    display: flex;
-    font-family: 'Maven Pro', sans-serif;
-}
-.About_Left{
-    position: absolute;
-    top: 32vh;
-    width: 50vw;
-    height: 100vh;
-    font-size: 2vw;
-    color: rgb(48,154,115);
-}
-.About_Left h1{
-    margin-left: 15%;
-    font-size: 3vw;
-}
-.About_Left li{
-    list-style: none;
-    margin-left: 15%;
-    font-size: 1.5vw;
-    color: silver;
-}
-.About_Left p{
-    margin-left: 15%;
-    -webkit-animation: Quick_Intro 0.9s 1.5s both;
-    animation: Quick_Intro 0.9s 1.5s both;
-}
-.About p{
-    font-size: 1.5vw;
-    color: silver;
-}
-.About_Right{
-    position: absolute;
-    height: 15.5vw;
-    top: 35vh;
-    left: 50vw;
-    width: 43vw;
-    border-left: 1px solid;
-    color: rgb(255, 118, 21);
-    -webkit-animation: Quick_Intro 0.9s 1s both;
-    animation: Quick_Intro 0.9s 1s both;
-}
-.About_Right p{
-    margin-top: 6px;
-    margin-left: 10px;
-}
+
 @media (min-width: 1500px) {
     .About{
         display: flex;
@@ -51,7 +6,7 @@
    }
     .About_Left{
         position: absolute;
-        top: 32vh;
+        top: 38vh;
         width: 50vw;
         height: 100vh;
         font-size: 2vw;
@@ -79,11 +34,11 @@
     .About_Right{
         position: absolute;
         height: 15.5vw;
-        top: 28vh;
+        top: 30vh;
         left: 50vw;
         width: 43vw;
-        border-left: 1px solid;
-        color: rgb(255, 118, 21);
+        /* border-bottom: 1px solid;
+        color: rgb(255, 118, 21); */
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
@@ -99,7 +54,7 @@
    }
     .About_Left{
         position: absolute;
-        top: 32vh;
+        top: 38vh;
         width: 50vw;
         height: 100vh;
         font-size: 2vw;
@@ -127,11 +82,9 @@
     .About_Right{
         position: absolute;
         height: 15.5vw;
-        top: 28vh;
+        top: 30vh;
         left: 50vw;
         width: 43vw;
-        border-left: 1px solid;
-        color: rgb(255, 118, 21);
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
@@ -147,39 +100,37 @@
    }
     .About_Left{
         position: absolute;
-        top: 32vh;
+        top: 38vh;
         width: 50vw;
         height: 100vh;
         font-size: 2vw;
         color: rgb(48,154,115);
    }
     .About_Left h1{
-        margin-left: 15%;
-        font-size: 3vw;
+        margin-left: 10%;
+        font-size: 5vw;
    }
     .About_Left li{
         list-style: none;
-        margin-left: 15%;
-        font-size: 1.5vw;
+        margin-left: 10%;
+        font-size: 2.5vw;
         color: silver;
    }
     .About_Left p{
-        margin-left: 15%;
+        margin-left: 10%;
         -webkit-animation: Quick_Intro 0.9s 1.5s both;
         animation: Quick_Intro 0.9s 1.5s both;
    }
     .About p{
-        font-size: 1.5vw;
+        font-size: 2.5vw;
         color: silver;
    }
     .About_Right{
         position: absolute;
         height: 15.5vw;
-        top: 28vh;
-        left: 50vw;
+        top: 27vh;
+        left: 53vw;
         width: 43vw;
-        border-left: 1px solid;
-        color: rgb(255, 118, 21);
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
@@ -208,19 +159,19 @@
     .About_Right{
         border: none;
         text-align: left;
-        top: 33vh;
+        top: 25vh;
         left: 20vw;
         height: 43vh;
         width: 70vw;
    }
     .About_Right p{
-        font-size: 2.8vh;
+        font-size: 2.5vh;
    }
 }
 @media (max-width: 450px) {
     .About_Left {
-        top: 5vh;
-        left: 13vw;
+        top: 3vh;
+        left: 9vw;
         width: 80vw;
         height: 31vw;
         text-align: left;
@@ -237,8 +188,8 @@
     .About_Right{
         border: none;
         text-align: left;
-        top: 33vh;
-        left: 22vw;
+        top: 24vh;
+        left: 18vw;
         height: 43vh;
         width: 70vw;
    }

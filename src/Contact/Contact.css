@@ -1,4 +1,4 @@
-@media(min-width: 800px){
+@media(min-width: 1100px){
         .Contact{
             width: 100vw;
             font-family: 'Maven Pro', sans-serif;
@@ -46,7 +46,7 @@
        }
         .Message_Form{
             position: absolute;
-            left: 45vw;
+            left: 55vw;
             top: 28vh;
             height: 40vh;
             width: 40vw;
@@ -145,7 +145,7 @@
             transition: background-color 5000s ease-in-out 0s;
        }
    }
-    @media(max-width: 799px){
+    @media(max-width: 1099px){
         .Contact{
             width: 100vw;
             font-family: 'Maven Pro', sans-serif;
@@ -153,8 +153,8 @@
         .Name_Email{
             position: absolute;
             width: 35vw;
-            left: 12vw;
-            top: 2vh;
+            left: 20vw;
+            top: 5vh;
             background-color: rgb(14,14,27);
             font-size: 3vh;
        }
@@ -195,8 +195,8 @@
        }
         .Message_Form{
             position: absolute;
-            left: 12vw;
-            top: 42vh;
+            left: 20vw;
+            top: 45vh;
             height: 40vh;
             width: 40vw;
        }
@@ -233,7 +233,7 @@
         #Submit_Btn {
             position: absolute;
             top: 75vh;
-            left: 12vw;
+            left: 20vw;
             font-size: 3vh;
             list-style: none;
             color: rgb(48,154,115);

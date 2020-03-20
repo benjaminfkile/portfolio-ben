@@ -135,7 +135,7 @@
         background-color:rgb(9,24,38);
         color: rgb(255, 118, 21);
         position: relative;
-        width: 6rem;
+        width: 7rem;
         height: 100vh;
         text-align: center;
    }
@@ -165,19 +165,53 @@
    }
     .Routes li{
         list-style: none;
-        margin-bottom: 18px;
-        font-size: 1.8vw;
+        margin-bottom: 30px;
+        font-size: 2.5vw;
    }
     a{
         color: rgb(255, 118, 21);
         text-decoration: none;
    }
     a:hover, a:focus a:active {
-        font-size: 2.2vw;
+        font-size: 2.7vw;
         color: rgb(48,154,115);
    }
 }
 @media (max-width: 800px) {
+    .Nav{
+        width: 7rem;
+   }
+    .Footer{
+        top: 80vh;
+   }
+    .Routes li{
+        list-style: none;
+        margin-bottom: 18px;
+        font-size: 2vh;
+   }
+    a:hover, a:focus a:active {
+        font-size: 2.2vh;
+        color: rgb(48,154,115);
+   }
+}
+@media (max-width: 440px) {
+    .Nav{
+        width: 5rem;
+   }
+    .Footer{
+        top: 80vh;
+   }
+    .Routes li{
+        list-style: none;
+        margin-bottom: 18px;
+        font-size: 4.3vw;
+   }
+    a:hover, a:focus a:active {
+        font-size: 4.6vw;
+        color: rgb(48,154,115);
+   }
+}
+@media (max-width: 400px) {
     .Nav{
         width: 4.5rem;
    }
@@ -187,10 +221,10 @@
     .Routes li{
         list-style: none;
         margin-bottom: 18px;
-        font-size: 1.7vh;
+        font-size: 4.3vw;
    }
     a:hover, a:focus a:active {
-        font-size: 2.2vh;
+        font-size: 4.6vw;
         color: rgb(48,154,115);
    }
 }

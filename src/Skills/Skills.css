@@ -178,11 +178,11 @@
   .Left_Skills{
       position: absolute;
       top: 34.5vh;
-      width: 50vw;
+      width: 45vw;
  }
   .Left_Skills ul{
-      margin-left: 15%;
-      font-size: 4vw;
+      margin-left: 10%;
+      font-size: 5vw;
       color: rgb(48,154,115);
  }
   .Left_Skills li{
@@ -191,9 +191,9 @@
   .Left_Skills p{
       font-family: 'Maven Pro', sans-serif;
       color: silver;
-      font-size: 1.5vw;
+      font-size: 2.5vw;
       margin-top: 5px;
-      margin-left: 15%;
+      margin-left: 10%;
  }
   .Skills_Footer{
       -webkit-animation: Quick_Intro 0.9s 2s both;
@@ -203,7 +203,7 @@
       position: absolute;
       display: flex;
       height: 100vw;
-      top: 29vh;
+      top: 34vh;
       left: 52vw;
       -webkit-animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
       animation: tracking-in-expand-fwd 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
@@ -211,19 +211,19 @@
   .Front_Skills h2{
       margin-bottom: 10px;
       margin-left: 2.5vw;
-      font-size: 2.5vw;
+      font-size: 3vw;
  }
   .Front_Skills{
       text-align: center;
       margin-left: 8vw;
-     ;
+      margin-right: 1vw;
       width: 15vw;
       color: rgb(255, 118, 21);
  }
   .Front_Skills li{
       list-style: none;
       color: silver;
-      font-size: 1.5vw;
+      font-size: 2.5vw;
       margin-bottom: 10px;
       margin-right: 1vw;
       text-align: right;
@@ -234,12 +234,13 @@
   .Back_Skills h2{
       margin-bottom: 10px;
       margin-right: 2.0vw;
-      font-size: 2.5vw;
+      font-size: 3vw;
  }
   .Back_Skills{
       text-align: center;
       width: 14vw;
-      height: 30vh;
+      height: 20vh;
+      padding-left: 1vw;
       color: rgb(255, 118, 21);
       border-left: 1px solid;
       border-color: silver;
@@ -247,7 +248,7 @@
   .Back_Skills li{
       list-style: none;
       color: silver;
-      font-size: 1.5vw;
+      font-size: 2.5vw;
       margin-bottom: 10px;
       margin-left: 1.5vw;
       text-align: left;
@@ -319,7 +320,7 @@
       font-size: 3vh;
  }
   .Right_Skills {
-      top: 50vh;
+      top: 42vh;
       left: 15vw;
       width: 80vw;
       height: 69vh;

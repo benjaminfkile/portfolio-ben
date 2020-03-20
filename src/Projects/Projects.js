@@ -8,12 +8,26 @@ class Projects extends Component {
         store: ProjectStore,
         projectIndex: 0,
         imgIndex: 0,
-        icons: []
+        icons: [],
+        previewTicker: 0,
+        showPreview: false
     }
 
     componentDidMount() {
         this.setState({ imgIndex: 0 })
         this.carousel();
+        this.togglePreview();
+    }
+
+    togglePreview = () => {
+
+        this.setState({ previewTicker: this.state.previewTicker + 1 })
+        if (this.state.previewTicker % 2 !== 0) {
+            this.setState({ showPreview: true })
+        } else {
+            this.setState({ showPreview: false })
+
+        }
     }
 
     panLeft = () => {
@@ -55,7 +69,7 @@ class Projects extends Component {
 
         return (
             <div className="Projects">
-                <div className="Left_Projects">
+                {!this.state.showPreview && <div className="Left_Projects">
                     <br></br>
                     <div className="showcase">
                         <br></br>
@@ -68,8 +82,16 @@ class Projects extends Component {
                         </p>
                         <br></br>
                         <p className="tech">{items}</p>
+                        {this.state.store[this.state.projectIndex].url && <br></br>}
+                        {this.state.store[this.state.projectIndex].url && <a href={this.state.store[this.state.projectIndex].url} target="_blank" rel="noopener noreferrer">Visit</a>}
+                        {this.state.store[this.state.projectIndex].url && <br></br>}
                         <br></br>
-                        <a href={this.state.store[this.state.projectIndex].url} target="_blank" rel="noopener noreferrer">{this.state.store[this.state.projectIndex].url} </a>
+                        <a href={this.state.store[this.state.projectIndex].repo} target="_blank" rel="noopener noreferrer">Repo</a>
+                        <br></br>
+                        <div className="Screenshot_Btn">
+                            <br></br>
+                            <p onClick={this.togglePreview}>Screenshots</p>
+                        </div>
                         <div className="Buttons">
                             <div className="Left_Btn" onClick={this.panLeft}>
                                 <p>
@@ -84,7 +106,23 @@ class Projects extends Component {
                         </div>
                     </div>
                     <br></br>
-                </div>
+                </div>}
+                {this.state.showPreview && this.state.store[this.state.projectIndex].portrait && <div className="Portrait_Preview">
+                    <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
+                    <div className="Close_Portrait">
+                        <p onClick={this.togglePreview}>
+                            x
+                        </p>
+                    </div>
+                </div>}
+                {this.state.showPreview && !this.state.store[this.state.projectIndex].portrait && <div className="Landscape_Preview">
+                    <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
+                    <div className="Close_Landscape">
+                        <p onClick={this.togglePreview}>
+                            x
+                        </p>
+                    </div>
+                </div>}
                 {this.state.store[this.state.projectIndex].portrait &&
                     <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>
                         <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>

@@ -18,7 +18,7 @@ class Home extends Component {
                         </li>
                     </ul>
                     <p className="Quick_Intro">
-                    Full Stack: [Node, Javascript]
+                    Full Stack &#91;Node, Javascript&#93;
                     </p>
                 </div>
                 <div className="Right_Panel">

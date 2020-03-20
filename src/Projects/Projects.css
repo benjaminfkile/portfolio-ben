@@ -94,6 +94,9 @@
         left: 1vw;
         top: 1vw;
    }
+   .Screenshot_Btn{
+    display: none;
+}
 }
 @media (max-width: 1199px) {
     .Projects{
@@ -192,6 +195,9 @@
         top: 6vw;
         object-fit: contain;
    }
+   .Screenshot_Btn{
+    display: none;
+}
 }
 @media (max-width: 1100px){
     .Projects{
@@ -199,108 +205,13 @@
    }
     .Left_Projects{
         position: absolute;
-        top: -2vh;
-        left: 9vw;
-        width: 40vw;
-   }
-    .Left_Projects h1{
-        margin-left: 15%;
-        font-size: 3vw;
-        color: rgb(48,154,115);
-   }
-    .Left_Projects h2{
-        color: silver;
-        margin-left: 15%;
-   }
-    .Left_Projects p{
-        font-size: 2vh;
-        color: silver;
-        margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s .5s both;
-        animation: Quick_Intro 0.9s .5s both;
-   }
-    .Left_Projects i{
-        font-size: 2vw;
-        margin-right: 10px;
-   }
-    .Left_Projects a{
-        color: silver;
-        margin-left: 15%;
-   }
-    .Left_Projects a:hover{
-        color: rgb(255, 118, 21);
-        font-size: 1.8vh;
-   }
-    .showcase{
-        height: 22vh;
-   }
-    .tech:hover, .tech:focus .tech:active {
-        color: rgb(48,154,115);
-   }
-    .Buttons{
-        display: flex;
-        margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
-   }
-    .Buttons p{
-        color: rgb(48,154,115);
-        font-size: 3.5vw;
-   }
-    .Buttons p:hover{
-        color: rgb(255, 118, 21);
-        cursor: pointer;
-   }
-    .Right_Btn{
-        margin-left: 5vw;
-   }
-    .Right_Projects_Portrait img{
-        position: absolute;
-        height: 83vh;
-        width: 34vw;
         top: 0vh;
-        left: 0vw;
-   }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 83vh;
-        width: 35vw;
-        top: 7vh;
-        left: 55vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 52vh;
-        left: 45vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 44vh;
-        width: 63vw;
-        left: -30vw;
-        top: 0vw;
-        object-fit: contain;
-   }
-}
-@media (max-width: 800px) {
-    .Projects{
-        font-family: 'Maven Pro', sans-serif;
-   }
-    .Left_Projects{
-        position: absolute;
-        top: -4vh;
-        left: 7vw;
-        width: 45vw;
+        left: 5vw;
+        width: 80vw;
    }
     .Left_Projects h1{
         margin-left: 15%;
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgb(48,154,115);
    }
     .Left_Projects h2{
@@ -309,22 +220,23 @@
    }
     .Left_Projects p{
         color: silver;
+        font-size: 3vw;
         margin-left: 15%;
         -webkit-animation: Quick_Intro 0.9s .5s both;
         animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
-        font-size: 2vw;
+        font-size: 6vw;
         margin-right: 10px;
    }
     .Left_Projects a{
-        font-size: 1.5vh;
         color: silver;
         margin-left: 15%;
+        font-size: 3vw;
    }
     .Left_Projects a:hover{
         color: rgb(255, 118, 21);
-        font-size: 1.8vh;
+        font-size: 3.2vw;
    }
     .showcase{
         height: 22vh;
@@ -334,14 +246,14 @@
    }
     .Buttons{
         display: flex;
-        margin-top: 6%;
-        margin-left: 15%;
+        margin-top: 4%;
+        margin-left: 12%;
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
-        font-size: 5vw;
+        font-size: 10vw;
    }
     .Buttons p:hover{
         color: rgb(255, 118, 21);
@@ -349,41 +261,269 @@
    }
 
     .Right_Btn{
-        margin-left: 5vw;
+        margin-left: 10vw;
    }
-    .Right_Projects_Portrait img{
+   .Projects_Mobile_Portrait img{
         position: absolute;
-        height: 70vh;
-        width: 40vw;
-        left: 1vw;
-        top: 1vw;
-   }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 14vh;
-        left: 55vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 51vh;
-        left: 45vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 44vh;
-        width: 83vw;
-        left: -31vw;
-        top: 1vw;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
         object-fit: contain;
+
    }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
+}
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 12vw;
+    width: 58vw;
+    height: 65vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 12vw;
+    width: 80vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 12vw;
+    font-size: 12vw;
+    top: 65vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 12vw;
+   }
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
+}
+@media (max-width: 800px) {
+    .Projects{
+        font-family: 'Maven Pro', sans-serif;
+   }
+    .Left_Projects{
+        position: absolute;
+        top: 0vh;
+        left: 5vw;
+        width: 80vw;
+   }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 7vw;
+        color: rgb(48,154,115);
+   }
+    .Left_Projects h2{
+        color: silver;
+        margin-left: 15%;
+   }
+    .Left_Projects p{
+        color: silver;
+        font-size: 3vw;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro 0.9s .5s both;
+        animation: Quick_Intro 0.9s .5s both;
+   }
+    .Left_Projects i{
+        font-size: 6vw;
+        margin-right: 10px;
+   }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+        font-size: 3vw;
+   }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 3.2vw;
+   }
+    .showcase{
+        height: 22vh;
+   }
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+   }
+    .Buttons{
+        display: flex;
+        margin-top: 4%;
+        margin-left: 12%;
+        -webkit-animation: Quick_Intro 0.9s 1s both;
+        animation: Quick_Intro 0.9s 1s both;
+   }
+    .Buttons p{
+        color: rgb(48,154,115);
+        font-size: 10vw;
+   }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+   }
+
+    .Right_Btn{
+        margin-left: 10vw;
+   }
+   .Projects_Mobile_Portrait img{
+        position: absolute;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
+        object-fit: contain;
+
+   }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
+}
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 15vw;
+    width: 58vw;
+    height: 65vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 15vw;
+    width: 80vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 15vw;
+    font-size: 12vw;
+    top: 65vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 15vw;
+   }
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
 }
 @media (max-width: 620px) {
     .Projects{
@@ -391,13 +531,13 @@
    }
     .Left_Projects{
         position: absolute;
-        top: -3vh;
+        top: 0vh;
         left: 10vw;
-        width: 72vw;
+        width: 80vw;
    }
     .Left_Projects h1{
         margin-left: 15%;
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgb(48,154,115);
    }
     .Left_Projects h2{
@@ -406,21 +546,23 @@
    }
     .Left_Projects p{
         color: silver;
+        font-size: 4vw;
         margin-left: 15%;
         -webkit-animation: Quick_Intro 0.9s .5s both;
         animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
-        font-size: 3vw;
+        font-size: 6vw;
         margin-right: 10px;
    }
     .Left_Projects a{
         color: silver;
         margin-left: 15%;
+        font-size: 3vw;
    }
     .Left_Projects a:hover{
         color: rgb(255, 118, 21);
-        font-size: 1.8vh;
+        font-size: 3.2vw;
    }
     .showcase{
         height: 22vh;
@@ -430,58 +572,122 @@
    }
     .Buttons{
         display: flex;
-        margin-top: 3%;
-        margin-left: 15%;
+        margin-top: 10%;
+        margin-left: 14%;
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
+        font-size: 10vw;
    }
     .Buttons p:hover{
         color: rgb(255, 118, 21);
         cursor: pointer;
    }
-    .Left_Btn{
-        font-size: 8vw;
-   }
+
     .Right_Btn{
-        margin-left: 5vw;
-        font-size: 8vw;
+        margin-left: 10vw;
    }
-    .Right_Projects_Portrait img{
+   .Projects_Mobile_Portrait img{
         position: absolute;
-        height: 48vh;
-        width: 34vw;
-        left: -34vw;
-        top: 38vw;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
+        object-fit: contain;
+
    }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 14vh;
-        left: 55vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 38vh;
-        left: 45vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 34vh;
-        width: 70vw;
-        left: -24vw;
-        top: 9vw;
-   }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
 }
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 17vw;
+    width: 58vw;
+    height: 65vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 17vw;
+    width: 80vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 17vw;
+    top: 65vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 17vw;
+   }
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
+}
+
 @media (max-width: 565px) {
     .Projects{
         font-family: 'Maven Pro', sans-serif;
@@ -489,12 +695,12 @@
     .Left_Projects{
         position: absolute;
         top: -5vh;
-        left: 2vw;
-        width: 95vw;
+        left: 10vw;
+        width: 80vw;
    }
     .Left_Projects h1{
         margin-left: 15%;
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgb(48,154,115);
    }
     .Left_Projects h2{
@@ -503,21 +709,23 @@
    }
     .Left_Projects p{
         color: silver;
+        font-size: 4vw;
         margin-left: 15%;
         -webkit-animation: Quick_Intro 0.9s .5s both;
         animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
-        font-size: 3vw;
+        font-size: 6vw;
         margin-right: 10px;
    }
     .Left_Projects a{
         color: silver;
         margin-left: 15%;
+        font-size: 3vw;
    }
     .Left_Projects a:hover{
         color: rgb(255, 118, 21);
-        font-size: 1.8vh;
+        font-size: 3.2vw;
    }
     .showcase{
         height: 22vh;
@@ -527,58 +735,120 @@
    }
     .Buttons{
         display: flex;
-        margin-top: 6%;
-        margin-left: 15%;
+        margin-top: 10%;
+        margin-left: 14%;
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
+        font-size: 10vw;
    }
     .Buttons p:hover{
         color: rgb(255, 118, 21);
         cursor: pointer;
    }
-    .Left_Btn{
-        font-size: 8vw;
-   }
+
     .Right_Btn{
-        margin-left: 5vw;
-        font-size: 8vw;
+        margin-left: 10vw;
    }
-    .Right_Projects_Portrait img{
+   .Projects_Mobile_Portrait img{
         position: absolute;
-        height: 55vh;
-        width: 40vw;
-        left: -34vw;
-        top: 36vw;
-   }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 14vh;
-        left: 50vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 38vh;
-        left: 41vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 34vh;
-        width: 70vw;
-        left: -24vw;
-        top: 9vw;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
         object-fit: contain;
+
    }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
+}
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 17vw;
+    width: 58vw;
+    height: 70vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 17vw;
+    width: 80vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 17vw;
+    top: 70vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 17vw;
+   }
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
 }
 @media (max-width: 515px) {
     .Projects{
@@ -587,12 +857,12 @@
     .Left_Projects{
         position: absolute;
         top: -5vh;
-        left: 4vw;
-        width: 95vw;
+        left: 10vw;
+        width: 80vw;
    }
     .Left_Projects h1{
         margin-left: 15%;
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgb(48,154,115);
    }
     .Left_Projects h2{
@@ -601,21 +871,351 @@
    }
     .Left_Projects p{
         color: silver;
+        font-size: 4vw;
         margin-left: 15%;
         -webkit-animation: Quick_Intro 0.9s .5s both;
         animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
-        font-size: 3vw;
+        font-size: 6vw;
         margin-right: 10px;
    }
     .Left_Projects a{
         color: silver;
         margin-left: 15%;
+        font-size: 3vw;
    }
     .Left_Projects a:hover{
         color: rgb(255, 118, 21);
-        font-size: 1.8vh;
+        font-size: 3.2vw;
+   }
+    .showcase{
+        height: 22vh;
+   }
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+   }
+    .Buttons{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 14%;
+        -webkit-animation: Quick_Intro 0.9s 1s both;
+        animation: Quick_Intro 0.9s 1s both;
+   }
+    .Buttons p{
+        color: rgb(48,154,115);
+        font-size: 10vw;
+   }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+   }
+
+    .Right_Btn{
+        margin-left: 10vw;
+   }
+   .Projects_Mobile_Portrait img{
+        position: absolute;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
+        object-fit: contain;
+
+   }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
+}
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 21vw;
+    width: 75vw;
+    height: 70vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 23vw;
+    width: 75vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 23vw;
+    top: 70vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 23vw;
+   }
+
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
+
+}
+@media (max-width: 440px) {
+    .Projects{
+        font-family: 'Maven Pro', sans-serif;
+   }
+    .Left_Projects{
+        position: absolute;
+        top: -5vh;
+        left: 10vw;
+        width: 80vw;
+   }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 7vw;
+        color: rgb(48,154,115);
+   }
+    .Left_Projects h2{
+        color: silver;
+        margin-left: 15%;
+   }
+    .Left_Projects p{
+        color: silver;
+        font-size: 4vw;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro 0.9s .5s both;
+        animation: Quick_Intro 0.9s .5s both;
+   }
+    .Left_Projects i{
+        font-size: 6vw;
+        margin-right: 10px;
+   }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+        font-size: 3vw;
+   }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 3.2vw;
+   }
+    .showcase{
+        height: 22vh;
+   }
+    .tech:hover, .tech:focus .tech:active {
+        color: rgb(48,154,115);
+   }
+    .Buttons{
+        display: flex;
+        margin-top: 10%;
+        margin-left: 14%;
+        -webkit-animation: Quick_Intro 0.9s 1s both;
+        animation: Quick_Intro 0.9s 1s both;
+   }
+    .Buttons p{
+        color: rgb(48,154,115);
+        font-size: 10vw;
+   }
+    .Buttons p:hover{
+        color: rgb(255, 118, 21);
+        cursor: pointer;
+   }
+
+    .Right_Btn{
+        margin-left: 10vw;
+   }
+   .Projects_Mobile_Portrait img{
+        position: absolute;
+        top: 45vh;
+        left: 65vw;
+        height: 30vh;
+        object-fit: contain;
+
+   }
+   .Projects_Mobile_Landscape img{
+    position: absolute;
+    top: 42vh;
+    left: 44vw;
+    height: 13vh;
+    object-fit: contain;
+
+}
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: .2vw;
+    width: 100vw;
+    height: 100vh;
+   }
+   .Portrait_Preview p{
+       position: absolute;
+       top: 75vh;
+       left: 5vw;
+       font-size: 20vw;
+       color: rgb(255, 118, 21);
+   }
+   .Landscape_Preview p{
+    position: absolute;
+    top: 65vh;
+    left: 53vw;
+    font-size: 10vw;
+    color: rgb(255, 118, 21);
+}
+   .Landscape_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 17.5vw;
+    width: 80vw;
+    height: 35vh;
+
+   }
+
+   .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 21vw;
+    width: 75vw;
+    height: 70vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 23vw;
+    width: 75vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 23vw;
+    top: 70vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 23vw;
+   }
+   .Right_Projects_Portrait img{
+    display: none;
+}
+.Right_Projects_Portrait{
+    display: none;
+}
+.Right_Projects_Landscape{
+    display: none;
+}
+.Right_Projects_Landscape img{
+    display: none;
+
+}
+.Screenshot_Btn{
+    display: initial;
+}
+
+}
+@media (max-width: 415px) {
+
+    .Projects{
+        font-family: 'Maven Pro', sans-serif;
+   }
+    .Left_Projects{
+        position: absolute;
+        top: -5vh;
+        left: 15vw;
+        width: 80vw;
+   }
+    .Left_Projects h1{
+        margin-left: 15%;
+        font-size: 7vw;
+        color: rgb(48,154,115);
+   }
+    .Left_Projects h2{
+        color: silver;
+        margin-left: 15%;
+   }
+    .Left_Projects p{
+        color: silver;
+        font-size: 4.5vw;
+        margin-left: 15%;
+        -webkit-animation: Quick_Intro 0.9s .5s both;
+        animation: Quick_Intro 0.9s .5s both;
+   }
+    .Left_Projects i{
+        font-size: 6vw;
+        margin-right: 10px;
+   }
+    .Left_Projects a{
+        color: silver;
+        margin-left: 15%;
+        font-size: 4.5vw;
+   }
+    .Left_Projects a:hover{
+        color: rgb(255, 118, 21);
+        font-size: 4.6vw;
    }
     .showcase{
         height: 22vh;
@@ -626,71 +1226,83 @@
     .Buttons{
         display: flex;
         margin-top: 3%;
-        margin-left: 15%;
+        margin-left: 14%;
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
+        font-size: 10vw;
    }
     .Buttons p:hover{
         color: rgb(255, 118, 21);
         cursor: pointer;
    }
-    .Left_Btn{
-        font-size: 8vw;
-   }
+
     .Right_Btn{
-        margin-left: 5vw;
-        font-size: 8vw;
+        margin-left: 10vw;
    }
+
+
+.Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 21vw;
+    width: 75vw;
+    height: 70vh;
+   }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 23vw;
+    width: 75vw;
+    height: 25vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 23vw;
+    top: 70vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 62vh;
+    font-size: 15vw;
+    left: 23vw;
+   }
+
     .Right_Projects_Portrait img{
-        position: absolute;
-        height: 55vh;
-        width: 40vw;
-        left: -34vw;
-        top: 40vw;
+        display: none;
    }
     .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 14vh;
-        left: 53vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        display: none;
    }
     .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 38vh;
-        left: 41vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        display: none;
    }
     .Right_Projects_Landscape img{
-        position: absolute;
-        height: 34vh;
-        width: 77vw;
-        left: -22vw;
-        top: 9vw;
-        object-fit: contain;
+        display: none;
+
    }
+.Screenshot_Btn{
+    display: initial;
 }
-@media (max-width: 440px) {
+}
+@media (max-width: 370px) {
+
     .Projects{
         font-family: 'Maven Pro', sans-serif;
    }
     .Left_Projects{
         position: absolute;
         top: -5vh;
-        left: 7vw;
-        width: 85vw;
+        left: 15vw;
+        width: 80vw;
    }
     .Left_Projects h1{
         margin-left: 15%;
-        font-size: 3vw;
+        font-size: 7vw;
         color: rgb(48,154,115);
    }
     .Left_Projects h2{
@@ -699,21 +1311,38 @@
    }
     .Left_Projects p{
         color: silver;
+        font-size: 4.4vw;
         margin-left: 15%;
         -webkit-animation: Quick_Intro 0.9s .5s both;
         animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
-        font-size: 3vw;
+        font-size: 6vw;
         margin-right: 10px;
    }
     .Left_Projects a{
         color: silver;
         margin-left: 15%;
+        font-size: 5vw;
+        -webkit-animation: Quick_Intro 0.9s 1s both;
+        animation: Quick_Intro 0.9s 1s both;
+   }
+   .Screenshot_Btn{
+    display: initial;
+       margin-left: 6%;
+       width: 50vw;
+   }
+   .Screenshot_Btn p{
+    color: silver;
+    font-size: 5vw;
+   }
+   .Screenshot_Btn p:active{
+    color: rgb(48,154,115);;
+    font-size: 5.2vw;
    }
     .Left_Projects a:hover{
-        color: rgb(255, 118, 21);
-        font-size: 1.8vh;
+        color: rgb(48,154,115);
+        font-size: 5.2vw;
    }
     .showcase{
         height: 22vh;
@@ -730,108 +1359,7 @@
    }
     .Buttons p{
         color: rgb(48,154,115);
-   }
-    .Buttons p:hover{
-        color: rgb(255, 118, 21);
-        cursor: pointer;
-   }
-    .Left_Btn{
-        font-size: 8vw;
-   }
-    .Right_Btn{
-        margin-left: 5vw;
-        font-size: 8vw;
-   }
-    .Right_Projects_Portrait img{
-        position: absolute;
-        height: 51vh;
-        width: 40vw;
-        left: -17vw;
-        top: 40vw;
-        object-fit: contain;
-   }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 18vh;
-        left: 36vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 38vh;
-        left: 41vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 34vh;
-        width: 77vw;
-        left: -22vw;
-        top: 9vw;
-        object-fit: contain;
-   }
-}
-@media (max-width: 415px) {
-    .Projects{
-        font-family: 'Maven Pro', sans-serif;
-   }
-    .Left_Projects{
-        position: absolute;
-        top: -5vh;
-        left: 11vw;
-        width: 80vw;
-   }
-    .Left_Projects h1{
-        margin-left: 15%;
-        font-size: 4vw;
-        color: rgb(48,154,115);
-   }
-    .Left_Projects h2{
-        color: silver;
-        margin-left: 15%;
-   }
-    .Left_Projects p{
-        font-size: 3vw;
-        color: silver;
-        margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s .5s both;
-        animation: Quick_Intro 0.9s .5s both;
-   }
-    .Left_Projects i{
-        font-size: 6vw;
-        margin-right: 10px;
-   }
-    .Left_Projects a{
-        color: silver;
-        margin-left: 15%;
-        font-size: 3vw;
-   }
-    .Left_Projects a:hover{
-        color: rgb(255, 118, 21);
-        font-size: 3.2vw;
-   }
-    .showcase{
-        height: 22vh;
-   }
-    .tech:hover, .tech:focus .tech:active {
-        color: rgb(48,154,115);
-   }
-    .Buttons{
-        display: flex;
-        margin-top: 3%;
-        margin-left: 14%;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
-   }
-    .Buttons p{
-        color: rgb(48,154,115);
-        font-size: 7vw;
+        font-size: 10vw;
    }
     .Buttons p:hover{
         color: rgb(255, 118, 21);
@@ -839,139 +1367,57 @@
    }
 
     .Right_Btn{
-        margin-left: 5vw;
-   }
-    .Right_Projects_Portrait img{
-        position: absolute;
-        height: 45vh;
-        width: 40vw;
-        left: -14vw;
-        top: 40vw;
-        object-fit: contain;
-   }
-    .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 21vh;
-        left: 36vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 41vh;
-        left: 41vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-   }
-    .Right_Projects_Landscape img{
-        position: absolute;
-        height: 34vh;
-        width: 77vw;
-        left: -20vw;
-        top: 9vw;
-        object-fit: contain;
-   }
-}
-@media (max-width: 370px) {
-    .Projects{
-        font-family: 'Maven Pro', sans-serif;
-   }
-    .Left_Projects{
-        position: absolute;
-        top: -3vh;
-        left: 15vw;
-        width: 80vw;
-   }
-    .Left_Projects h1{
-        margin-left: 15%;
-        font-size: 3vw;
-        color: rgb(48,154,115);
-   }
-    .Left_Projects h2{
-        color: silver;
-        margin-left: 15%;
-   }
-    .Left_Projects p{
-        color: silver;
-        font-size: 3vw;
-        margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s .5s both;
-        animation: Quick_Intro 0.9s .5s both;
-   }
-    .Left_Projects i{
-        font-size: 6vw;
-        margin-right: 10px;
-   }
-    .Left_Projects a{
-        color: silver;
-        margin-left: 15%;
-        font-size: 3vw;
-   }
-    .Left_Projects a:hover{
-        color: rgb(255, 118, 21);
-        font-size: 3.2vw;
-   }
-    .showcase{
-        height: 22vh;
-   }
-    .tech:hover, .tech:focus .tech:active {
-        color: rgb(48,154,115);
-   }
-    .Buttons{
-        display: flex;
-        margin-top: 3%;
-        margin-left: 14%;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
-   }
-    .Buttons p{
-        color: rgb(48,154,115);
-        font-size: 7vw;
-   }
-    .Buttons p:hover{
-        color: rgb(255, 118, 21);
-        cursor: pointer;
+        margin-left: 10vw;
    }
 
-    .Right_Btn{
-        margin-left: 5vw;
+   .Preview p{
+       position: absolute;
+       top: 80vh;
+       left: 0vw;
+       z-index: 100;
+       font-size: 25vw;
+       color: rgb(255, 118, 21);
+    }
+    .Portrait_Preview img{
+    position: absolute;
+    top: 0vh;
+    left: 23vw;
+    width: 75vw;
+    height: 80vh;
    }
+   .Landscape_Preview img{
+    position: absolute;
+    top: 37vh;
+    left: 23vw;
+    width: 75vw;
+    height: 30vh;
+   }
+
+   .Close_Portrait p{
+    color: rgb(48,154,115);
+    left: 23vw;
+    top: 75vh;
+   }
+
+   .Close_Landscape p{
+    color: rgb(48,154,115);
+    top: 67vh;
+    font-size: 15vw;
+    left: 23vw;
+   }
+
     .Right_Projects_Portrait img{
-        position: absolute;
-        height: 45vh;
-        width: 40vw;
-        left: -13vw;
-        top: 51vw;
-        object-fit: contain;
+        display: none;
    }
     .Right_Projects_Portrait{
-        position: absolute;
-        height: 78vh;
-        width: 22vw;
-        top: 20vh;
-        left: 40vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        display: none;
    }
     .Right_Projects_Landscape{
-        position: absolute;
-        height: 55vh;
-        width: 65vw;
-        top: 43vh;
-        left: 41vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+        display: none;
    }
     .Right_Projects_Landscape img{
-        position: absolute;
-        width: 65vw;
-        left: -14vw;
-        top: 17vw;
-        object-fit: contain;
+        display: none;
+
    }
 }
 @-webkit-keyframes slide-in-bck-right {
