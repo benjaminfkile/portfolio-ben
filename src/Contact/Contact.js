@@ -6,7 +6,7 @@ class Contact extends Component {
 
     state = {
         formFilled: true,
-        success: false,
+        success: true,
         failure: false,
         thanks: false,
         send: true,
