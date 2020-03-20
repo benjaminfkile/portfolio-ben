@@ -220,10 +220,10 @@
    }
     .Routes li{
         margin-bottom: 18px;
-        font-size: 2.5vh;
+        font-size: 2.0vh;
    }
     a:hover, a:focus a:active {
-        font-size: 2.8vh;
+        font-size: 2.2vh;
    }
 }
 @media (max-width: 440px) {

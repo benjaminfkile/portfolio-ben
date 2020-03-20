@@ -12,7 +12,8 @@ class Projects extends Component {
             icons: [],
             previewTicker: 0,
             showPreview: false,
-            width: 0
+            width: 0,
+            toast: 0
         }
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
@@ -33,17 +34,20 @@ class Projects extends Component {
         this.setState({ width: window.innerWidth });
         if(this.state.width > 1000){
             this.setState({showPreview: false})
+            this.setState({toast: 0})
         }
       }
 
     togglePreview = () => {
-
+        this.setState({toast: this.state.toast + 1})
+        if(this.state.toast > 5){
+            this.setState({toast: 5})
+        }
         this.setState({ previewTicker: this.state.previewTicker + 1 })
         if (this.state.previewTicker % 2 !== 0) {
             this.setState({ showPreview: true })
         } else {
             this.setState({ showPreview: false })
-
         }
     }
 
@@ -126,19 +130,19 @@ class Projects extends Component {
                 </div>}
                 {this.state.showPreview && this.state.store[this.state.projectIndex].portrait && <div className="Portrait_Preview">
                     <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
-                    <div className="Close_Portrait">
-                        <p onClick={this.togglePreview}>
-                            tap the image to back
-                        </p>
-                    </div>
-                </div>}
-                {this.state.showPreview && !this.state.store[this.state.projectIndex].portrait && <div className="Landscape_Preview">
-                    <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
-                    <div className="Close_Landscape">
+                    {this.state.toast <  5 && <div className="Close_Portrait">
                         <p onClick={this.togglePreview}>
                             tap the image to go back
                         </p>
-                    </div>
+                    </div>}
+                </div>}
+                {this.state.showPreview && !this.state.store[this.state.projectIndex].portrait && <div className="Landscape_Preview">
+                    <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
+                    {this.state.toast < 5 && <div className="Close_Landscape">
+                        <p onClick={this.togglePreview}>
+                            tap the image to go back
+                        </p>
+                    </div>}
                 </div>}
                 {this.state.store[this.state.projectIndex].portrait &&
                     <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>

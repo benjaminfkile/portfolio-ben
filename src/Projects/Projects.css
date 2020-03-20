@@ -277,14 +277,14 @@
         position: absolute;
         top: 30vh;
         left: 10vw;
-        width: 65vw;
+        width: 80vw;
         height: 45vh;
    }
     .Portrait_Preview img{
         position: absolute;
         top: 4px;
         left: 10vw;
-        width: 30vw;
+        width: 40vw;
         height: 65vh;
    }
    .Close_Portrait{
@@ -522,8 +522,8 @@
     .Portrait_Preview img{
         position: absolute;
         top: 4px;
-        left: 16vw;
-        width: 30vw;
+        left: 14vw;
+        width: 40vw;
         height: 65vh;
    }
     .Landscape_Preview img{
