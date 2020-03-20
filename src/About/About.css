@@ -142,7 +142,7 @@
 @media (max-width: 800px) {
     .About_Left {
         top: 5vh;
-        left: 10vw;
+        left: 16vw;
         width: 80vw;
         height: 31vw;
         text-align: left;
@@ -160,7 +160,7 @@
         border: none;
         text-align: left;
         top: 25vh;
-        left: 20vw;
+        left: 22vw;
         height: 43vh;
         width: 70vw;
    }
@@ -168,10 +168,10 @@
         font-size: 2.5vh;
    }
 }
-@media (max-width: 450px) {
+@media (max-width: 550px) {
     .About_Left {
         top: 3vh;
-        left: 9vw;
+        left: 17vw;
         width: 80vw;
         height: 31vw;
         text-align: left;
@@ -189,7 +189,7 @@
         border: none;
         text-align: left;
         top: 24vh;
-        left: 18vw;
+        left: 22vw;
         height: 43vh;
         width: 70vw;
    }
