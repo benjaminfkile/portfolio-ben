@@ -37,8 +37,6 @@
         top: 30vh;
         left: 50vw;
         width: 43vw;
-        /* border-bottom: 1px solid;
-        color: rgb(255, 118, 21); */
         -webkit-animation: Quick_Intro 0.9s 1s both;
         animation: Quick_Intro 0.9s 1s both;
    }
@@ -94,12 +92,8 @@
    }
 }
 @media (max-width: 1199px) {
-    .About{
-        display: flex;
-        font-family: 'Maven Pro', sans-serif;
-   }
+
     .About_Left{
-        position: absolute;
         top: 38vh;
         width: 50vw;
         height: 100vh;
@@ -111,28 +105,20 @@
         font-size: 5vw;
    }
     .About_Left li{
-        list-style: none;
         margin-left: 10%;
         font-size: 2.5vw;
-        color: silver;
    }
     .About_Left p{
         margin-left: 10%;
-        -webkit-animation: Quick_Intro 0.9s 1.5s both;
-        animation: Quick_Intro 0.9s 1.5s both;
    }
     .About p{
         font-size: 2.5vw;
-        color: silver;
    }
     .About_Right{
-        position: absolute;
         height: 15.5vw;
         top: 27vh;
         left: 53vw;
         width: 43vw;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
    }
     .About_Right p{
         margin-top: 6px;
@@ -145,7 +131,6 @@
         left: 16vw;
         width: 80vw;
         height: 31vw;
-        text-align: left;
    }
     .About_Left h1{
         font-size: 4vh;
@@ -157,8 +142,6 @@
         font-size: 2vh;
    }
     .About_Right{
-        border: none;
-        text-align: left;
         top: 25vh;
         left: 22vw;
         height: 43vh;
@@ -174,7 +157,6 @@
         left: 17vw;
         width: 80vw;
         height: 31vw;
-        text-align: left;
    }
     .About_Left h1{
         font-size: 4vh;
@@ -186,8 +168,6 @@
         font-size: 2vh;
    }
     .About_Right{
-        border: none;
-        text-align: left;
         top: 24vh;
         left: 22vw;
         height: 43vh;
