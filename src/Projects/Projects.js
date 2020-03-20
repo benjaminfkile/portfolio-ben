@@ -128,7 +128,7 @@ class Projects extends Component {
                     <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
                     <div className="Close_Portrait">
                         <p onClick={this.togglePreview}>
-                            x
+                            tap the image to back
                         </p>
                     </div>
                 </div>}
@@ -136,7 +136,7 @@ class Projects extends Component {
                     <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
                     <div className="Close_Landscape">
                         <p onClick={this.togglePreview}>
-                            x
+                            tap the image to go back
                         </p>
                     </div>
                 </div>}

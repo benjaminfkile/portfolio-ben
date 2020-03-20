@@ -201,6 +201,7 @@
         top: 6vw;
         object-fit: contain;
    }
+
     .Screenshot_Btn{
         display: none;
    }
@@ -286,20 +287,38 @@
         width: 30vw;
         height: 65vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+    }
     .Close_Portrait p{
-        position: absolute;
-        left: 10vw;
-        font-size: 5vw;
-        top: 65vh;
-        color: rgb(48,154,115);
-   }
+    position: absolute;
+    top: 70vh;
+    font-size: 2vw;
+    left: 3vw;
+    color: silver;
+    border-bottom: 1px solid;
+    border-color:  rgb(255, 118, 21);
+    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    }
+    .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+    }
     .Close_Landscape p{
-        position: absolute;
-        top: 75vh;
-        font-size: 5vw;
-        left: 10vw;
-        color: rgb(48,154,115);
-   }
+    position: absolute;
+    top: 78vh;
+    font-size: 2vw;
+    left: 3vw;
+    color: silver;
+    border-bottom: 1px solid;
+    border-color:  rgb(255, 118, 21);
+    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    }
     .Right_Projects_Portrait img{
         display: none;
    }
@@ -400,19 +419,36 @@
         width: 65vw;
         height: 35vh;
    }
+    .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+    }
     .Close_Portrait p{
-        left: 13vw;
-        color: rgb(48,154,115);
-        font-size: 7vw;
-        top: 65vh;
-   }
+    top: 69vh;
+    font-size: 2vw;
+    left: 5vw;
+    color: silver;
+    border-bottom: 1px solid;
+    border-color:  rgb(255, 118, 21);
+    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    }
+    .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+    }
     .Close_Landscape p{
-        position: absolute;
-        top: 70vh;
-        font-size: 7vw;
-        left: 13vw;
-        color: rgb(48,154,115);
-   }
+    top: 74vh;
+    font-size: 2vw;
+    left: 5vw;
+    color: silver;
+    border-bottom: 1px solid;
+    border-color:  rgb(255, 118, 21);
+    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    }
 }
 @media (max-width: 800px) {
     .Left_Projects{
@@ -497,20 +533,49 @@
         width: 65vw;
         height: 25vh;
    }
-    .Close_Portrait p{
-        left: 16vw;
-        font-size: 10vw;
+        .Close_Portrait p{
+        left: 18vw;
         top: 65vh;
-        color: rgb(48,154,115);
-
-   }
-    .Close_Landscape p{
-        top: 60vh;
         font-size: 10vw;
-        left: 16vw;
+        color: rgb(48,154,115);
+        }
+        .Close_Landscape p{
+        top: 59vh;
+        font-size: 10vw;
+        left: 18vw;
         color: rgb(48,154,115);
 
-   }
+        }
+        .Close_Portrait{
+        -webkit-animation: jello-horizontal 0.5s both;
+        animation: jello-horizontal 0.5s both;
+        width: 70vw;
+        }
+        .Close_Portrait p{
+        top: 69vh;
+        font-size: 3vw;
+        left: 1vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        }
+        .Close_Landscape{
+        -webkit-animation: jello-horizontal 0.5s both;
+        animation: jello-horizontal 0.5s both;
+        width: 70vw;
+        }
+        .Close_Landscape p{
+        top: 65vh;
+        font-size: 3vw;
+        left: 1vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        }
 }
 @media (max-width: 620px) {
     .Left_Projects{
@@ -608,6 +673,36 @@
         color: rgb(48,154,115);
 
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
+    .Close_Portrait p{
+        top: 69vh;
+        font-size: 3vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
+    .Close_Landscape p{
+        top: 65vh;
+        font-size: 3vw;
+        left: 5vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
 }
 @media (max-width: 565px) {
     .Left_Projects{
@@ -698,19 +793,35 @@
         width: 75vw;
         height: 25vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Portrait p{
-        left: 22vw;
-        top: 70vh;
-        font-size: 10vw;
-        color: rgb(48,154,115);
-
+        top: 73vh;
+        font-size: 4vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
    }
     .Close_Landscape p{
-        top: 59vh;
-        font-size: 10vw;
-        left: 20vw;
-        color: rgb(48,154,115);
-
+        top: 65vh;
+        font-size: 4vw;
+        left: 5vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
    }
 }
 @media (max-width: 515px) {
@@ -799,17 +910,35 @@
         width: 70vw;
         height: 25vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Portrait p{
-        left: 21vw;
-        top: 70vh;
-        font-size: 10vw;
-        color: rgb(48,154,115);
+        top: 73vh;
+        font-size: 4vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
    }
     .Close_Landscape p{
-        top: 60vh;
-        font-size: 10vw;
-        left: 22vw;
-        color: rgb(48,154,115);
+        top: 65vh;
+        font-size: 4vw;
+        left: 5vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
    }
 }
 @media (max-width: 440px) {
@@ -909,18 +1038,35 @@
         width: 75vw;
         height: 25vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Portrait p{
-        left: 23vw;
-        top: 70vh;
-        color: rgb(48,154,115);
-
+        top: 73vh;
+        font-size: 4vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
    }
     .Close_Landscape p{
-        top: 59vh;
-        font-size: 15vw;
-        left: 23vw;
-        color: rgb(48,154,115);
-
+        top: 65vh;
+        font-size: 4vw;
+        left: 5vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
    }
 }
 @media (max-width: 415px) {
@@ -975,16 +1121,35 @@
         width: 75vw;
         height: 20vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Portrait p{
-        left: 23vw;
-        top: 67vh;
-        color: rgb(48,154,115);
+        top: 73vh;
+        font-size: 4vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+   }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
    }
     .Close_Landscape p{
-        top: 53vh;
-        font-size: 15vw;
-        left: 23vw;
-        color: rgb(48,154,115);
+        top: 60vh;
+        font-size: 4vw;
+        left: 4vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
    }
 }
 @media (max-width: 370px) {
@@ -1062,17 +1227,36 @@
         width: 75vw;
         height: 30vh;
    }
+   .Close_Portrait{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Portrait p{
-        left: 23vw;
-        top: 75vh;
-        color: rgb(48,154,115);
+        left: 25vw;
+        top: 83vh;
+        color: rgb(silver);
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        font-size: 4vw;
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
 
    }
+   .Close_Landscape{
+    -webkit-animation: jello-horizontal 0.5s both;
+    animation: jello-horizontal 0.5s both;
+    width: 70vw;
+   }
     .Close_Landscape p{
-        top: 64vh;
-        font-size: 15vw;
-        left: 23vw;
-        color: rgb(48,154,115);
+        top: 71vh;
+        font-size: 4vw;
+        left: 3vw;
+        color: silver;
+        border-bottom: 1px solid;
+        border-color:  rgb(255, 118, 21);
+        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
    }
 }
 @-webkit-keyframes slide-in-bck-right {
@@ -1099,3 +1283,122 @@
         opacity: 1;
    }
 }
+
+/* ----------------------------------------------
+ * Generated by Animista on 2020-3-20 1:51:9
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation roll-out-blurred-left
+ * ----------------------------------------
+ */
+ @-webkit-keyframes roll-out-blurred-left {
+    0% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(-1000px) rotate(-720deg);
+              transform: translateX(-1000px) rotate(-720deg);
+      -webkit-filter: blur(50px);
+              filter: blur(50px);
+      opacity: 0;
+    }
+  }
+  @keyframes roll-out-blurred-left {
+    0% {
+      -webkit-transform: translateX(0) rotate(0deg);
+              transform: translateX(0) rotate(0deg);
+      -webkit-filter: blur(0);
+              filter: blur(0);
+      opacity: 1;
+    }
+    100% {
+      -webkit-transform: translateX(-1000px) rotate(-720deg);
+              transform: translateX(-1000px) rotate(-720deg);
+      -webkit-filter: blur(50px);
+              filter: blur(50px);
+      opacity: 0;
+    }
+  }
+  /* ----------------------------------------------
+ * Generated by Animista on 2020-3-20 1:56:18
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation jello-horizontal
+ * ----------------------------------------
+ */
+@-webkit-keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  @keyframes jello-horizontal {
+    0% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+    30% {
+      -webkit-transform: scale3d(1.25, 0.75, 1);
+              transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+      -webkit-transform: scale3d(0.75, 1.25, 1);
+              transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+      -webkit-transform: scale3d(1.15, 0.85, 1);
+              transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+      -webkit-transform: scale3d(0.95, 1.05, 1);
+              transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+      -webkit-transform: scale3d(1.05, 0.95, 1);
+              transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+      -webkit-transform: scale3d(1, 1, 1);
+              transform: scale3d(1, 1, 1);
+    }
+  }
+  
+  
