@@ -35,6 +35,9 @@
         color: rgb(255, 118, 21);
         font-size: 1.8vh;
    }
+   .Screenshot_Btn p:hover{
+    color: rgb(255, 118, 21);
+   }
     .showcase{
         height: 22vh;
    }
@@ -143,6 +146,9 @@
    }
     .showcase{
         height: 22vh;
+   }
+   .Screenshot_Btn p:hover{
+    color: rgb(255, 118, 21);
    }
     .tech:hover, .tech:focus .tech:active {
         color: rgb(48,154,115);
