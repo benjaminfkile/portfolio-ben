@@ -3,7 +3,7 @@ import '../Projects/Projects.css'
 import ProjectStore from './ProjectStore.js'
 
 class Projects extends Component {
-    constructor(props){
+    constructor(props) {
         super(props)
         this.state = {
             store: ProjectStore,
@@ -11,13 +11,12 @@ class Projects extends Component {
             imgIndex: 0,
             icons: [],
             previewTicker: 0,
-            showPreview: false,
+            showPreview: true,
             width: 0,
             toast: 0
         }
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
-
     componentDidMount() {
         this.setState({ imgIndex: 0 })
         this.carousel();
@@ -25,23 +24,43 @@ class Projects extends Component {
         this.updateWindowDimensions();
         window.addEventListener('resize', this.updateWindowDimensions);
     }
-
     componentWillUnmount() {
         window.removeEventListener('resize', this.updateWindowDimensions);
-      }
-      
-      updateWindowDimensions() {
+    }
+    updateWindowDimensions() {
+        this.buildProjectsArray()
         this.setState({ width: window.innerWidth });
-        if(this.state.width > 1000){
-            this.setState({showPreview: false})
-            this.setState({toast: 0})
+        if (this.state.width < 1100) {
+            this.setState({ showPreview: false })
+            this.setState({ toast: 0 })
         }
-      }
+    }
+    buildProjectsArray() {
+
+        if (this.state.width < 1100) {
+            let arr = []
+            for (let i = 0; i < ProjectStore.length; i++) {
+                if (ProjectStore[i].mobile) {
+                    arr.push(ProjectStore[i])
+                }
+            }
+            this.setState({ store: arr })
+        }
+        else {
+            let arr = []
+            for (let i = 0; i < ProjectStore.length; i++) {
+                if (!ProjectStore[i].mobile) {
+                    arr.push(ProjectStore[i])
+                }
+            }
+            this.setState({ store: arr })
+        }
+    }
 
     togglePreview = () => {
-        this.setState({toast: this.state.toast + 1})
-        if(this.state.toast > 5){
-            this.setState({toast: 5})
+        this.setState({ toast: this.state.toast + 1 })
+        if (this.state.toast > 5) {
+            this.setState({ toast: 5 })
         }
         this.setState({ previewTicker: this.state.previewTicker + 1 })
         if (this.state.previewTicker % 2 !== 0) {
@@ -73,6 +92,7 @@ class Projects extends Component {
     }
 
     carousel = () => {
+        this.buildProjectsArray()
         if (this.state.imgIndex >= this.state.store[this.state.projectIndex].images.length - 1) {
             this.setState({ imgIndex: 0 })
         }
@@ -90,7 +110,7 @@ class Projects extends Component {
 
         return (
             <div className="Projects">
-                {!this.state.showPreview && <div className="Left_Projects">
+                <div className="Left_Projects">
                     <br></br>
                     <div className="showcase">
                         <br></br>
@@ -127,28 +147,16 @@ class Projects extends Component {
                         </div>
                     </div>
                     <br></br>
-                </div>}
-                {this.state.showPreview && this.state.store[this.state.projectIndex].portrait && <div className="Portrait_Preview">
+                </div>
+                {this.state.showPreview && this.state.store[this.state.projectIndex].mobile && <div className="Portrait_Preview">
                     <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
-                    {this.state.toast <  5 && <div className="Close_Portrait">
+                    {this.state.toast < 5 && <div className="Close_Portrait">
                         <p onClick={this.togglePreview}>
-                            tap the image to go back
+                            x
                         </p>
                     </div>}
                 </div>}
-                {this.state.showPreview && !this.state.store[this.state.projectIndex].portrait && <div className="Landscape_Preview">
-                    <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
-                    {this.state.toast < 5 && <div className="Close_Landscape">
-                        <p onClick={this.togglePreview}>
-                            tap the image to go back
-                        </p>
-                    </div>}
-                </div>}
-                {this.state.store[this.state.projectIndex].portrait &&
-                    <div className="Right_Projects_Portrait" key={Math.random() + Math.random()}>
-                        <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
-                    </div>}
-                {!this.state.store[this.state.projectIndex].portrait &&
+                {!this.state.store[this.state.projectIndex].mobile &&
                     <div className="Right_Projects_Landscape" key={Math.random() + Math.random()}>
                         <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
                     </div>}

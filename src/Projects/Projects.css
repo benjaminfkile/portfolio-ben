@@ -257,67 +257,20 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 30vh;
-        left: 10vw;
-        width: 80vw;
-        height: 45vh;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 10vw;
-        width: 40vw;
-        height: 65vh;
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-    }
+     .Portrait_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 0vw;
+    width: 25vw;
+    height: 70vh;
+}
     .Close_Portrait p{
     position: absolute;
-    top: 70vh;
-    font-size: 2vw;
-    left: 3vw;
-    color: silver;
+    top: 91vh;
+    font-size: 5vw;
+    left: 0vw;
     border-bottom: 1px solid;
-    border-color:  rgb(255, 118, 21);
-    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    }
-    .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-    }
-    .Close_Landscape p{
-    position: absolute;
-    top: 78vh;
-    font-size: 2vw;
-    left: 3vw;
-    color: silver;
-    border-bottom: 1px solid;
-    border-color:  rgb(255, 118, 21);
-    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    color:  rgb(255, 118, 21);
     }
     .Right_Projects_Portrait img{
         display: none;
@@ -377,78 +330,20 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
-   }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 13vw;
-        width: 30vw;
-        height: 65vh;
-   }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 13vw;
-        width: 65vw;
-        height: 35vh;
-   }
-    .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-    }
+   .Portrait_Preview img{
+    position: absolute;
+    top: 40vh;
+    left: 0vw;
+    width: 30vw;
+    height: 60vh;
+}
     .Close_Portrait p{
-    top: 69vh;
-    font-size: 2vw;
-    left: 5vw;
-    color: silver;
+    top: 90vh;
+    font-size: 7vw;
+    left: 0vw;
     border-bottom: 1px solid;
-    border-color:  rgb(255, 118, 21);
-    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    }
-    .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-    }
-    .Close_Landscape p{
-    top: 74vh;
-    font-size: 2vw;
-    left: 5vw;
-    color: silver;
-    border-bottom: 1px solid;
-    border-color:  rgb(255, 118, 21);
-    -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-    }
+    color:  rgb(255, 118, 21);
+   }
 }
 @media (max-width: 800px) {
     .Left_Projects{
@@ -491,91 +386,20 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
+   .Portrait_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 0vw;
+    width: 48vw;
+    height: 70vh;
+}
+    .Close_Portrait p{
+    top: 89vh;
+    font-size: 10vw;
+    left: 0vw;
+    border-bottom: 1px solid;
+    color:  rgb(255, 118, 21);
    }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 14vw;
-        width: 40vw;
-        height: 65vh;
-   }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 16vw;
-        width: 65vw;
-        height: 25vh;
-   }
-        .Close_Portrait p{
-        left: 18vw;
-        top: 65vh;
-        font-size: 10vw;
-        color: rgb(48,154,115);
-        }
-        .Close_Landscape p{
-        top: 59vh;
-        font-size: 10vw;
-        left: 18vw;
-        color: rgb(48,154,115);
-
-        }
-        .Close_Portrait{
-        -webkit-animation: jello-horizontal 0.5s both;
-        animation: jello-horizontal 0.5s both;
-        width: 70vw;
-        }
-        .Close_Portrait p{
-        top: 69vh;
-        font-size: 3vw;
-        left: 1vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        }
-        .Close_Landscape{
-        -webkit-animation: jello-horizontal 0.5s both;
-        animation: jello-horizontal 0.5s both;
-        width: 70vw;
-        }
-        .Close_Landscape p{
-        top: 65vh;
-        font-size: 3vw;
-        left: 1vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        }
 }
 @media (max-width: 620px) {
     .Left_Projects{
@@ -618,90 +442,19 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
-   }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 18vw;
-        width: 50vw;
-        height: 65vh;
-   }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 18vw;
-        width: 75vw;
-        height: 25vh;
-   }
+   .Portrait_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 0vw;
+    width: 55vw;
+    height: 70vh;
+}
     .Close_Portrait p{
-        left: 18vw;
-        top: 65vh;
-        font-size: 10vw;
-        color: rgb(48,154,115);
-   }
-    .Close_Landscape p{
-        top: 59vh;
-        font-size: 10vw;
-        left: 18vw;
-        color: rgb(48,154,115);
-
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Portrait p{
-        top: 69vh;
-        font-size: 3vw;
-        left: 4vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-   }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Landscape p{
-        top: 65vh;
-        font-size: 3vw;
-        left: 5vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    top: 90vh;
+    font-size: 10vw;
+    left: 0vw;
+    border-bottom: 1px solid;
+    color:  rgb(255, 118, 21);
    }
 }
 @media (max-width: 565px) {
@@ -745,83 +498,19 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
-   }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
-    .Landscape_Preview img{
-        top: 30vh;
-        left: 17.5vw;
-        width: 80vw;
-        height: 35vh;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 20vw;
-        width: 52vw;
-        height: 70vh;
-   }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 20vw;
-        width: 75vw;
-        height: 25vh;
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
+   .Portrait_Preview img{
+    position: absolute;
+    top: 30vh;
+    left: 0vw;
+    width: 55vw;
+    height: 70vh;
+}
     .Close_Portrait p{
-        top: 73vh;
-        font-size: 4vw;
-        left: 4vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-   }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Landscape p{
-        top: 65vh;
-        font-size: 4vw;
-        left: 5vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+    top: 91vh;
+    font-size: 10vw;
+    left: 0vw;
+    border-bottom: 1px solid;
+    color:  rgb(255, 118, 21);
    }
 }
 @media (max-width: 515px) {
@@ -868,77 +557,20 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
-   }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-   }
     .Portrait_Preview img{
         position: absolute;
-        top: 4px;
-        left: 22vw;
+        top: 30vh;
+        left: 0vw;
         width: 55vw;
         height: 70vh;
    }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 22vw;
-        width: 70vw;
-        height: 25vh;
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
     .Close_Portrait p{
-        top: 73vh;
-        font-size: 4vw;
-        left: 4vw;
-        color: silver;
+        top: 90vh;
+        font-size: 12vw;
+        left: 0vw;
         border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-   }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Landscape p{
-        top: 65vh;
-        font-size: 4vw;
-        left: 5vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        color:  rgb(255, 118, 21);
+
    }
 }
 @media (max-width: 440px) {
@@ -982,91 +614,19 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-    .Projects_Mobile_Portrait img{
-        top: 45vh;
-        left: 65vw;
-        height: 30vh;
-        object-fit: contain;
-   }
-    .Projects_Mobile_Landscape img{
-        top: 42vh;
-        left: 44vw;
-        height: 13vh;
-        object-fit: contain;
-   }
-    .Preview p{
-        top: 80vh;
-        left: 0vw;
-        z-index: 100;
-        font-size: 25vw;
-   }
     .Portrait_Preview img{
-        top: 0vh;
-        left: .2vw;
-        width: 100vw;
-        height: 100vh;
-   }
-    .Portrait_Preview p{
-        top: 75vh;
-        left: 5vw;
-        font-size: 20vw;
-        color: rgb(255, 118, 21);
-   }
-    .Landscape_Preview p{
-        top: 65vh;
-        left: 53vw;
-        font-size: 10vw;
-        color: rgb(255, 118, 21);
-   }
-    .Landscape_Preview img{
         position: absolute;
         top: 30vh;
-        left: 17.5vw;
-        width: 80vw;
-        height: 35vh;
-   }
-    .Portrait_Preview img{
-        position: absolute;
-        top: 4px;
-        left: 21vw;
-        width: 75vw;
+        left: 0vw;
+        width: 70vw;
         height: 70vh;
    }
-    .Landscape_Preview img{
-        top: 37vh;
-        left: 23vw;
-        width: 75vw;
-        height: 25vh;
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
     .Close_Portrait p{
-        top: 73vh;
-        font-size: 4vw;
-        left: 4vw;
-        color: silver;
+        top: 88vh;
+        font-size: 10vh;
+        left: 0vw;
         border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-   }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Landscape p{
-        top: 65vh;
-        font-size: 4vw;
-        left: 5vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        color:  rgb(255, 118, 21);
    }
 }
 @media (max-width: 415px) {
@@ -1109,48 +669,19 @@
    }
     .Portrait_Preview img{
         position: absolute;
-        top: 4px;
-        left: 21vw;
-        width: 75vw;
+        top: 30vh;
+        left: 0vw;
+        width: 70vw;
         height: 70vh;
    }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 23vw;
-        width: 75vw;
-        height: 20vh;
-   }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
     .Close_Portrait p{
-        top: 73vh;
-        font-size: 4vw;
-        left: 4vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        top: 89vh;
+        font-size: 15vw;
+        left: 0vw;
+        color:  rgb(255, 118, 21);
+
    }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Landscape p{
-        top: 60vh;
-        font-size: 4vw;
-        left: 4vw;
-        color: silver;
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-   }
+
 }
 @media (max-width: 370px) {
     .Left_Projects{
@@ -1216,7 +747,8 @@
     .Portrait_Preview img{
         position: absolute;
         top: 2px;
-        left: 23vw;
+        left: 0vw;
+        top: 20vh;
         width: 75vw;
         height: 80vh;
    }
@@ -1227,27 +759,16 @@
         width: 75vw;
         height: 30vh;
    }
-   .Close_Portrait{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
-    .Close_Portrait p{
-        left: 25vw;
-        top: 83vh;
-        color: rgb(silver);
-        border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        font-size: 4vw;
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
 
+
+    .Close_Portrait p{
+        left: 0vw;
+        top: 85vh;
+        color:  rgb(255, 118, 21);
+        font-size: 15vw;
+        z-index: 1000;
    }
-   .Close_Landscape{
-    -webkit-animation: jello-horizontal 0.5s both;
-    animation: jello-horizontal 0.5s both;
-    width: 70vw;
-   }
+
     .Close_Landscape p{
         top: 71vh;
         font-size: 4vw;
@@ -1284,121 +805,5 @@
    }
 }
 
-/* ----------------------------------------------
- * Generated by Animista on 2020-3-20 1:51:9
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
 
-/**
- * ----------------------------------------
- * animation roll-out-blurred-left
- * ----------------------------------------
- */
- @-webkit-keyframes roll-out-blurred-left {
-    0% {
-      -webkit-transform: translateX(0) rotate(0deg);
-              transform: translateX(0) rotate(0deg);
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateX(-1000px) rotate(-720deg);
-              transform: translateX(-1000px) rotate(-720deg);
-      -webkit-filter: blur(50px);
-              filter: blur(50px);
-      opacity: 0;
-    }
-  }
-  @keyframes roll-out-blurred-left {
-    0% {
-      -webkit-transform: translateX(0) rotate(0deg);
-              transform: translateX(0) rotate(0deg);
-      -webkit-filter: blur(0);
-              filter: blur(0);
-      opacity: 1;
-    }
-    100% {
-      -webkit-transform: translateX(-1000px) rotate(-720deg);
-              transform: translateX(-1000px) rotate(-720deg);
-      -webkit-filter: blur(50px);
-              filter: blur(50px);
-      opacity: 0;
-    }
-  }
-  /* ----------------------------------------------
- * Generated by Animista on 2020-3-20 1:56:18
- * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
- * w: http://animista.net, t: @cssanimista
- * ---------------------------------------------- */
-
-/**
- * ----------------------------------------
- * animation jello-horizontal
- * ----------------------------------------
- */
-@-webkit-keyframes jello-horizontal {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(1.15, 0.85, 1);
-              transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-  }
-  @keyframes jello-horizontal {
-    0% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-    30% {
-      -webkit-transform: scale3d(1.25, 0.75, 1);
-              transform: scale3d(1.25, 0.75, 1);
-    }
-    40% {
-      -webkit-transform: scale3d(0.75, 1.25, 1);
-              transform: scale3d(0.75, 1.25, 1);
-    }
-    50% {
-      -webkit-transform: scale3d(1.15, 0.85, 1);
-              transform: scale3d(1.15, 0.85, 1);
-    }
-    65% {
-      -webkit-transform: scale3d(0.95, 1.05, 1);
-              transform: scale3d(0.95, 1.05, 1);
-    }
-    75% {
-      -webkit-transform: scale3d(1.05, 0.95, 1);
-              transform: scale3d(1.05, 0.95, 1);
-    }
-    100% {
-      -webkit-transform: scale3d(1, 1, 1);
-              transform: scale3d(1, 1, 1);
-    }
-  }
-  
   
