@@ -78,7 +78,7 @@
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
-    .Right_Projects_Landscape{
+    .Landscape_Preview{
         position: absolute;
         height: 55vh;
         width: 65vw;
@@ -87,7 +87,7 @@
         -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
-    .Right_Projects_Landscape img{
+    .Landscape_Preview img{
         position: absolute;
         height: 45vh;
         width: 50vw;
@@ -184,7 +184,7 @@
         -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
-    .Right_Projects_Landscape{
+    .Landscape_Preview{
         position: absolute;
         height: 55vh;
         width: 65vw;
@@ -193,7 +193,7 @@
         -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
         animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
-    .Right_Projects_Landscape img{
+    .Landscape_Preview img{
         position: absolute;
         height: 38vh;
         width: 45vw;
@@ -278,10 +278,10 @@
     .Right_Projects_Portrait{
         display: none;
    }
-    .Right_Projects_Landscape{
+    .Landscape_Preview{
         display: none;
    }
-    .Right_Projects_Landscape img{
+    .Landscape_Preview img{
         display: none;
    }
     .Screenshot_Btn{

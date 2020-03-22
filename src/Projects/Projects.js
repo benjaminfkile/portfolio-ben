@@ -29,6 +29,7 @@ class Projects extends Component {
     }
     updateWindowDimensions() {
         this.buildProjectsArray()
+        this.setState({projectIndex: 0})
         this.setState({ width: window.innerWidth });
         if (this.state.width < 1100) {
             this.setState({ showPreview: false })
@@ -157,7 +158,7 @@ class Projects extends Component {
                     </div>}
                 </div>}
                 {!this.state.store[this.state.projectIndex].mobile &&
-                    <div className="Right_Projects_Landscape" key={Math.random() + Math.random()}>
+                    <div className="Landscape_Preview" key={Math.random() + Math.random()}>
                         <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name}></img>
                     </div>}
             </div>
