@@ -11,19 +11,19 @@ import './App.css';
 
 function App() {
 
-  // axios({
-  //   method: "POST",
-  //   url: "https://rocky-lowlands-64636.herokuapp.com/send",
-  //   data: {
-  //     name: "portfolio alarm",
-  //     email: "benjaminfkile@gmail.com",
-  //     message: "portfolio visit!!!"
-  //   }
-  // }).then((response) => {
-  //   if (response.data.msg === 'success') {
-  //   } else if (response.data.msg === 'fail') {
-  //   }
-  // })
+  axios({
+    method: "POST",
+    url: "https://rocky-lowlands-64636.herokuapp.com/send",
+    data: {
+      name: "portfolio alarm",
+      email: "benjaminfkile@gmail.com",
+      message: "portfolio visit!!!"
+    }
+  }).then((response) => {
+    if (response.data.msg === 'success') {
+    } else if (response.data.msg === 'fail') {
+    }
+  })
 
 
   return (
