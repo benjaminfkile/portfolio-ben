@@ -22,8 +22,8 @@ class About extends Component {
                 </div>
                 <div className="About_Right">
                     <p>
-                        My passion for coding began about 10 years ago,
-                        the fulfillment I get from solving complex problems is what drives me to learn more.
+                        My passion for coding began about 10 years ago.
+                        The fulfillment I get from solving complex problems is what drives me to learn more.
                         I have worked on dozens of my own hobby projects in many different languages.
                         When I am behind my computer putting a project together I’m not working,
                         I’m having fun.  I have gone from creating janky and static applications to developing
