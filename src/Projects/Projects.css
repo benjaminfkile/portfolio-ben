@@ -263,13 +263,13 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-     .Portrait_Preview img{
+    .Portrait_Preview img{
     position: absolute;
     top: 30vh;
-    left: 0vw;
-    width: 25vw;
+    left: 8.8vw;
+    width: 55vw;
     height: 70vh;
-}
+    }
     .Close_Portrait p{
     position: absolute;
     top: 91vh;
@@ -339,7 +339,7 @@
    .Portrait_Preview img{
     position: absolute;
     top: 40vh;
-    left: 0vw;
+    left: 10vw;
     width: 30vw;
     height: 60vh;
 }
@@ -395,7 +395,7 @@
    .Portrait_Preview img{
     position: absolute;
     top: 30vh;
-    left: 0vw;
+    left: 12.8vw;
     width: 48vw;
     height: 70vh;
 }
@@ -406,6 +406,15 @@
     border-bottom: 1px solid;
     color:  rgb(255, 118, 21);
    }
+}
+@media (max-width: 720px) {
+    .Portrait_Preview img{
+        position: absolute;
+        top: 30vh;
+        left: 14vw;
+        width: 48vw;
+        height: 70vh;
+    }
 }
 @media (max-width: 620px) {
     .Left_Projects{
@@ -451,7 +460,7 @@
    .Portrait_Preview img{
     position: absolute;
     top: 30vh;
-    left: 0vw;
+    left: 16vw;
     width: 55vw;
     height: 70vh;
 }
@@ -507,7 +516,7 @@
    .Portrait_Preview img{
     position: absolute;
     top: 30vh;
-    left: 0vw;
+    left: 18vw;
     width: 55vw;
     height: 70vh;
 }
@@ -566,7 +575,7 @@
     .Portrait_Preview img{
         position: absolute;
         top: 30vh;
-        left: 0vw;
+        left: 19vw;
         width: 55vw;
         height: 70vh;
    }
@@ -623,7 +632,7 @@
     .Portrait_Preview img{
         position: absolute;
         top: 30vh;
-        left: 0vw;
+        left: 19vw;
         width: 70vw;
         height: 70vh;
    }
@@ -676,7 +685,7 @@
     .Portrait_Preview img{
         position: absolute;
         top: 30vh;
-        left: 0vw;
+        left: 19.5vw;
         width: 70vw;
         height: 70vh;
    }
@@ -753,19 +762,11 @@
     .Portrait_Preview img{
         position: absolute;
         top: 2px;
-        left: 0vw;
+        left: 22vw;
         top: 20vh;
         width: 75vw;
         height: 80vh;
    }
-    .Landscape_Preview img{
-        position: absolute;
-        top: 37vh;
-        left: 23vw;
-        width: 75vw;
-        height: 30vh;
-   }
-
 
     .Close_Portrait p{
         left: 0vw;

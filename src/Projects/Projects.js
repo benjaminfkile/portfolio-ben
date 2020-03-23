@@ -13,7 +13,6 @@ class Projects extends Component {
             previewTicker: 0,
             showPreview: true,
             width: 0,
-            toast: 0
         }
         this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
     }
@@ -31,14 +30,13 @@ class Projects extends Component {
         this.buildProjectsArray()
         this.setState({projectIndex: 0})
         this.setState({ width: window.innerWidth });
-        if (this.state.width < 1100) {
+        if (this.state.width < 1101) {
             this.setState({ showPreview: false })
-            this.setState({ toast: 0 })
         }
     }
     buildProjectsArray() {
 
-        if (this.state.width < 1100) {
+        if (this.state.width < 1101) {
             let arr = []
             for (let i = 0; i < ProjectStore.length; i++) {
                 if (ProjectStore[i].mobile) {
@@ -59,10 +57,6 @@ class Projects extends Component {
     }
 
     togglePreview = () => {
-        this.setState({ toast: this.state.toast + 1 })
-        if (this.state.toast > 5) {
-            this.setState({ toast: 5 })
-        }
         this.setState({ previewTicker: this.state.previewTicker + 1 })
         if (this.state.previewTicker % 2 !== 0) {
             this.setState({ showPreview: true })
@@ -151,11 +145,6 @@ class Projects extends Component {
                 </div>
                 {this.state.showPreview && this.state.store[this.state.projectIndex].mobile && <div className="Portrait_Preview">
                     <img src={this.state.store[this.state.projectIndex].images[this.state.imgIndex]} alt={this.state.store[this.state.projectIndex].name} onClick={this.togglePreview}></img>
-                    {this.state.toast < 5 && <div className="Close_Portrait">
-                        <p onClick={this.togglePreview}>
-                            x
-                        </p>
-                    </div>}
                 </div>}
                 {!this.state.store[this.state.projectIndex].mobile &&
                     <div className="Landscape_Preview" key={Math.random() + Math.random()}>
