@@ -3,7 +3,7 @@ export default
         {
             mobile: true,
             name: 'Light Finder',
-            description: 'Light Finder lets its users find all the best Christmas lights here in Missoula, I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and wanted people who didn’t know to be able to enjoy them during the holidays.',
+            description: 'Light Finder lets its users find all the best Christmas lights here in Missoula. I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and I wanted people who didn’t know to be able to enjoy them during the holidays.',
             url: 'https://lightfinder.now.sh',
             repo: 'https://github.com/benjaminfkile/light-finder',
             icons:
