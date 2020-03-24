@@ -35,8 +35,9 @@ export default
                     './res/screenshots/light-finder/3.png',
                     './res/screenshots/light-finder/4.png',
                 ]
-        }, {
-            mobile: true,
+        },
+        {
+            mobile: false,
             name: 'Zero In',
             description: 'Zero In lets its users locate an apartment building more precisely than Google Maps. The initial address is usually all Google Maps will take you to in my city.   Zero In will take you to the building an apartment is located in so you don’t have to wander around large apartment complexes.  I designed this for delivery and taxi drivers. (type 1150 34th in the search field)',
             url: 'https://zeroin.now.sh',
@@ -51,6 +52,26 @@ export default
                     './res/screenshots/zero-in/2.png',
                     './res/screenshots/zero-in/3.png',
                     './res/screenshots/zero-in/4.png',
+
+
+                ]
+        },
+        {
+            mobile: true,
+            name: 'Zero In',
+            description: 'Zero In lets its users locate an apartment building more precisely than Google Maps. The initial address is usually all Google Maps will take you to in my city.   Zero In will take you to the building an apartment is located in so you don’t have to wander around large apartment complexes.  I designed this for delivery and taxi drivers. (type 1150 34th in the search field)',
+            url: 'https://zeroin.now.sh',
+            repo: 'https://github.com/benjaminfkile/zero-in-client',
+            icons:
+                [
+                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                ],
+            images:
+                [
+                    './res/screenshots/zero-in-mobile/1.png',
+                    './res/screenshots/zero-in-mobile/2.png',
+                    './res/screenshots/zero-in-mobile/3.png',
+                    './res/screenshots/zero-in-mobile/4.png',
 
 
                 ]
