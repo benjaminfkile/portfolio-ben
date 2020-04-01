@@ -55,7 +55,7 @@ class Contact extends Component {
         if (name && email && message) {
             axios({
                 method: "POST",
-                url: "https://rocky-lowlands-64636.herokuapp.com/send",
+                url: "https://glacial-plains-54815.herokuapp.com/send",
                 data: {
                     name: name,
                     email: email,

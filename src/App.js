@@ -13,9 +13,9 @@ function App() {
 
   axios({
     method: "POST",
-    url: "https://rocky-lowlands-64636.herokuapp.com/send",
+    url: "https://glacial-plains-54815.herokuapp.com/send",
     data: {
-      name: "portfolio alarm",
+      name: "**PORTFOLIO ALARM**",
       email: "benjaminfkile@gmail.com",
       message: "portfolio visit!!!"
     }
