@@ -11,19 +11,19 @@ import './App.css';
 
 function App() {
 
-  axios({
-    method: "POST",
-    url: "https://glacial-plains-54815.herokuapp.com/send",
-    data: {
-      name: "**PORTFOLIO ALARM**",
-      email: "benjaminfkile@gmail.com",
-      message: "portfolio visit!!!"
-    }
-  }).then((response) => {
-    if (response.data.msg === 'success') {
-    } else if (response.data.msg === 'fail') {
-    }
-  })
+  // axios({
+  //   method: "POST",
+  //   url: "https://glacial-plains-54815.herokuapp.com/send",
+  //   data: {
+  //     name: "**PORTFOLIO ALARM**",
+  //     email: "benjaminfkile@gmail.com",
+  //     message: "portfolio visit!!!"
+  //   }
+  // }).then((response) => {
+  //   if (response.data.msg === 'success') {
+  //   } else if (response.data.msg === 'fail') {
+  //   }
+  // })
 
 
   return (
