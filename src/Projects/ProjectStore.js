@@ -80,8 +80,8 @@ export default
             mobile: false,
             name: 'Udio',
             description: 'Udio fetches a list of You Tube videos related to user input and converts any video to an mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
-            url: 'https://hackify.now.sh',
-            repo: 'https://github.com/benjaminfkile/hackify',
+            url: 'https://udio.now.sh',
+            repo: 'https://github.com/benjaminfkile/udio',
             icons:
                 [
                     'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
@@ -100,8 +100,8 @@ export default
             mobile: true,
             name: 'Udio',
             description: 'Udio fetches a list of You Tube videos related to user input and converts any video to an mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
-            url: 'https://hackify.now.sh',
-            repo: 'https://github.com/benjaminfkile/hackify',
+            url: 'https://udio.now.sh',
+            repo: 'https://github.com/benjaminfkile/udio',
             icons:
                 [
                     'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
