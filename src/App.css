@@ -1,3 +1,776 @@
+@media (min-width: 1200px) {
+  .Projects{
+      display: flex;
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Projects{
+      position: absolute;
+      top: 26vh;
+      width: 35vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 3vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Projects h2{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 2vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects a:hover{
+      color: rgb(255, 118, 21);
+      font-size: 1.8vh;
+ }
+  .Screenshot_Btn p:hover{
+      color: rgb(255, 118, 21);
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .tech:hover, .tech:focus .tech:active {
+      color: rgb(48,154,115);
+ }
+  .Buttons{
+      display: flex;
+      margin-left: 15%;
+      bottom: -3vh;
+ }
+  .Buttons p{
+      color: rgb(48,154,115);
+ }
+  .Buttons p:hover{
+      color: rgb(255, 118, 21);
+      cursor: pointer;
+ }
+  .Left_Btn{
+      font-size: 3vw;
+ }
+  .Right_Btn{
+      margin-left: 5vw;
+      font-size: 3vw;
+ }
+  .Right_Projects_Portrait img{
+      position: absolute;
+      height: 85vh;
+      width: 28vw;
+      left: 1vw;
+      top: 1vw;
+ }
+  .Right_Projects_Portrait{
+      position: absolute;
+      height: 78vh;
+      width: 22vw;
+      top: 5vh;
+      left: 55vw;
+ }
+  .Landscape_Preview{
+      position: absolute;
+      height: 55vh;
+      width: 65vw;
+      top: 22vh;
+      left: 45vw;
+ }
+  .Landscape_Preview img{
+      position: absolute;
+      height: 45vh;
+      width: 50vw;
+      left: 1vw;
+      top: 1vw;
+ }
+  .Screenshot_Btn{
+      display: none;
+ }
+  .Projects_Mobile_Portrait img{
+      display: none;
+ }
+  .Projects_Mobile_Landscape img{
+      display: none;
+ }
+}
+@media (max-width: 1199px) {
+  .Projects{
+      display: flex;
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Projects{
+      position: absolute;
+      top: 24vh;
+      width: 35vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 3vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Projects h2{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 2vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      color: silver;
+      margin-left: 15%;
+ }
+  .Left_Projects a:hover{
+      color: rgb(255, 118, 21);
+      font-size: 1.8vh;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Screenshot_Btn p:hover{
+      color: rgb(255, 118, 21);
+ }
+  .tech:hover, .tech:focus .tech:active {
+      color: rgb(48,154,115);
+ }
+  .Buttons{
+      display: flex;
+      margin-left: 15%;
+      bottom: -3vh;
+ }
+  .Buttons p{
+      color: rgb(48,154,115);
+ }
+  .Buttons p:hover{
+      color: rgb(255, 118, 21);
+      cursor: pointer;
+ }
+  .Left_Btn{
+      font-size: 3vw;
+ }
+  .Right_Btn{
+      margin-left: 5vw;
+      font-size: 3vw;
+ }
+  .Right_Projects_Portrait img{
+      position: absolute;
+      height: 80vh;
+      width: 35vw;
+      left: 1vw;
+      top: 1vw;
+ }
+  .Right_Projects_Portrait{
+      position: absolute;
+      height: 78vh;
+      width: 22vw;
+      top: 5vh;
+      left: 55vw;
+ }
+  .Landscape_Preview{
+      position: absolute;
+      height: 55vh;
+      width: 65vw;
+      top: 22vh;
+      left: 45vw;
+ }
+  .Landscape_Preview img{
+      position: absolute;
+      height: 38vh;
+      width: 45vw;
+      left: 4vw;
+      top: 6vw;
+      object-fit: contain;
+ }
+  .Screenshot_Btn{
+      display: none;
+ }
+  .Projects_Mobile_Portrait img{
+      display: none !important;
+ }
+  .Projects_Mobile_Landscape img{
+      display: none !important;
+ }
+}
+@media (max-width: 1100px){
+  .Projects{
+      font-family: 'Maven Pro', sans-serif;
+ }
+  .Left_Projects{
+      position: absolute;
+      top: 0vh;
+      left: -2vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 4vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 2vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 2vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 2vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 3.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 4%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 5vw;
+ }
+  .Right_Btn{
+      margin-left: 5vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 8.8vw;
+      width: 55vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      position: absolute;
+      top: 91vh;
+      font-size: 5vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+  .Right_Projects_Portrait img{
+      display: none;
+ }
+  .Right_Projects_Portrait{
+      display: none;
+ }
+  .Landscape_Preview{
+      display: none;
+ }
+  .Landscape_Preview img{
+      display: none;
+ }
+  .Screenshot_Btn{
+      display: initial;
+ }
+}
+@media (max-width: 900px) {
+  .Left_Projects{
+      top: 0vh;
+      left: 1vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 2vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 4vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 2vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 2.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      display: flex;
+      margin-top: 4%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 6vw;
+ }
+  .Right_Btn{
+      margin-left: 5vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 40vh;
+      left: 10vw;
+      width: 30vw;
+      height: 60vh;
+ }
+  .Close_Portrait p{
+      top: 90vh;
+      font-size: 7vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 800px) {
+  .Left_Projects{
+      top: 0vh;
+      left: 4vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 2vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 4vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 2vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 2.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 4%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 6vw;
+ }
+  .Right_Btn{
+      margin-left: 5vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 12.8vw;
+      width: 48vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 89vh;
+      font-size: 10vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 720px) {
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 14vw;
+      width: 48vw;
+      height: 70vh;
+ }
+}
+@media (max-width: 620px) {
+  .Left_Projects{
+      top: 0vh;
+      left: 8vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 3vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 3vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 3.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 4%;
+      margin-left: 11%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 16vw;
+      width: 55vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 90vh;
+      font-size: 10vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 565px) {
+  .Left_Projects{
+      top: -5vh;
+      left: 10vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 3vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 3vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 3.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 10%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 18vw;
+      width: 55vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 91vh;
+      font-size: 10vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 515px) {
+  .Left_Projects{
+      top: 0vh;
+      left: 10vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 3vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 3vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 3.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 3%;
+      margin-left: 12%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Buttons p:hover{
+      cursor: pointer;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 19vw;
+      width: 55vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 90vh;
+      font-size: 12vw;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 440px) {
+  .Left_Projects{
+      top: -5vh;
+      left: 10vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 4vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 3vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 3.2vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .Buttons{
+      margin-top: 10%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 19vw;
+      width: 70vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 88vh;
+      font-size: 10vh;
+      left: 0vw;
+      border-bottom: 1px solid;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 415px) {
+  .Left_Projects{
+      top: -5vh;
+      left: 11vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 4.5vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 4.5vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 4.6vw;
+ }
+  .Buttons{
+      margin-top: 3%;
+      margin-left: 14%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 30vh;
+      left: 19.5vw;
+      width: 70vw;
+      height: 70vh;
+ }
+  .Close_Portrait p{
+      top: 89vh;
+      font-size: 15vw;
+      left: 0vw;
+      color: rgb(255, 118, 21);
+ }
+}
+@media (max-width: 370px) {
+  .Left_Projects{
+      top: -5vh;
+      left: 12vw;
+      width: 80vw;
+ }
+  .Left_Projects h1{
+      margin-left: 15%;
+      font-size: 7vw;
+      color: rgb(48,154,115);
+ }
+  .Left_Projects h2{
+      margin-left: 15%;
+ }
+  .Left_Projects p{
+      font-size: 4.4vw;
+      margin-left: 15%;
+ }
+  .Left_Projects i{
+      font-size: 6vw;
+      margin-right: 10px;
+ }
+  .Left_Projects a{
+      margin-left: 15%;
+      font-size: 5vw;
+ }
+  .Screenshot_Btn{
+      display: initial;
+      margin-left: 6%;
+      width: 50vw;
+ }
+  .Screenshot_Btn p{
+      font-size: 5vw;
+ }
+  .Screenshot_Btn p:active{
+      font-size: 5.2vw;
+ }
+  .Left_Projects a:hover{
+      font-size: 5.4vw;
+ }
+  .showcase{
+      height: 22vh;
+ }
+  .tech:hover, .tech:focus .tech:active {
+      color: rgb(48,154,115);
+ }
+  .Buttons{
+      margin-top: 3%;
+      margin-left: 13%;
+ }
+  .Buttons p{
+      font-size: 10vw;
+ }
+  .Right_Btn{
+      margin-left: 10vw;
+ }
+  .Preview p{
+      top: 80vh;
+      left: 0vw;
+      font-size: 25vw;
+ }
+  .Portrait_Preview img{
+      position: absolute;
+      top: 2px;
+      left: 22vw;
+      top: 20vh;
+      width: 75vw;
+      height: 80vh;
+ }
+  .Close_Portrait p{
+      left: 0vw;
+      top: 85vh;
+      color: rgb(255, 118, 21);
+      font-size: 15vw;
+      z-index: 1000;
+ }
+  .Close_Landscape p{
+      top: 71vh;
+      font-size: 4vw;
+      left: 3vw;
+      color: silver;
+      border-bottom: 1px solid;
+      border-color: rgb(255, 118, 21);
+ }
+}
+.Landscape_Preview{
+  -webkit-animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.showcase h1, .Buttons{
+  -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 .App {
   position: fixed;
   width: 100%;
@@ -8,4 +781,141 @@
   margin-left: 0;
   margin-right: 0;
 }
-  
+@keyframes bounce-in-top {
+  0% {
+      -webkit-transform: translateY(-500px);
+      transform: translateY(-500px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+      opacity: 0;
+ }
+  38% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+      opacity: 1;
+ }
+  55% {
+      -webkit-transform: translateY(-65px);
+      transform: translateY(-65px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+ }
+  72% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+ }
+  81% {
+      -webkit-transform: translateY(-28px);
+      transform: translateY(-28px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+ }
+  90% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+ }
+  95% {
+      -webkit-transform: translateY(-8px);
+      transform: translateY(-8px);
+      -webkit-animation-timing-function: ease-in;
+      animation-timing-function: ease-in;
+ }
+  100% {
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+      -webkit-animation-timing-function: ease-out;
+      animation-timing-function: ease-out;
+ }
+}
+/* ---------------------------------------------- * Generated by Animista on 2020-4-23 21:31:24 * Licensed under FreeBSD License. * See http://animista.net/license for more info. * w: http://animista.net, t: @cssanimista * ---------------------------------------------- */
+/** * ---------------------------------------- * animation slide-in-right * ---------------------------------------- */
+@-webkit-keyframes slide-in-right {
+  0% {
+      -webkit-transform: translateX(1000px);
+      transform: translateX(1000px);
+      opacity: 0;
+ }
+  100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+ }
+}
+@keyframes slide-in-right {
+  0% {
+      -webkit-transform: translateX(1000px);
+      transform: translateX(1000px);
+      opacity: 0;
+ }
+  100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+ }
+}
+/* ---------------------------------------------- * Generated by Animista on 2020-4-23 21:42:31 * Licensed under FreeBSD License. * See http://animista.net/license for more info. * w: http://animista.net, t: @cssanimista * ---------------------------------------------- */
+/** * ---------------------------------------- * animation slide-in-left * ---------------------------------------- */
+@-webkit-keyframes slide-in-left {
+  0% {
+      -webkit-transform: translateX(-1000px);
+      transform: translateX(-1000px);
+      opacity: 0;
+ }
+  100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+ }
+}
+@keyframes slide-in-left {
+  0% {
+      -webkit-transform: translateX(-1000px);
+      transform: translateX(-1000px);
+      opacity: 0;
+ }
+  100% {
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      opacity: 1;
+ }
+}
+/* ---------------------------------------------- * Generated by Animista on 2020-2-17 20:52:40 * Licensed under FreeBSD License. * See http://animista.net/license for more info. * w: http://animista.net, t: @cssanimista * ---------------------------------------------- */
+/** * ---------------------------------------- * animation tracking-in-expand-fwd * ---------------------------------------- */
+@-webkit-keyframes tracking-in-expand-fwd {
+  0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+ }
+  40% {
+      opacity: 0.6;
+ }
+  100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+ }
+}
+@keyframes tracking-in-expand-fwd {
+  0% {
+      letter-spacing: -0.5em;
+      -webkit-transform: translateZ(-700px);
+      transform: translateZ(-700px);
+      opacity: 0;
+ }
+  40% {
+      opacity: 0.6;
+ }
+  100% {
+      -webkit-transform: translateZ(0);
+      transform: translateZ(0);
+      opacity: 1;
+ }
+}

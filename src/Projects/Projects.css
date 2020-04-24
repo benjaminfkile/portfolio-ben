@@ -20,8 +20,6 @@
     .Left_Projects p{
         color: silver;
         margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s .5s both;
-        animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
         font-size: 2vw;
@@ -35,8 +33,8 @@
         color: rgb(255, 118, 21);
         font-size: 1.8vh;
    }
-   .Screenshot_Btn p:hover{
-    color: rgb(255, 118, 21);
+    .Screenshot_Btn p:hover{
+        color: rgb(255, 118, 21);
    }
     .showcase{
         height: 22vh;
@@ -48,8 +46,6 @@
         display: flex;
         margin-left: 15%;
         bottom: -3vh;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
@@ -78,8 +74,6 @@
         width: 22vw;
         top: 5vh;
         left: 55vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
     .Landscape_Preview{
         position: absolute;
@@ -87,8 +81,6 @@
         width: 65vw;
         top: 22vh;
         left: 45vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
     .Landscape_Preview img{
         position: absolute;
@@ -129,8 +121,6 @@
     .Left_Projects p{
         color: silver;
         margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s .5s both;
-        animation: Quick_Intro 0.9s .5s both;
    }
     .Left_Projects i{
         font-size: 2vw;
@@ -147,8 +137,8 @@
     .showcase{
         height: 22vh;
    }
-   .Screenshot_Btn p:hover{
-    color: rgb(255, 118, 21);
+    .Screenshot_Btn p:hover{
+        color: rgb(255, 118, 21);
    }
     .tech:hover, .tech:focus .tech:active {
         color: rgb(48,154,115);
@@ -157,8 +147,6 @@
         display: flex;
         margin-left: 15%;
         bottom: -3vh;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
    }
     .Buttons p{
         color: rgb(48,154,115);
@@ -187,8 +175,6 @@
         width: 22vw;
         top: 5vh;
         left: 55vw;
-        -webkit-animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
     .Landscape_Preview{
         position: absolute;
@@ -196,8 +182,6 @@
         width: 65vw;
         top: 22vh;
         left: 45vw;
-        -webkit-animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-bck-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
    }
     .Landscape_Preview img{
         position: absolute;
@@ -207,7 +191,6 @@
         top: 6vw;
         object-fit: contain;
    }
-
     .Screenshot_Btn{
         display: none;
    }
@@ -264,20 +247,20 @@
         margin-left: 5vw;
    }
     .Portrait_Preview img{
-    position: absolute;
-    top: 30vh;
-    left: 8.8vw;
-    width: 55vw;
-    height: 70vh;
-    }
+        position: absolute;
+        top: 30vh;
+        left: 8.8vw;
+        width: 55vw;
+        height: 70vh;
+   }
     .Close_Portrait p{
-    position: absolute;
-    top: 91vh;
-    font-size: 5vw;
-    left: 0vw;
-    border-bottom: 1px solid;
-    color:  rgb(255, 118, 21);
-    }
+        position: absolute;
+        top: 91vh;
+        font-size: 5vw;
+        left: 0vw;
+        border-bottom: 1px solid;
+        color: rgb(255, 118, 21);
+   }
     .Right_Projects_Portrait img{
         display: none;
    }
@@ -336,19 +319,19 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-   .Portrait_Preview img{
-    position: absolute;
-    top: 40vh;
-    left: 10vw;
-    width: 30vw;
-    height: 60vh;
-}
+    .Portrait_Preview img{
+        position: absolute;
+        top: 40vh;
+        left: 10vw;
+        width: 30vw;
+        height: 60vh;
+   }
     .Close_Portrait p{
-    top: 90vh;
-    font-size: 7vw;
-    left: 0vw;
-    border-bottom: 1px solid;
-    color:  rgb(255, 118, 21);
+        top: 90vh;
+        font-size: 7vw;
+        left: 0vw;
+        border-bottom: 1px solid;
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 800px) {
@@ -392,19 +375,19 @@
     .Right_Btn{
         margin-left: 5vw;
    }
-   .Portrait_Preview img{
-    position: absolute;
-    top: 30vh;
-    left: 12.8vw;
-    width: 48vw;
-    height: 70vh;
-}
+    .Portrait_Preview img{
+        position: absolute;
+        top: 30vh;
+        left: 12.8vw;
+        width: 48vw;
+        height: 70vh;
+   }
     .Close_Portrait p{
-    top: 89vh;
-    font-size: 10vw;
-    left: 0vw;
-    border-bottom: 1px solid;
-    color:  rgb(255, 118, 21);
+        top: 89vh;
+        font-size: 10vw;
+        left: 0vw;
+        border-bottom: 1px solid;
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 720px) {
@@ -414,7 +397,7 @@
         left: 14vw;
         width: 48vw;
         height: 70vh;
-    }
+   }
 }
 @media (max-width: 620px) {
     .Left_Projects{
@@ -457,19 +440,19 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-   .Portrait_Preview img{
-    position: absolute;
-    top: 30vh;
-    left: 16vw;
-    width: 55vw;
-    height: 70vh;
-}
+    .Portrait_Preview img{
+        position: absolute;
+        top: 30vh;
+        left: 16vw;
+        width: 55vw;
+        height: 70vh;
+   }
     .Close_Portrait p{
-    top: 90vh;
-    font-size: 10vw;
-    left: 0vw;
-    border-bottom: 1px solid;
-    color:  rgb(255, 118, 21);
+        top: 90vh;
+        font-size: 10vw;
+        left: 0vw;
+        border-bottom: 1px solid;
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 565px) {
@@ -513,19 +496,19 @@
     .Right_Btn{
         margin-left: 10vw;
    }
-   .Portrait_Preview img{
-    position: absolute;
-    top: 30vh;
-    left: 18vw;
-    width: 55vw;
-    height: 70vh;
-}
+    .Portrait_Preview img{
+        position: absolute;
+        top: 30vh;
+        left: 18vw;
+        width: 55vw;
+        height: 70vh;
+   }
     .Close_Portrait p{
-    top: 91vh;
-    font-size: 10vw;
-    left: 0vw;
-    border-bottom: 1px solid;
-    color:  rgb(255, 118, 21);
+        top: 91vh;
+        font-size: 10vw;
+        left: 0vw;
+        border-bottom: 1px solid;
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 515px) {
@@ -584,8 +567,7 @@
         font-size: 12vw;
         left: 0vw;
         border-bottom: 1px solid;
-        color:  rgb(255, 118, 21);
-
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 440px) {
@@ -641,7 +623,7 @@
         font-size: 10vh;
         left: 0vw;
         border-bottom: 1px solid;
-        color:  rgb(255, 118, 21);
+        color: rgb(255, 118, 21);
    }
 }
 @media (max-width: 415px) {
@@ -693,10 +675,8 @@
         top: 89vh;
         font-size: 15vw;
         left: 0vw;
-        color:  rgb(255, 118, 21);
-
+        color: rgb(255, 118, 21);
    }
-
 }
 @media (max-width: 370px) {
     .Left_Projects{
@@ -767,50 +747,27 @@
         width: 75vw;
         height: 80vh;
    }
-
     .Close_Portrait p{
         left: 0vw;
         top: 85vh;
-        color:  rgb(255, 118, 21);
+        color: rgb(255, 118, 21);
         font-size: 15vw;
         z-index: 1000;
    }
-
     .Close_Landscape p{
         top: 71vh;
         font-size: 4vw;
         left: 3vw;
         color: silver;
         border-bottom: 1px solid;
-        border-color:  rgb(255, 118, 21);
-        -webkit-animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
-        animation: roll-out-blurred-left 0.65s cubic-bezier(0.755, 0.050, 0.855, 0.060) 2s both;
+        border-color: rgb(255, 118, 21);
    }
 }
-@-webkit-keyframes slide-in-bck-right {
-    0% {
-        -webkit-transform: translateZ(700px) translateX(400px);
-        transform: translateZ(700px) translateX(400px);
-        opacity: 0;
-   }
-    100% {
-        -webkit-transform: translateZ(0) translateX(0);
-        transform: translateZ(0) translateX(0);
-        opacity: 1;
-   }
+.Landscape_Preview{
+    -webkit-animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.2s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-@keyframes slide-in-bck-right {
-    0% {
-        -webkit-transform: translateZ(700px) translateX(400px);
-        transform: translateZ(700px) translateX(400px);
-        opacity: 0;
-   }
-    100% {
-        -webkit-transform: translateZ(0) translateX(0);
-        transform: translateZ(0) translateX(0);
-        opacity: 1;
-   }
+.showcase h1, .Buttons{
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
-
-
-  

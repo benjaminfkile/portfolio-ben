@@ -24,15 +24,11 @@
         font-size: 1.5vw;
         margin-top: 5px;
         margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s 2s both;
-        animation: Quick_Intro 0.9s 2s both;
    }
     .Right_Panel{
         position: absolute;
         top: 40vh;
         left: 50vw;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
    }
     .Right_Panel ul{
         font-family: 'Maven Pro', sans-serif;
@@ -75,15 +71,11 @@
         font-size: 1.5vw;
         margin-top: 5px;
         margin-left: 15%;
-        -webkit-animation: Quick_Intro 0.9s 2s both;
-        animation: Quick_Intro 0.9s 2s both;
    }
     .Right_Panel{
         position: absolute;
         top: 40vh;
         left: 50vw;
-        -webkit-animation: Quick_Intro 0.9s 1s both;
-        animation: Quick_Intro 0.9s 1s both;
    }
     .Right_Panel ul{
         font-family: 'Maven Pro', sans-serif;
@@ -151,52 +143,11 @@
         left: 22.5vw;
    }
 }
-@keyframes Quick_Intro {
-    0% {
-        -webkit-transform: translateY(-45px);
-        transform: translateY(-45px);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-        opacity: 0;
-   }
-    24% {
-        opacity: 1;
-   }
-    40% {
-        -webkit-transform: translateY(-24px);
-        transform: translateY(-24px);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-   }
-    65% {
-        -webkit-transform: translateY(-12px);
-        transform: translateY(-12px);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-   }
-    82% {
-        -webkit-transform: translateY(-6px);
-        transform: translateY(-6px);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-   }
-    93% {
-        -webkit-transform: translateY(-4px);
-        transform: translateY(-4px);
-        -webkit-animation-timing-function: ease-in;
-        animation-timing-function: ease-in;
-   }
-    25%, 55%, 75%, 87% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-   }
-    100% {
-        -webkit-transform: translateY(0px);
-        transform: translateY(0px);
-        -webkit-animation-timing-function: ease-out;
-        animation-timing-function: ease-out;
-        opacity: 1;
-   }
+.Right_Panel p{
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.Left_Panel p{
+    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
