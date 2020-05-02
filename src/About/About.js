@@ -21,10 +21,10 @@ class About extends Component {
                     </p>
                 </div>
                 <div className="About_Right">
-                    <p>
+                    <p id="About_Intro">
                         My passion for coding began about 10 years ago.
                         The fulfillment I get from solving complex problems is what drives me to learn more.
-                        I have worked on dozens of my own hobby projects in many different languages.
+                        I have worked on many different projects in multiple languages.
                         When I am behind my computer putting a project together I’m not working,
                         I’m having fun.  I have gone from creating janky and static applications to developing
                         Full-Stack web apps and my curiosity continues to grow.

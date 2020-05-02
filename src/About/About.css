@@ -27,6 +27,7 @@
     .About p{
         font-size: 1.5vw;
         color: silver;
+
    }
     .About_Right{
         position: absolute;
@@ -35,6 +36,12 @@
         left: 50vw;
         width: 43vw;
    }
+    #About_Intro{
+    border-left: solid;
+    padding-left: 20px;
+    border-width: 1px;
+    border-color: rgb(255, 118, 21);
+    }
     .About_Right p{
         margin-top: 6px;
         margin-left: 10px;
@@ -77,6 +84,12 @@
         left: 50vw;
         width: 43vw;
    }
+    #About_Intro{
+    border-left: solid;
+    padding-left: 15px;
+    border-width: 1px;
+    border-color: rgb(255, 118, 21);
+    }
     .About_Right p{
         margin-top: 6px;
         margin-left: 10px;
@@ -137,6 +150,10 @@
         height: 43vh;
         width: 70vw;
    }
+    #About_Intro{
+    border-left: none;
+    padding-left: 0px;
+    }
     .About_Right p{
         font-size: 2.5vh;
    }
