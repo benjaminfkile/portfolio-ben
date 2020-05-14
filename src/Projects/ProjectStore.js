@@ -79,7 +79,7 @@ export default
         {
             mobile: false,
             name: 'Tubio',
-            description: 'Tubio fetches a list of You Tube videos related to user input and converts any video to an mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
+            description: 'Tubio fetches a list of You Tube videos related to user input and converts any video to a .mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
             url: 'https://udio.now.sh',
             repo: 'https://github.com/benjaminfkile/udio',
             icons:
@@ -99,7 +99,7 @@ export default
         {
             mobile: true,
             name: 'Tubio',
-            description: 'Tubio fetches a list of You Tube videos related to user input and converts any video to an mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
+            description: 'Tubio fetches a list of You Tube videos related to user input and converts any video to a .mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
             url: 'https://udio.now.sh',
             repo: 'https://github.com/benjaminfkile/udio',
             icons:
@@ -155,7 +155,7 @@ export default
         {
             mobile: true,
             name: 'Keno Simulator',
-            description: 'Keno Simulator lets its users simulate up to 2 billion games of keno at an adjustable speed of up to 2 games per millisecond.  The simulator lives inside a single executable .java file.  I built this to show a friend who had a gambling problem that no matter how much he played and how much he won that in the end, the house would always be ahead.',
+            description: 'Keno Simulator lets its users simulate up to 2 billion games of keno at an adjustable speed of up to 2 games per millisecond. The simulator lives inside a single executable .java file. I built this to prove to a friend that no matter how much he played and how much he won that in the end, the house would always be ahead.',
             url: null,
             repo: 'https://github.com/benjaminfkile/KenoSimulator',
             icons:
@@ -172,7 +172,7 @@ export default
         {
             mobile: false,
             name: 'Keno Simulator',
-            description: 'Keno Simulator lets its users simulate up to 2 billion games of keno at an adjustable speed of up to 2 games per millisecond.  The simulator lives inside a single executable .java file.  I built this to show a friend who had a gambling problem that no matter how much he played and how much he won that in the end, the house would always be ahead.',
+            description: 'Keno Simulator lets its users simulate up to 2 billion games of keno at an adjustable speed of up to 2 games per millisecond. The simulator lives inside a single executable .java file. I built this to prove to a friend that no matter how much he played and how much he won that in the end, the house would always be ahead.',
             url: null,
             repo: 'https://github.com/benjaminfkile/KenoSimulator',
             icons:
