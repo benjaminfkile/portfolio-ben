@@ -50,14 +50,14 @@ class Skills extends Component {
                                 Mocha
                                 <i className="devicon-mocha-plain colored"></i>
                             </li>
-                            <li>
+                            {/* <li>
                                 GitHub
                                 <i className="devicon-github-plain"></i>
                             </li>
                             <li>
                                 Visual Studio
                                 <i className="devicon-visualstudio-plain colored"></i>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                     <div className="Back_Skills">
