@@ -55,8 +55,8 @@ class Skills extends Component {
                                 <i className="devicon-github-plain"></i>
                             </li>
                             <li>
-                                Visual Studio
-                                <i className="devicon-visualstudio-plain colored"></i>
+                                Visual Stbentube
+                                <i className="devicon-visualstbentube-plain colored"></i>
                             </li> */}
                         </ul>
                     </div>
