@@ -80,7 +80,7 @@ export default
             mobile: false,
             name: 'benTube',
             description: 'benTube fetches a list of YouTube videos related to user input and converts any video to a .mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
-            url: 'https://bentube.now.sh',
+            url: 'https://bentube.vercel.app/',
             repo: 'https://github.com/benjaminfkile/bentube',
             icons:
                 [
@@ -100,7 +100,7 @@ export default
             mobile: true,
             name: 'benTube',
             description: 'benTube fetches a list of YouTube videos related to user input and converts any video to a .mp3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.  I built this as a proof of concept and it is explicitly for my own private use.',
-            url: 'https://bentube.now.sh',
+            url: 'https://bentube.vercel.app/',
             repo: 'https://github.com/benjaminfkile/bentube',
             icons:
                 [
