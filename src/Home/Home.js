@@ -11,7 +11,7 @@ class Home extends Component {
                             Hi,
                         </li>
                         <li>
-                            I'm Ben...
+                            I'm Ben.
                         </li>
                         <li>
                             Web Developer
