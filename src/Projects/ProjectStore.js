@@ -2,10 +2,10 @@ export default
     [
         {
             mobile: true,
-            name: 'Light Finder',
-            description: 'Light Finder lets its users find all the best Christmas lights here in Missoula. I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and I wanted people who didn’t know to be able to enjoy them during the holidays.',
-            url: 'https://lightfinder.now.sh',
-            repo: 'https://github.com/benjaminfkile/light-finder',
+            name: '406Lights',
+            description: '406Lights lets its users find all the best Christmas lights here in Missoula. I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and I wanted people who didn’t know to be able to enjoy them during the holidays.',
+            url: 'https://406lights.com',
+            repo: 'https://github.com/benjaminfkile/luster',
             icons:
                 [
                     'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
@@ -20,10 +20,10 @@ export default
         },
         {
             mobile: false,
-            name: 'Light Finder',
-            description: 'Light Finder lets its users find all the best Christmas lights here in Missoula, I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and wanted people who didn’t know to be able to enjoy them during the holidays.',
-            url: 'https://lightfinder.now.sh',
-            repo: 'https://github.com/benjaminfkile/light-finder',
+            name: '406Lights',
+            description: '406Lights lets its users find all the best Christmas lights here in Missoula, I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and wanted people who didn’t know to be able to enjoy them during the holidays.',
+            url: 'https://406lights.com',
+            repo: 'https://github.com/benjaminfkile/luster',
             icons:
                 [
                     'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
