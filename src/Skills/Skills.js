@@ -12,11 +12,11 @@ class Skills extends Component {
                     </li>
                     </ul>
                     <p>
-                        I am mostly interested in the backend but as long as I am learning and growing as a developer I will be happy with whatever I am doing.
+                        I can build full-stack web apps and host them. The stack I use is the PERN stack, (PostgreSQL, Express.js, React.js, Node.js).  I'm pretty good at Java as well.
                     </p>
                     <br></br>
                     <p className="Skills_Footer">
-                        I play very well with Node and React.
+                        I host my API's on Heroku and my UI's on Vercel 
                     </p>
 
                 </div>

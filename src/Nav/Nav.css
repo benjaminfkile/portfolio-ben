@@ -1,3 +1,8 @@
+.name{
+    color: rgb(48,154,115);
+
+}
+
 @media (min-width: 1500px) {
     .Header{
         display: flex;

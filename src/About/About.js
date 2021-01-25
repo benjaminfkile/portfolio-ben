@@ -22,14 +22,15 @@ class About extends Component {
                 </div>
                 <div className="About_Right">
                     <p id="About_Intro">
-                    My passion for coding began about 10 years ago. The fulfillment I get from solving complex problems is what drives me to learn more. I have worked on many different projects in multiple different languages. When I am behind my computer putting a project together I’m not working, I’m having fun. I want to work on projects that make the world a better place.                    </p>
-                    <br></br>
-                    <p>
-                    Fan of Science Fiction and the outdoors.
+                    Well-organized person, problem solver, great attention to detail, and an independent employee.  
                     </p>
                     <br></br>
                     <p>
-                    Interested in the whole Full Stack spectrum and working with positive people.
+                    Interested in the full spectrum of web development and working on ambitious projects with positive people.  I enjoy working on the server-side more than on the front-end but I am well versed in both.  Whether or not I am working on a project alone or with a team, it is essential to me that I can take pride in the finished project.
+                    </p>
+                    <br></br>
+                    <p>
+                    Fan of Science Fiction and the outdoors.
                     </p>
                 </div>
             </div>

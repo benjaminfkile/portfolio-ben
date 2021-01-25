@@ -3,37 +3,77 @@ export default
         {
             mobile: true,
             name: '406Lights',
-            description: '406Lights lets its users find all the best Christmas lights here in Missoula. I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and I wanted people who didn’t know to be able to enjoy them during the holidays.',
+            description: '406Lights was designed to give people directions to Christmas Light displays. A user can also post photos of their own displays. The site had 2.5k users at the end of December 2020. The 406Lights API utilizes the SightEngine API to ensure there are no inappropriate photos posted. The client is built in React.js and the API in Node.js.',
             url: 'https://406lights.com',
             repo: 'https://github.com/benjaminfkile/luster',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain', 'devicon-postgresql-plain-wordmark'
                 ],
             images:
                 [
-                    './res/screenshots/light-finder-mobile/1.png',
-                    './res/screenshots/light-finder-mobile/2.png',
-                    './res/screenshots/light-finder-mobile/3.png',
-                    './res/screenshots/light-finder-mobile/4.png',
+                    "https://i.ibb.co/bzHTTqy/Screenshot-from-2021-01-09-16-10-42.png",
+                    "https://i.ibb.co/YjDVS3X/Screenshot-from-2021-01-09-16-12-18.png",
+                    "https://i.ibb.co/HzJrfZP/Screenshot-from-2021-01-09-16-11-12.png",
+                    "https://i.ibb.co/gMyGNzS/Screenshot-from-2021-01-09-16-10-22.png",
+                    "https://i.ibb.co/qpDPg7x/Screenshot-from-2021-01-09-16-09-58.png",
+                    "https://i.ibb.co/wz9F2T6/Screenshot-from-2021-01-09-16-08-45.png",
+                    "https://i.ibb.co/LNsqqwT/Screenshot-from-2021-01-09-16-09-36.png"
                 ]
         },
         {
             mobile: false,
             name: '406Lights',
-            description: '406Lights lets its users find all the best Christmas lights here in Missoula, I remember driving around with my parents as a kid and looking for them without much luck.  I used to deliver pizzas for a living so I already knew where they all were and wanted people who didn’t know to be able to enjoy them during the holidays.',
+            description: '406Lights was designed to give people directions to Christmas Light displays. A user can also post photos of their own displays. The site had 2.5k users at the end of December 2020. The 406Lights API utilizes the SightEngine API to ensure there are no inappropriate photos posted. The client is built in React.js and the API in Node.js.',
             url: 'https://406lights.com',
             repo: 'https://github.com/benjaminfkile/luster',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain', 'devicon-postgresql-plain-wordmark'
                 ],
             images:
                 [
-                    './res/screenshots/light-finder/1.png',
-                    './res/screenshots/light-finder/2.png',
-                    './res/screenshots/light-finder/3.png',
-                    './res/screenshots/light-finder/4.png',
+                    "https://i.ibb.co/QHPp4n5/Screenshot-from-2021-01-09-16-08-28.png",
+                    "https://i.ibb.co/K9ws0x9/Screenshot-from-2021-01-09-16-04-26.png",
+                    "https://i.ibb.co/r2N22NX/Screenshot-from-2021-01-09-16-03-27.png",
+                    "https://i.ibb.co/5MZNZjN/Screenshot-from-2021-01-09-16-03-08.png",
+                    "https://i.ibb.co/vsHdfk9/Screenshot-from-2021-01-09-16-02-52.png",
+                    "https://i.ibb.co/3y1kngy/Screenshot-from-2021-01-09-16-02-01.png",
+                    "https://i.ibb.co/26LnFJh/Screenshot-from-2021-01-09-16-01-28.png"
+                ]
+        },/****************************************************** */
+        {
+            mobile: true,
+            name: 'Santa Tracker',
+            description: 'The Santa Tracker was built for the nonprofit organization "Western Montana Santa Fly Over". The site allowed users to see the location of a helicopter that flew over Missoula MT and surrounding areas with a float decorated to look like Santa Clause. The Santa Tracker had 14k users in the 2 hour flight period and has a total of 60k views. The Website and the API were built in less than 48 hours.',
+            url: 'https://406santa.org/',
+            repo: 'https://github.com/benjaminfkile/zoo-santa',
+            icons:
+                [
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                ],
+            images:
+                [
+                    "https://i.ibb.co/LxpZ6gD/Screenshot-from-2021-01-09-16-59-03.png",
+                    "https://i.ibb.co/pndt2j9/Screenshot-from-2021-01-09-16-58-16.png",
+                    "https://i.ibb.co/WVr1mSP/Screenshot-from-2021-01-09-16-58-38.png"
+                ]
+        },
+        {
+            mobile: false,
+            name: 'Santa Tracker',
+            description: 'The Santa Tracker was built for the nonprofit organization "Western Montana Santa Fly Over". The site allowed users to see the location of a helicopter that flew over Missoula MT and surrounding areas with a float decorated to look like Santa Clause. The Santa Tracker had 14k users in the 2 hour flight period and has a total of 60k views. The Website and the API were built in less than 48 hours.',
+            url: 'https://406santa.org/',
+            repo: 'https://github.com/benjaminfkile/zoo-santa',
+            icons:
+                [
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                ],
+            images:
+                [
+                    "https://i.ibb.co/WtTsfWk/Screenshot-from-2021-01-09-16-57-37.png",
+                    "https://i.ibb.co/26LP4Tw/Screenshot-from-2021-01-09-16-57-18.png",
+                    "https://i.ibb.co/cDG3059/Screenshot-from-2021-01-09-16-56-55.png"
                 ]
         },
         {
@@ -44,7 +84,7 @@ export default
             repo: 'https://github.com/benjaminfkile/zero-in-client',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain', 'devicon-postgresql-plain-wordmark'
                 ],
             images:
                 [
@@ -64,7 +104,7 @@ export default
             repo: 'https://github.com/benjaminfkile/zero-in-client',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain', 'devicon-postgresql-plain-wordmark'
                 ],
             images:
                 [
@@ -79,12 +119,12 @@ export default
         {
             mobile: false,
             name: 'benTube',
-            description: 'benTube fetches a list of YouTube videos related to user input and converts any video to a .MP3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.',
+            description: 'benTube (still under construction) fetches a list of YouTube videos related to user input and converts compatable videos to a .MP3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.',
             url: 'https://bentube.vercel.app/',
             repo: 'https://github.com/benjaminfkile/bentube',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain'
                 ],
             images:
                 [
@@ -99,12 +139,12 @@ export default
         {
             mobile: true,
             name: 'benTube',
-            description: 'benTube fetches a list of YouTube videos related to user input and converts any video to a .MP3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.',
+            description: 'benTube (still under construction) fetches a list of YouTube videos related to user input and converts compatable videos to a .MP3 file.  After conversion, the audio file is played in your browser window. Audio playback will continue after locking your screen on mobile devices.',
             url: 'https://bentube.vercel.app/',
             repo: 'https://github.com/benjaminfkile/bentube',
             icons:
                 [
-                    'devicon-html5-plain-wordmark', 'devicon-javascript-plain', 'devicon-css3-plain-wordmark', 'devicon-react-original-wordmark', 'devicon-nodejs-plain'
+                    'devicon-react-original-wordmark', 'devicon-nodejs-plain'
                 ],
             images:
                 [
